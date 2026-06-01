@@ -1,0 +1,1129 @@
+{
+"project_title": "우리는 그렇게 인간이 된다",
+"english_title": "How We Become Human",
+"style_guide": {
+"art_style": "realistic emotional Korean webtoon style, grounded office human drama, subtle facial acting, cinematic slice-of-life",
+"render_style": "soft semi-realistic rendering, restrained detail, muted realism",
+"line_style": "clean but slightly rough emotional line art, delicate facial lines, subtle hatching for fatigue",
+"color_palette": "muted gray, cold office blue, dull beige, fluorescent white, washed-out brown, low-saturation corporate colors",
+"lighting_style": "flat office fluorescent lighting, muted afternoon meeting room light, rainy daylight fading through windows",
+"mood_keywords": [
+"office pressure",
+"quiet observation",
+"corporate stagnation",
+"polished emptiness",
+"subtle tension",
+"hidden competence",
+"self-silencing"
+],
+"camera_keywords": [
+"meeting room wide shot",
+"close-up",
+"reaction shot",
+"over-the-shoulder",
+"split composition",
+"silent pause",
+"subtle facial crack"
+],
+"quality_keywords": [
+"high quality webtoon panel",
+"consistent character design",
+"cinematic composition",
+"emotional realism",
+"natural Korean office atmosphere",
+"subtle acting"
+],
+"global_negative_prompt": "overly dramatic expression, fantasy lighting, exaggerated villain face, comedic chibi style, glossy idol look, bright cheerful colors, action manga style, messy unreadable text, cyberpunk UI, overacting"
+},
+"episode": {
+"number": "2-2",
+"title": "그 그림, 누가 만들 수 있어요?",
+"style": "윤서하가 신사업 회의에서 민재의 매끄러운 말 뒤 빈틈을 찌르고, 이준은 자기 프로토타입을 말하려다 다시 삼키는 회차"
+},
+"character_bible": [
+{
+"id": "seo_ijun",
+"name": "서이준",
+"role": "주인공, 라움소프트 서비스기획개발팀 실무자",
+"visual_core": "Korean man in early 30s, tired but gentle face, dark under-eyes, slightly awkward half-smile, slim office worker build",
+"wardrobe": "plain office shirt, muted cardigan or jacket, dark slacks, worn leather shoes",
+"expression_notes": "회의실 끝에서 조용히 관찰한다. 할 말이 목까지 올라와도 입술만 조금 벌어졌다가 닫힌다.",
+"personality_notes": "답을 알고 있지만 나서기를 두려워한다. 자기 능력을 숨기고 분위기를 먼저 걱정한다.",
+"reference_image": "references/characters/seo_ijun.png"
+},
+{
+"id": "yoon_seoha",
+"name": "윤서하",
+"role": "신규 합류한 PM",
+"visual_core": "Korean woman in early 30s, sharp calm eyes, minimal expression, composed posture, neat and restrained aura",
+"wardrobe": "minimal dark neutral office wear, clean blouse or knit, simple jacket, no flashy accessories",
+"expression_notes": "말이 짧고 정확하다. 감정이 크지 않지만 질문이 날카롭다. 질문 후 상대의 침묵을 피하지 않는다.",
+"personality_notes": "스토리보다 실제 만들 수 있는 사람과 손을 본다. 불필요한 포장을 걷어내고 핵심을 묻는다.",
+"reference_image": "references/characters/yoon_seoha.png"
+},
+{
+"id": "baek_minjae",
+"name": "백민재",
+"role": "경력직 후배, 선택적으로 무례한 사람",
+"visual_core": "Korean man in late 20s, neat and polished office look, confident smile, smooth social expression",
+"wardrobe": "clean business casual, fitted shirt, neat jacket, expensive-looking watch",
+"expression_notes": "처음엔 자신감 있고 매끄럽게 웃는다. 서하의 질문을 받은 뒤 1초 늦게 웃음이 회복된다.",
+"personality_notes": "아직 형체 없는 신사업의 얼굴이 자기여야 한다는 걸 빠르게 감지한다. 말은 화려하지만 실체는 비어 있다.",
+"reference_image": "references/characters/baek_minjae.png"
+},
+{
+"id": "oh_teamlead",
+"name": "오승재",
+"role": "서비스기획개발팀 팀장",
+"visual_core": "Korean man in early 40s, soft middle-manager face, practiced smile, slightly exaggerated friendliness",
+"wardrobe": "business shirt, loosened tie, office cardigan or blazer",
+"expression_notes": "분위기를 좋게 만들려는 웃음이 많다. 민재가 그럴듯하게 말하면 흐뭇하게 고개를 끄덕인다.",
+"personality_notes": "실무보다 발표 흐름과 분위기를 본다. 매끄러운 말을 능력으로 착각한다.",
+"reference_image": "references/characters/oh_teamlead.png"
+},
+{
+"id": "team_members",
+"name": "팀원들",
+"role": "라움소프트 서비스기획개발팀 직원들",
+"visual_core": "ordinary Korean office workers in their late 20s to 40s, tired neutral faces, business casual",
+"wardrobe": "muted office casual, cardigans, shirts, ID lanyards",
+"expression_notes": "수군거릴 때는 작게 웃고, 회의에서는 분위기에 따라 고개를 끄덕인다.",
+"personality_notes": "회사 분위기를 따라가는 사람들. 서하를 판단하고, 민재의 매끄러운 말에 쉽게 납득한다.",
+"reference_image": ""
+}
+],
+"scenes": [
+{
+"scene_id": "S01",
+"scene_title": "윤서하 PM 소개",
+"scene_summary": "오팀장이 점심 무렵 팀원들을 모아 윤서하를 소개한다. 라움온의 정체와 신사업 압박이 사무실 공기처럼 깔린다.",
+"location": "라움소프트 서비스기획개발팀 사무실",
+"time": "점심 무렵",
+"visual_continuity": "2화-1의 비 오는 사무실 분위기가 이어진다. 창밖은 흐리고, 사무실은 차가운 형광등 아래 다소 눅눅하다.",
+"cuts": [
+{
+"cut_id": "S01_C01",
+"importance": "medium",
+"characters": [
+"oh_teamlead",
+"yoon_seoha",
+"seo_ijun",
+"team_members"
+],
+"visual_prompt": "Korean IT office at noon on a rainy day, Oh team lead gathering team members around Yoon Seoha, muted fluorescent lighting, realistic emotional webtoon style",
+"camera": "wide office shot",
+"composition": "팀원들이 듬성듬성 모여 있고, 오팀장이 서하 옆에서 소개를 시작한다. 이준은 조금 뒤쪽에 서 있다.",
+"emotion": "새 사람을 둘러싼 어색함",
+"dialogue": [],
+"narration": [
+"오팀장이 점심 무렵 팀원들을 모아 윤서하를 소개했다."
+],
+"sfx": [
+"웅성"
+],
+"bubble_position": "auto",
+"continuity_notes": "서하는 과하게 웃지 않고 짧게 서 있다.",
+"outfit_continuity": "yoon_seoha same minimal office wear from episode 2-1, seo_ijun same muted outfit",
+"location_continuity": "same rainy office",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S01_C02",
+"importance": "high",
+"characters": [
+"oh_teamlead",
+"yoon_seoha",
+"team_members"
+],
+"visual_prompt": "Oh team lead introducing Yoon Seoha with practiced friendly smile, Seoha standing calmly with minimal expression, office workers watching",
+"camera": "medium wide shot",
+"composition": "오팀장의 말풍선은 길고 둥글고, 서하는 짧은 목례만 할 준비를 한다.",
+"emotion": "형식적인 환대",
+"dialogue": [
+{
+"speaker": "오팀장",
+"text": "이번에 신사업 쪽 PM으로 모신 윤서하 PM님이세요.",
+"bubble_position": "top_left"
+},
+{
+"speaker": "오팀장",
+"text": "다들 잘 알겠지만, 요새 라움온이… 좀 그렇잖아.",
+"bubble_position": "top_left"
+}
+],
+"narration": [],
+"sfx": [],
+"bubble_position": "top_left",
+"continuity_notes": "오팀장의 말끝이 흐려지는 지점에서 분위기가 살짝 가라앉는다.",
+"outfit_continuity": "same",
+"location_continuity": "office introduction area",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S01_C03",
+"importance": "high",
+"characters": [
+"oh_teamlead",
+"team_members",
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Office workers reacting silently as Oh team lead trails off, old SaaS dashboard visible on a monitor in background, stagnant corporate mood",
+"camera": "reaction wide shot",
+"composition": "오팀장의 흐려진 말끝 뒤로 낡은 라움온 화면이 배경 모니터에 떠 있다.",
+"emotion": "다들 알고 있는 침묵",
+"dialogue": [
+{
+"speaker": "오팀장",
+"text": "고객사도 빠지고, 위에서도 새 그림을 원하시고.",
+"bubble_position": "top_left"
+}
+],
+"narration": [
+"말끝이 흐려졌다.",
+"다들 알았다."
+],
+"sfx": [],
+"bubble_position": "top_left",
+"continuity_notes": "라움온의 낡은 UI를 배경에 살짝 보여준다.",
+"outfit_continuity": "same",
+"location_continuity": "office intro area",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S01_C04",
+"importance": "medium",
+"characters": [],
+"visual_prompt": "Symbolic office montage: outdated SaaS dashboard, customer contract renewal documents, competitor sleek AI platform ad on monitor, investor report with red marks",
+"camera": "montage composition",
+"composition": "낡은 라움온 화면, 재계약 보류 문서, 경쟁사의 매끈한 AI 광고, 빨간 표시가 된 투자자 보고서가 겹친다.",
+"emotion": "성장 정체의 압박",
+"dialogue": [],
+"narration": [
+"라움온은 늙었다.",
+"경쟁사들은 더 매끈한 화면과 'AI'라는 단어를 앞세웠다.",
+"다만 '뭔가 새로운 걸 해야 한다'는 압박만, 공기처럼 사무실에 떠 있었다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "라움소프트의 위기를 시각적으로 압축하는 컷.",
+"outfit_continuity": "not applicable",
+"location_continuity": "symbolic corporate montage",
+"reference_previous_cut": false,
+"reference_character_sheet": false,
+"reference_scene_image": false
+},
+{
+"cut_id": "S01_C05",
+"importance": "high",
+"characters": [
+"yoon_seoha",
+"team_members",
+"seo_ijun"
+],
+"visual_prompt": "Yoon Seoha giving a short quiet bow to the team, no long speech, no forced smile, office workers watching with mild curiosity",
+"camera": "medium shot",
+"composition": "서하는 짧게 목례만 하고, 긴 포부나 인사말 없이 고개를 든다.",
+"emotion": "절제된 첫인상",
+"dialogue": [],
+"narration": [
+"서하는 짧게 목례만 했다.",
+"포부를 말하지도, 잘 부탁한다는 말을 길게 늘이지도 않았다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "서하의 말 없는 태도는 2화-1의 '괜찮습니다'와 연결.",
+"outfit_continuity": "same yoon_seoha outfit",
+"location_continuity": "office intro area",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+},
+{
+"scene_id": "S02",
+"scene_title": "차가운 사람이라는 말",
+"scene_summary": "팀원들은 자리로 돌아가며 서하를 차갑다고 수군거린다. 이준은 이상하게 서하의 편을 들고 싶어진다.",
+"location": "라움소프트 사무실",
+"time": "점심 직후",
+"visual_continuity": "소개가 끝난 뒤 팀원들이 흩어진다. 이준은 자기 자리로 돌아가면서 주변의 수군거림을 듣는다.",
+"cuts": [
+{
+"cut_id": "S02_C01",
+"importance": "medium",
+"characters": [
+"team_members",
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Office workers dispersing after introduction, whispering among themselves, Yoon Seoha sitting calmly at her desk in the background",
+"camera": "wide office shot",
+"composition": "팀원들은 흩어지며 작게 말하고, 서하는 배경에서 자기 자리로 돌아간다.",
+"emotion": "평가하는 공기",
+"dialogue": [
+{
+"speaker": "팀원 A",
+"text": "일은 잘한다는데 좀 차갑다.",
+"bubble_position": "top_left"
+},
+{
+"speaker": "팀원 B",
+"text": "정은 없어 보여.",
+"bubble_position": "top_right"
+}
+],
+"narration": [
+"사람들은 자리로 돌아가며 수군거렸다."
+],
+"sfx": [
+"웅성"
+],
+"bubble_position": "mixed",
+"continuity_notes": "수군거림은 악의적이기보다 평범하고 가볍게.",
+"outfit_continuity": "same",
+"location_continuity": "same office",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S02_C02",
+"importance": "medium",
+"characters": [
+"team_members",
+"seo_ijun"
+],
+"visual_prompt": "Close-up of office workers whispering near desks, casual judgmental faces, Seo Ijun hearing them from nearby",
+"camera": "medium close-up",
+"composition": "수군거리는 직원들의 말풍선 뒤로 이준의 옆얼굴이 작게 보인다.",
+"emotion": "쉽게 붙는 평가",
+"dialogue": [
+{
+"speaker": "팀원 C",
+"text": "같이 일하긴 편한데 가까워지긴 어렵겠다.",
+"bubble_position": "top_left"
+}
+],
+"narration": [],
+"sfx": [],
+"bubble_position": "top_left",
+"continuity_notes": "이준은 반응하지 않고 듣기만 한다.",
+"outfit_continuity": "same",
+"location_continuity": "office desks",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S02_C03",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Seo Ijun glancing toward Yoon Seoha, who quietly opens her laptop without reacting to whispers, rainy office light, subtle empathy",
+"camera": "over-the-shoulder from Ijun",
+"composition": "이준의 시선 너머, 서하는 아무 말 없이 노트북을 연다.",
+"emotion": "이상한 편들기",
+"dialogue": [],
+"narration": [
+"이준은 그 말들을 들으며, 이상하게 그 사람 편을 들고 싶어졌다.",
+"차가운 게 아니라, 쓸데없는 말을 안 하는 거 아닐까."
+],
+"sfx": [
+"탁"
+],
+"bubble_position": "auto",
+"continuity_notes": "이준은 아직 서하를 모르지만 본능적으로 그녀의 방식을 감지한다.",
+"outfit_continuity": "seo_ijun same, yoon_seoha same",
+"location_continuity": "office desk area",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S02_C04",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun catching himself worrying about someone else again, lowering his gaze back to monitor, embarrassed and tired",
+"camera": "close-up",
+"composition": "이준이 자기 생각을 알아차리고 모니터로 시선을 내린다.",
+"emotion": "자기검열",
+"dialogue": [],
+"narration": [
+"그러다 자기가 또 남 걱정을 하고 있다는 걸 깨닫고,",
+"모니터로 시선을 돌렸다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "이준은 타인의 평가에도 또 남을 먼저 생각한다.",
+"outfit_continuity": "same",
+"location_continuity": "Ijun's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S03",
+"scene_title": "더 커 보이고 싶은 민재",
+"scene_summary": "새 PM이 오자 민재는 더 분주해진다. 그는 아직 형체도 없는 신사업의 얼굴이 자기여야 한다는 걸 알아챈다.",
+"location": "라움소프트 사무실",
+"time": "오후 회의 전",
+"visual_continuity": "민재의 움직임이 빨라지고, 노트북과 자료 화면을 오가며 자신을 준비하는 모습이 보인다.",
+"cuts": [
+{
+"cut_id": "S03_C01",
+"importance": "medium",
+"characters": [
+"baek_minjae",
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Baek Minjae moving busily around office after new PM arrives, checking laptop, adjusting jacket, glancing toward Yoon Seoha, polished confidence",
+"camera": "medium wide shot",
+"composition": "민재는 노트북과 회의실 사이를 바쁘게 오가고, 서하는 조용히 화면을 본다. 이준은 그 모습을 본다.",
+"emotion": "계산된 분주함",
+"dialogue": [],
+"narration": [
+"민재는 새 PM이 오자 더 분주해 보였다.",
+"정확히는, 더 커 보이고 싶어 했다."
+],
+"sfx": [
+"타닥",
+"슥"
+],
+"bubble_position": "auto",
+"continuity_notes": "민재가 서하 앞에서 자신을 크게 보이려는 태도.",
+"outfit_continuity": "baek_minjae neat business casual, yoon_seoha same, seo_ijun same",
+"location_continuity": "office before meeting",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S03_C02",
+"importance": "high",
+"characters": [
+"baek_minjae"
+],
+"visual_prompt": "Close-up of Baek Minjae's hand adjusting his watch and opening a clean presentation document titled New Business Direction, corporate buzzwords visible",
+"camera": "close-up",
+"composition": "민재의 손목시계와 발표 자료 화면이 함께 보인다. 자료에는 AI, SaaS, Scale-up 같은 단어들이 보인다.",
+"emotion": "포장 준비",
+"dialogue": [],
+"narration": [
+"그는 아직 형체도 없는 '신사업'의 얼굴이 자기여야 한다는 걸,",
+"누구보다 먼저 알아챈 사람이었다."
+],
+"sfx": [
+"딸깍"
+],
+"bubble_position": "auto",
+"continuity_notes": "민재의 포장력과 계산을 시각화.",
+"outfit_continuity": "baek_minjae same",
+"location_continuity": "Minjae's desk or meeting prep area",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S04",
+"scene_title": "AI Ops 플랫폼",
+"scene_summary": "오후 회의에서 민재는 라움온의 신사업 방향을 매끄럽게 말한다. 오팀장은 흐뭇해하고, 팀원들은 그럴듯한 단어들에 고개를 끄덕인다.",
+"location": "라움소프트 회의실",
+"time": "오후",
+"visual_continuity": "회의실은 차가운 형광등 아래 있다. 민재는 앞쪽, 서하는 한쪽, 이준은 회의실 끝에 앉는다.",
+"cuts": [
+{
+"cut_id": "S04_C01",
+"importance": "medium",
+"characters": [
+"baek_minjae",
+"yoon_seoha",
+"seo_ijun",
+"oh_teamlead",
+"team_members"
+],
+"visual_prompt": "Korean office meeting room, team seated around table, Baek Minjae near screen, Yoon Seoha calm with notebook, Seo Ijun at far end, cold fluorescent light",
+"camera": "wide meeting room shot",
+"composition": "민재는 화면 가까이에 앉아 있고, 이준은 회의실 끝에 조용히 앉아 있다. 서하는 펜을 들고 듣는다.",
+"emotion": "회의 전의 정적",
+"dialogue": [
+{
+"speaker": "팀원",
+"text": "그래서 신사업 방향이 뭐냐고 하면…",
+"bubble_position": "top_left"
+}
+],
+"narration": [
+"오후 회의에서 누군가 물었다."
+],
+"sfx": [
+"스윽"
+],
+"bubble_position": "top_left",
+"continuity_notes": "인물 배치 중요. 이준은 끝, 민재는 중심, 서하는 관찰자.",
+"outfit_continuity": "all same day outfits",
+"location_continuity": "meeting room",
+"reference_previous_cut": false,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S04_C02",
+"importance": "high",
+"characters": [
+"baek_minjae",
+"oh_teamlead",
+"yoon_seoha",
+"seo_ijun"
+],
+"visual_prompt": "Baek Minjae speaking smoothly in meeting room, confident posture, polished smile, presentation screen behind him with AI Ops Platform text",
+"camera": "medium shot",
+"composition": "민재가 자연스럽게 말을 받는다. 뒤 화면엔 'AI Ops Platform' 키워드가 보인다.",
+"emotion": "매끄러운 발표",
+"dialogue": [
+{
+"speaker": "백민재",
+"text": "저는 라움온이 단순 SaaS에서 AI Ops 플랫폼으로 넘어가야 한다고 봐요.",
+"bubble_position": "top_right"
+}
+],
+"narration": [
+"민재가 자연스럽게 받았다."
+],
+"sfx": [],
+"bubble_position": "top_right",
+"continuity_notes": "민재의 자신감은 과하지 않게, 실제 회사에서 그럴듯한 발표자처럼.",
+"outfit_continuity": "baek_minjae same polished look",
+"location_continuity": "meeting room screen",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S04_C03",
+"importance": "high",
+"characters": [
+"baek_minjae",
+"team_members",
+"oh_teamlead"
+],
+"visual_prompt": "Baek Minjae continuing explanation with corporate buzzwords, team members listening, Oh team lead nodding approvingly",
+"camera": "medium wide shot",
+"composition": "민재의 말풍선이 길게 이어지고, 오팀장은 흐뭇하게 고개를 끄덕인다.",
+"emotion": "그럴듯함",
+"dialogue": [
+{
+"speaker": "백민재",
+"text": "기능을 더 붙이는 게 아니라, 고객사의 반복 업무 자체를 줄여주는 거죠.",
+"bubble_position": "top_right"
+},
+{
+"speaker": "백민재",
+"text": "전 회사에서도 비슷한 전환을 해봤거든요.",
+"bubble_position": "top_right"
+}
+],
+"narration": [],
+"sfx": [],
+"bubble_position": "top_right",
+"continuity_notes": "회의실 공기가 민재 쪽으로 기울어지는 느낌.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S04_C04",
+"importance": "medium",
+"characters": [
+"baek_minjae",
+"oh_teamlead",
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Close-up of Baek Minjae's mouth speaking polished words, overlay of words like investors, technology, scale-up story, Seo Ijun and Yoon Seoha listening silently",
+"camera": "conceptual close-up",
+"composition": "민재의 입 주변으로 세련된 단어들이 떠오른다. 서하의 눈은 흔들리지 않는다.",
+"emotion": "말의 광택",
+"dialogue": [
+{
+"speaker": "백민재",
+"text": "요새 투자자들은 기술보다 스케일업 스토리를 봐요.",
+"bubble_position": "top_right"
+}
+],
+"narration": [
+"말은 매끄러웠다.",
+"단어 선택도 세련됐다."
+],
+"sfx": [],
+"bubble_position": "top_right",
+"continuity_notes": "민재의 말은 빛나지만 실체는 아직 비어 있는 느낌.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room conceptual overlay",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S04_C05",
+"importance": "medium",
+"characters": [
+"oh_teamlead",
+"baek_minjae",
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Oh team lead nodding with pleased expression while Baek Minjae speaks, Seo Ijun quiet at far end, Yoon Seoha watching without expression",
+"camera": "reaction shot",
+"composition": "오팀장의 흐뭇한 고개 끄덕임, 민재의 미소, 서하의 무표정한 시선, 이준의 조용한 얼굴이 한 컷 안에 들어온다.",
+"emotion": "낡은 조직의 선택",
+"dialogue": [],
+"narration": [
+"오팀장이 흐뭇하게 고개를 끄덕였다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "오팀장은 민재의 말을 능력으로 받아들인다.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+},
+{
+"scene_id": "S05",
+"scene_title": "그 그림, 누가 만들 수 있어요?",
+"scene_summary": "서하가 민재의 발표를 끊고 실제로 만들 수 있는 사람이 누구인지 묻는다. 회의실 공기가 처음으로 멈춘다.",
+"location": "라움소프트 회의실",
+"time": "오후 회의 중",
+"visual_continuity": "민재의 말이 흐르던 회의실에 서하의 짧은 질문이 들어오며 공기가 차갑게 정지한다.",
+"cuts": [
+{
+"cut_id": "S05_C01",
+"importance": "high",
+"characters": [
+"yoon_seoha",
+"baek_minjae",
+"seo_ijun",
+"oh_teamlead",
+"team_members"
+],
+"visual_prompt": "Yoon Seoha calmly raising her gaze during meeting, pen in hand, asking a precise question, meeting room suddenly quiet",
+"camera": "medium close-up on Seoha",
+"composition": "서하가 고개를 들고 민재를 본다. 손에는 펜이 들려 있다.",
+"emotion": "정확한 개입",
+"dialogue": [
+{
+"speaker": "윤서하",
+"text": "그 그림, 누가 만들 수 있어요?",
+"bubble_position": "center"
+}
+],
+"narration": [
+"그때 서하가 물었다."
+],
+"sfx": [],
+"bubble_position": "center",
+"continuity_notes": "회차 제목 대사. 말풍선은 짧고 선명하게.",
+"outfit_continuity": "yoon_seoha same minimal outfit",
+"location_continuity": "meeting room",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S05_C02",
+"importance": "high",
+"characters": [
+"baek_minjae",
+"yoon_seoha"
+],
+"visual_prompt": "Baek Minjae caught off guard for a moment, polished smile paused, Yoon Seoha looking directly at him calmly",
+"camera": "two-shot close-up",
+"composition": "민재의 미소가 멈추고, 서하의 시선은 흔들리지 않는다.",
+"emotion": "첫 번째 균열",
+"dialogue": [
+{
+"speaker": "백민재",
+"text": "네?",
+"bubble_position": "top_right"
+}
+],
+"narration": [],
+"sfx": [],
+"bubble_position": "top_right",
+"continuity_notes": "민재는 아직 크게 무너지지 않고 아주 잠깐 멈칫한다.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room table",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S05_C03",
+"importance": "high",
+"characters": [
+"yoon_seoha",
+"baek_minjae",
+"team_members"
+],
+"visual_prompt": "Yoon Seoha speaking calmly in meeting room, pen resting between fingers, team members quiet, Baek Minjae listening with tense smile",
+"camera": "medium shot",
+"composition": "서하의 말풍선은 짧고 직선적이다. 회의실 사람들은 조용해진다.",
+"emotion": "포장을 걷는 질문",
+"dialogue": [
+{
+"speaker": "윤서하",
+"text": "스토리 말고요.",
+"bubble_position": "top_left"
+},
+{
+"speaker": "윤서하",
+"text": "실제로 고객사 반복 업무를 줄여주는 그걸, 우리 중에 누가 만들 수 있냐고요.",
+"bubble_position": "top_left"
+}
+],
+"narration": [],
+"sfx": [],
+"bubble_position": "top_left",
+"continuity_notes": "서하의 질문은 공격적이기보다 사실 확인처럼.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S05_C04",
+"importance": "high",
+"characters": [
+"baek_minjae",
+"yoon_seoha",
+"seo_ijun"
+],
+"visual_prompt": "Baek Minjae hesitating slightly in meeting room, one second pause, Seo Ijun watching from far end noticing it, Yoon Seoha still calm",
+"camera": "reaction composition",
+"composition": "민재의 얼굴엔 작은 틈, 회의실 끝 이준의 눈은 그 틈을 본다.",
+"emotion": "멈칫",
+"dialogue": [
+{
+"speaker": "백민재",
+"text": "아, 그건 저희 팀에서 다 같이…",
+"bubble_position": "top_right"
+}
+],
+"narration": [
+"민재가 잠깐 멈칫했다."
+],
+"sfx": [],
+"bubble_position": "top_right",
+"continuity_notes": "이준만 민재의 1초 멈춤을 정확히 알아챈다.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S05_C05",
+"importance": "high",
+"characters": [
+"yoon_seoha",
+"baek_minjae",
+"seo_ijun"
+],
+"visual_prompt": "Yoon Seoha putting down her pen on the meeting table with a quiet decisive motion, Baek Minjae across from her, Seo Ijun watching",
+"camera": "close-up on pen and hand",
+"composition": "서하의 펜이 회의실 테이블 위에 조용히 내려놓인다.",
+"emotion": "정리되는 말",
+"dialogue": [
+{
+"speaker": "윤서하",
+"text": "다 같이 만든 건 아무도 안 만든 거랑 비슷해서요.",
+"bubble_position": "top_left"
+}
+],
+"narration": [],
+"sfx": [
+"탁"
+],
+"bubble_position": "top_left",
+"continuity_notes": "펜을 내려놓는 소리가 회의실에 작게 울린다.",
+"outfit_continuity": "same",
+"location_continuity": "meeting table",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S05_C06",
+"importance": "high",
+"characters": [
+"yoon_seoha",
+"baek_minjae",
+"team_members"
+],
+"visual_prompt": "Yoon Seoha calmly ending the question with '괜찮습니다', meeting room quiet, Baek Minjae stiff smile, team members avoiding eye contact",
+"camera": "medium wide shot",
+"composition": "서하의 짧은 말 뒤로 회의실 전체가 잠깐 굳는다.",
+"emotion": "정확한 선 긋기",
+"dialogue": [
+{
+"speaker": "윤서하",
+"text": "괜찮습니다. 그냥 누가 손이 되는지 알고 싶었어요.",
+"bubble_position": "top_left"
+}
+],
+"narration": [],
+"sfx": [],
+"bubble_position": "top_left",
+"continuity_notes": "2화-1의 괜찮습니다와 같은 톤. 방패처럼 작동하는 말.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+},
+{
+"scene_id": "S06",
+"scene_title": "1초 늦게 회복된 웃음",
+"scene_summary": "민재의 웃음은 1초 늦게 회복된다. 이준은 회의실 끝에서 그 틈을 본다.",
+"location": "라움소프트 회의실",
+"time": "오후 회의 중",
+"visual_continuity": "회의실은 다시 움직이려 하지만, 이준의 시선에는 민재의 작은 균열이 남아 있다.",
+"cuts": [
+{
+"cut_id": "S06_C01",
+"importance": "high",
+"characters": [
+"baek_minjae"
+],
+"visual_prompt": "Close-up of Baek Minjae's face, polished smile returning one second late, tiny crack in expression, realistic subtle acting",
+"camera": "extreme close-up",
+"composition": "민재의 입꼬리가 뒤늦게 올라간다. 눈은 아주 잠깐 따라오지 못한다.",
+"emotion": "매끄러움의 균열",
+"dialogue": [],
+"narration": [
+"민재의 웃음이 1초쯤 늦게 회복됐다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "과장된 당황이 아니라 극히 미세한 표정 변화.",
+"outfit_continuity": "baek_minjae same",
+"location_continuity": "meeting room close-up",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S06_C02",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"baek_minjae",
+"yoon_seoha"
+],
+"visual_prompt": "Seo Ijun at far end of meeting room noticing Baek Minjae's delayed smile, quiet observational close-up, Yoon Seoha blurred in background",
+"camera": "close-up on Ijun with background blur",
+"composition": "회의실 끝의 이준 눈동자에 민재의 작은 흔들림이 비친다.",
+"emotion": "조용한 포착",
+"dialogue": [],
+"narration": [
+"이준은 회의실 끝에서 그 1초를 봤다.",
+"늘 매끄럽던 민재의 얼굴에 처음으로 작은 틈이 보였다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "이준의 관찰력이 드러나는 컷.",
+"outfit_continuity": "seo_ijun same",
+"location_continuity": "meeting room far end",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S06_C03",
+"importance": "medium",
+"characters": [
+"team_members",
+"oh_teamlead",
+"seo_ijun",
+"baek_minjae"
+],
+"visual_prompt": "Meeting room returning to normal, team members looking at documents, Oh team lead pretending nothing happened, Seo Ijun still watching quietly",
+"camera": "wide meeting room shot",
+"composition": "다른 사람들은 다시 자료를 보고 있지만, 이준만 아직 민재를 본다.",
+"emotion": "혼자 본 틈",
+"dialogue": [],
+"narration": [
+"그 틈을 본 사람은 사무실에서 아마 이준 한 명이었을 것이다."
+],
+"sfx": [
+"사각"
+],
+"bubble_position": "auto",
+"continuity_notes": "서하는 틈을 만든 사람, 이준은 그 틈을 본 사람.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+},
+{
+"scene_id": "S07",
+"scene_title": "목까지 올라온 말",
+"scene_summary": "이준은 사실 자신이 비슷한 것을 만들고 있다고 말하고 싶어진다. 하지만 분위기, 부담, 잘난 척을 걱정하며 다시 삼킨다.",
+"location": "라움소프트 회의실",
+"time": "오후 회의 중",
+"visual_continuity": "이준의 내면으로 깊게 들어간다. 회의실의 소리는 멀어지고, 이준의 입술과 손, 안쪽 주머니 이미지가 중심이 된다.",
+"cuts": [
+{
+"cut_id": "S07_C01",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun sitting at the far end of meeting room, lips slightly parted as if about to speak, hands tense on table",
+"camera": "medium close-up",
+"composition": "이준의 입술이 아주 조금 벌어지고, 손끝은 테이블 위에서 굳어 있다.",
+"emotion": "말하려는 순간",
+"dialogue": [],
+"narration": [
+"이준은 입을 열고 싶었다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "회의실 소리는 멀어지는 듯 처리.",
+"outfit_continuity": "seo_ijun same",
+"location_continuity": "meeting room far end",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S07_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Memory overlay of Seo Ijun's loop_prototype_test_v3 screen: automated report, CS classification, inventory anomaly, sales drop alert, faintly glowing over meeting room",
+"camera": "memory overlay shot",
+"composition": "회의실 위로 이준의 프로토타입 화면들이 흐릿하게 떠오른다.",
+"emotion": "숨겨둔 답",
+"dialogue": [],
+"narration": [
+"사실 나, 그거 비슷한 거 만들고 있는데요.",
+"퇴근하고 혼자.",
+"리포트도 자동으로 뽑고, CS 문의도 분류하고."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "1화-3의 loop_prototype_test_v3 화면과 연속성 유지.",
+"outfit_continuity": "not applicable",
+"location_continuity": "meeting room with prototype memory overlay",
+"reference_previous_cut": true,
+"reference_character_sheet": false,
+"reference_scene_image": true
+},
+{
+"cut_id": "S07_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Close-up of Seo Ijun swallowing back words, throat and lips tense, eyes lowering, realistic restrained emotion",
+"camera": "extreme close-up",
+"composition": "이준의 목울대가 작게 움직이고, 입술은 다시 닫힌다.",
+"emotion": "삼킴",
+"dialogue": [],
+"narration": [
+"그 한마디가 목까지 올라왔다.",
+"하지만 그는 삼켰다."
+],
+"sfx": [
+"꿀꺽"
+],
+"bubble_position": "auto",
+"continuity_notes": "대사 없이 삼키는 행동을 정확히 보여준다.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room close-up",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S07_C04",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"baek_minjae",
+"yoon_seoha",
+"oh_teamlead",
+"team_members"
+],
+"visual_prompt": "Seo Ijun looking around the meeting room, imagining awkward reactions if he speaks, people turning toward him with blurred uneasy faces",
+"camera": "subjective perspective from Ijun",
+"composition": "이준의 시점에서 회의실 사람들이 흐릿하게 자신을 볼 것처럼 느껴진다.",
+"emotion": "나서기 두려움",
+"dialogue": [],
+"narration": [
+"괜히 나섰다가 분위기 이상해지면 안 되니까.",
+"잘난 척한다고 할 수도 있으니까.",
+"누가 부담스러워하면 안 되니까."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "사람들의 반응은 실제가 아니라 이준의 불안으로 표현.",
+"outfit_continuity": "same",
+"location_continuity": "subjective meeting room distortion",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S07_C05",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Symbolic close-up of Seo Ijun putting a bright card labeled loop_prototype_test_v3 back into the inside pocket of his jacket, muted office background",
+"camera": "symbolic close-up",
+"composition": "빛나는 작은 카드가 재킷 안쪽 주머니로 다시 들어간다.",
+"emotion": "자기 가능성의 은닉",
+"dialogue": [],
+"narration": [
+"그는 자기가 가진 가장 좋은 카드를,",
+"또 가장 안쪽 주머니에 도로 집어넣었다."
+],
+"sfx": [
+"슥"
+],
+"bubble_position": "auto",
+"continuity_notes": "1화-3의 '가장 좋은 것을 가장 안쪽에 숨겼다'와 연결.",
+"outfit_continuity": "symbolic version of seo_ijun jacket",
+"location_continuity": "symbolic meeting room overlay",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S08",
+"scene_title": "가장 후회되는 일",
+"scene_summary": "회의가 끝난다. 이준은 아무 말도 하지 않은 채 조용히 자리에서 일어난다. 그 침묵은 훗날 가장 후회되는 일이 된다.",
+"location": "라움소프트 회의실과 사무실 복도",
+"time": "오후 회의 종료 직후",
+"visual_continuity": "회의실 사람들이 하나둘 일어나고, 이준은 끝에 남아 노트북을 닫는다. 창밖의 비는 여전히 내린다.",
+"cuts": [
+{
+"cut_id": "S08_C01",
+"importance": "medium",
+"characters": [
+"baek_minjae",
+"yoon_seoha",
+"oh_teamlead",
+"seo_ijun",
+"team_members"
+],
+"visual_prompt": "Meeting ending in Korean office room, people closing laptops and standing, Baek Minjae regaining polished expression, Yoon Seoha quietly gathering notes, Seo Ijun silent at far end",
+"camera": "wide meeting room shot",
+"composition": "사람들이 회의실을 나갈 준비를 한다. 이준은 끝자리에서 조용히 노트북을 닫는다.",
+"emotion": "말하지 못한 뒤끝",
+"dialogue": [],
+"narration": [
+"회의가 끝났다."
+],
+"sfx": [
+"덮",
+"드르륵"
+],
+"bubble_position": "auto",
+"continuity_notes": "민재는 다시 표정을 정리했고, 이준은 아무것도 말하지 않았다.",
+"outfit_continuity": "same meeting outfits",
+"location_continuity": "meeting room",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S08_C02",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Seo Ijun leaving meeting room quietly, Yoon Seoha briefly glancing in his direction without speaking, rainy office hallway",
+"camera": "medium shot from hallway",
+"composition": "이준이 회의실을 나서고, 서하의 시선이 잠깐 그의 등 쪽으로 향한다.",
+"emotion": "아직 닿지 않은 시선",
+"dialogue": [],
+"narration": [],
+"sfx": [
+"철컥"
+],
+"bubble_position": "auto",
+"continuity_notes": "서하는 아직 이준의 프로토타입을 모르지만, 이준의 침묵을 어렴풋이 본다.",
+"outfit_continuity": "same",
+"location_continuity": "meeting room doorway and hallway",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S08_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun back at his desk, sitting down silently, monitor reflection on his tired face, rain streaks on window behind",
+"camera": "close-up side shot",
+"composition": "이준은 자기 자리로 돌아와 앉는다. 입술은 닫혀 있고, 눈은 모니터를 향한다.",
+"emotion": "삼킨 말의 무게",
+"dialogue": [],
+"narration": [
+"그 결심은 그날 가장 후회되는 일이 된다.",
+"하지만 그것도 한참 뒤의 일이다."
+],
+"sfx": [
+"툭"
+],
+"bubble_position": "auto",
+"continuity_notes": "후회는 아직 오지 않았지만, 컷에는 이미 무게가 있어야 함.",
+"outfit_continuity": "seo_ijun same outfit",
+"location_continuity": "Ijun's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+}
+],
+"ending_hook": {
+"visual": "비 내리는 창가 옆 이준의 자리. 이준은 모니터를 보는 척 앉아 있지만, 화면에는 아무것도 입력하지 못하고 있다. 회의실에서 삼킨 말이 아직 입가에 남아 있는 듯하다.",
+"text": "그 결심은 그날 가장 후회되는 일이 된다. 하지만 그것도 한참 뒤의 일이다."
+}
+}

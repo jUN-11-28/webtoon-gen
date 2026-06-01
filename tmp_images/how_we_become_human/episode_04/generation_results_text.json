@@ -1,0 +1,233 @@
+[
+  {
+    "cut_order": 1,
+    "cut_id": "S01_C01",
+    "scene_id": "S01",
+    "file_name": "001_S01_C01_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/001_S01_C01_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 161.2
+  },
+  {
+    "cut_order": 2,
+    "cut_id": "S01_C02",
+    "scene_id": "S01",
+    "file_name": "002_S01_C02_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/002_S01_C02_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 146.56
+  },
+  {
+    "cut_order": 3,
+    "cut_id": "S01_C03",
+    "scene_id": "S01",
+    "file_name": "003_S01_C03_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/003_S01_C03_text.png",
+    "importance": "medium",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 59.13
+  },
+  {
+    "cut_order": 4,
+    "cut_id": "S01_C04",
+    "scene_id": "S01",
+    "file_name": "004_S01_C04_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/004_S01_C04_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 150.36
+  },
+  {
+    "cut_order": 5,
+    "cut_id": "S02_C01",
+    "scene_id": "S02",
+    "file_name": "005_S02_C01_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/005_S02_C01_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 137.72
+  },
+  {
+    "cut_order": 6,
+    "cut_id": "S02_C02",
+    "scene_id": "S02",
+    "file_name": "006_S02_C02_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/006_S02_C02_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 52.48
+  },
+  {
+    "cut_order": 7,
+    "cut_id": "S02_C03",
+    "scene_id": "S02",
+    "file_name": "007_S02_C03_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/007_S02_C03_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 149.13
+  },
+  {
+    "cut_order": 8,
+    "cut_id": "S02_C04",
+    "scene_id": "S02",
+    "file_name": "008_S02_C04_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/008_S02_C04_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 145.26
+  },
+  {
+    "cut_order": 9,
+    "cut_id": "S03_C01",
+    "scene_id": "S03",
+    "file_name": "009_S03_C01_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/009_S03_C01_text.png",
+    "importance": "medium",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 143.95
+  },
+  {
+    "cut_order": 10,
+    "cut_id": "S03_C02",
+    "scene_id": "S03",
+    "file_name": "010_S03_C02_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/010_S03_C02_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 157.21
+  },
+  {
+    "cut_order": 11,
+    "cut_id": "S03_C03",
+    "scene_id": "S03",
+    "file_name": "011_S03_C03_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/011_S03_C03_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 59.76
+  },
+  {
+    "cut_order": 12,
+    "cut_id": "S03_C04",
+    "scene_id": "S03",
+    "file_name": "012_S03_C04_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/012_S03_C04_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 162.46
+  },
+  {
+    "cut_order": 13,
+    "cut_id": "S04_C01",
+    "scene_id": "S04",
+    "file_name": "013_S04_C01_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/013_S04_C01_text.png",
+    "importance": "medium",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 137.36
+  },
+  {
+    "cut_order": 14,
+    "cut_id": "S04_C02",
+    "scene_id": "S04",
+    "file_name": "014_S04_C02_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/014_S04_C02_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 136.5
+  },
+  {
+    "cut_order": 15,
+    "cut_id": "S04_C03",
+    "scene_id": "S04",
+    "file_name": "015_S04_C03_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/015_S04_C03_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 69.84
+  },
+  {
+    "cut_order": 16,
+    "cut_id": "S04_C04",
+    "scene_id": "S04",
+    "file_name": "016_S04_C04_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/016_S04_C04_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 52.32
+  },
+  {
+    "cut_order": 17,
+    "cut_id": "S05_C01",
+    "scene_id": "S05",
+    "file_name": "017_S05_C01_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/017_S05_C01_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 148.42
+  },
+  {
+    "cut_order": 18,
+    "cut_id": "S05_C02",
+    "scene_id": "S05",
+    "file_name": "018_S05_C02_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/018_S05_C02_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 147.07
+  },
+  {
+    "cut_order": 19,
+    "cut_id": "S05_C03",
+    "scene_id": "S05",
+    "file_name": "019_S05_C03_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/019_S05_C03_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 163.44
+  },
+  {
+    "cut_order": 20,
+    "cut_id": "S05_C04",
+    "scene_id": "S05",
+    "file_name": "020_S05_C04_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/020_S05_C04_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 161.29
+  },
+  {
+    "cut_order": 21,
+    "cut_id": "S05_C05",
+    "scene_id": "S05",
+    "file_name": "021_S05_C05_text.png",
+    "local_path": "tmp_images/how_we_become_human/episode_04/021_S05_C05_text.png",
+    "importance": "high",
+    "with_text": true,
+    "status": "success",
+    "elapsed_seconds": 152.79
+  }
+]

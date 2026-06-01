@@ -379,9 +379,9 @@ storyboards/how_we_become_human/episode_02.json \
 --save-prompts
 
 # 1. 이미지 생성 (에피소드별 폴더 지정)
-python scripts/generate_webtoon.py storyboards/how_we_become_human/episode_04.json \
+python scripts/generate_webtoon.py storyboards/how_we_become_human/episode_05.json \
   --all --workers 4 --with-text \
-  --output-dir tmp_images/how_we_become_human/episode_04
+  --output-dir tmp_images/how_we_become_human/episode_05
 
 python scripts/generate_webtoon.py storyboards/positive_for_love/episode_02_part_03.json \
   --all --workers 4 --with-text \
