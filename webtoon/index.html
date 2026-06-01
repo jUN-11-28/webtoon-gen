@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webtoon</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0f0f;
+      --surface: #1a1a1a;
+      --surface2: #242424;
+      --border: #2e2e2e;
+      --accent: #e8b86d;
+      --accent-dim: rgba(232, 184, 109, 0.12);
+      --text: #f0f0f0;
+      --text-muted: #888;
+      --text-dim: #555;
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(15, 15, 15, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      color: var(--accent);
+    }
+    .logo span { color: var(--text); font-weight: 400; }
+
+    /* ── Main layout ── */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    /* ── Breadcrumb ── */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      min-height: 20px;
+    }
+    .breadcrumb button {
+      background: none;
+      border: none;
+      color: var(--accent);
+      cursor: pointer;
+      font-size: 13px;
+      padding: 0;
+    }
+    .breadcrumb button:hover { text-decoration: underline; }
+    .breadcrumb .sep { color: var(--text-dim); }
+
+    /* ── Section title ── */
+    .section-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 24px;
+      letter-spacing: -0.3px;
+    }
+    .section-title small {
+      display: block;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* ── Series grid ── */
+    #series-view { display: block; }
+    #episode-view { display: none; }
+
+    .series-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .series-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s, transform 0.15s;
+      position: relative;
+      overflow: hidden;
+    }
+    .series-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--accent-dim);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .series-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .series-card:hover::before { opacity: 1; }
+
+    .series-card .en-title {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .series-card .kr-title {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .series-card .desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .series-card .meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .genre-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+    .genre-tag {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 20px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+    .ep-count {
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+
+    /* ── Episode list ── */
+    .series-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 32px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+    }
+    .series-header .info { flex: 1; }
+    .series-header .en { font-size: 12px; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .series-header .title { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 10px; }
+    .series-header .desc { font-size: 14px; color: var(--text-muted); line-height: 1.7; }
+
+    .episode-list { display: flex; flex-direction: column; gap: 10px; }
+
+    .episode-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      text-decoration: none;
+      color: inherit;
+    }
+    .episode-card:hover { border-color: var(--accent); background: var(--surface2); }
+
+    .ep-number {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: var(--accent);
+      background: var(--accent-dim);
+      border: 1px solid rgba(232, 184, 109, 0.3);
+      border-radius: 6px;
+      padding: 4px 10px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .ep-title {
+      font-size: 15px;
+      font-weight: 500;
+      flex: 1;
+    }
+    .ep-cuts {
+      font-size: 12px;
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+    .ep-arrow {
+      color: var(--text-dim);
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">W<span>ebtoon</span></div>
+  </header>
+
+  <main>
+    <div class="breadcrumb" id="breadcrumb"></div>
+
+    <!-- Series list -->
+    <div id="series-view">
+      <div class="section-title">
+        작품 목록
+        <small>총 <span id="series-count">0</span>개의 작품</small>
+      </div>
+      <div class="series-grid" id="series-grid"></div>
+    </div>
+
+    <!-- Episode list -->
+    <div id="episode-view">
+      <div class="series-header" id="series-header"></div>
+      <div class="section-title">에피소드</div>
+      <div class="episode-list" id="episode-list"></div>
+    </div>
+  </main>
+
+  <!-- CATALOG_START --><script>const CATALOG={"series":[{"id":"how_we_become_human","title":"우리는 그렇게 인간이 된다","englishTitle":"How We Become Human","description":"평범한 일상 속, 아주 조금씩 인간이 되어가는 이야기","genre":["로맨스","일상"],"episodes":[{"id":"episode_01","number":"1-1","title":"미적지근한 첫 커피","cutCount":21,"images":["../tmp_images/how_we_become_human/episode_01/001_S01_C01_text.png","../tmp_images/how_we_become_human/episode_01/002_S01_C02_text.png","../tmp_images/how_we_become_human/episode_01/003_S01_C03_text.png","../tmp_images/how_we_become_human/episode_01/004_S01_C04_text.png","../tmp_images/how_we_become_human/episode_01/005_S01_C05_text.png","../tmp_images/how_we_become_human/episode_01/006_S01_C06_text.png","../tmp_images/how_we_become_human/episode_01/007_S01_C07_text.png","../tmp_images/how_we_become_human/episode_01/008_S02_C01_text.png","../tmp_images/how_we_become_human/episode_01/009_S02_C02_text.png","../tmp_images/how_we_become_human/episode_01/010_S02_C03_text.png","../tmp_images/how_we_become_human/episode_01/011_S03_C01_text.png","../tmp_images/how_we_become_human/episode_01/012_S03_C02_text.png","../tmp_images/how_we_become_human/episode_01/013_S03_C03_text.png","../tmp_images/how_we_become_human/episode_01/014_S03_C04_text.png","../tmp_images/how_we_become_human/episode_01/015_S04_C01_text.png","../tmp_images/how_we_become_human/episode_01/016_S04_C02_text.png","../tmp_images/how_we_become_human/episode_01/017_S04_C03_text.png","../tmp_images/how_we_become_human/episode_01/018_S04_C04_text.png","../tmp_images/how_we_become_human/episode_01/019_S04_C05_text.png","../tmp_images/how_we_become_human/episode_01/020_S04_C06_text.png","../tmp_images/how_we_become_human/episode_01/021_S04_C07_text.png"]},{"id":"episode_02","number":"1-2","title":"선배님밖에 없어요","cutCount":41,"images":["../tmp_images/how_we_become_human/episode_02/001_S01_C01_text.png","../tmp_images/how_we_become_human/episode_02/002_S01_C02_text.png","../tmp_images/how_we_become_human/episode_02/003_S01_C03_text.png","../tmp_images/how_we_become_human/episode_02/004_S01_C04_text.png","../tmp_images/how_we_become_human/episode_02/005_S01_C05_text.png","../tmp_images/how_we_become_human/episode_02/006_S02_C01_text.png","../tmp_images/how_we_become_human/episode_02/007_S02_C02_text.png","../tmp_images/how_we_become_human/episode_02/008_S02_C03_text.png","../tmp_images/how_we_become_human/episode_02/009_S02_C04_text.png","../tmp_images/how_we_become_human/episode_02/010_S03_C01_text.png","../tmp_images/how_we_become_human/episode_02/011_S03_C02_text.png","../tmp_images/how_we_become_human/episode_02/012_S03_C03_text.png","../tmp_images/how_we_become_human/episode_02/013_S03_C04_text.png","../tmp_images/how_we_become_human/episode_02/014_S03_C05_text.png","../tmp_images/how_we_become_human/episode_02/015_S04_C01_text.png","../tmp_images/how_we_become_human/episode_02/016_S04_C02_text.png","../tmp_images/how_we_become_human/episode_02/017_S04_C03_text.png","../tmp_images/how_we_become_human/episode_02/018_S04_C04_text.png","../tmp_images/how_we_become_human/episode_02/019_S04_C05_text.png","../tmp_images/how_we_become_human/episode_02/020_S04_C06_text.png","../tmp_images/how_we_become_human/episode_02/021_S05_C01_text.png","../tmp_images/how_we_become_human/episode_02/022_S05_C02_text.png","../tmp_images/how_we_become_human/episode_02/023_S05_C03_text.png","../tmp_images/how_we_become_human/episode_02/024_S05_C04_text.png","../tmp_images/how_we_become_human/episode_02/025_S06_C01_text.png","../tmp_images/how_we_become_human/episode_02/026_S06_C02_text.png","../tmp_images/how_we_become_human/episode_02/027_S06_C03_text.png","../tmp_images/how_we_become_human/episode_02/028_S06_C04_text.png","../tmp_images/how_we_become_human/episode_02/029_S06_C05_text.png","../tmp_images/how_we_become_human/episode_02/030_S07_C01_text.png","../tmp_images/how_we_become_human/episode_02/031_S07_C02_text.png","../tmp_images/how_we_become_human/episode_02/032_S07_C03_text.png","../tmp_images/how_we_become_human/episode_02/033_S08_C01_text.png","../tmp_images/how_we_become_human/episode_02/034_S08_C02_text.png","../tmp_images/how_we_become_human/episode_02/035_S08_C03_text.png","../tmp_images/how_we_become_human/episode_02/036_S08_C04_text.png","../tmp_images/how_we_become_human/episode_02/037_S08_C05_text.png","../tmp_images/how_we_become_human/episode_02/038_S09_C01_text.png","../tmp_images/how_we_become_human/episode_02/039_S09_C02_text.png","../tmp_images/how_we_become_human/episode_02/040_S09_C03_text.png","../tmp_images/how_we_become_human/episode_02/041_S09_C04_text.png"]}]},{"id":"positive_for_love","title":"사랑에 양성","englishTitle":"Positive for Love","description":"예상치 못한 만남이 만들어낸 예상치 못한 감정","genre":["로맨스","청춘"],"episodes":[{"id":"episode_01","number":1,"title":"QR 찍고 들어온 너","cutCount":103,"images":["../tmp_images/positive_for_love/episode_01/001_S01_C01_text.png","../tmp_images/positive_for_love/episode_01/002_S01_C02_text.png","../tmp_images/positive_for_love/episode_01/003_S01_C03_text.png","../tmp_images/positive_for_love/episode_01/004_S01_C04_text.png","../tmp_images/positive_for_love/episode_01/005_S01_C05_text.png","../tmp_images/positive_for_love/episode_01/006_S01_C06_text.png","../tmp_images/positive_for_love/episode_01/007_S01_C07_text.png","../tmp_images/positive_for_love/episode_01/008_S02_C01_text.png","../tmp_images/positive_for_love/episode_01/009_S02_C02_text.png","../tmp_images/positive_for_love/episode_01/010_S02_C03_text.png","../tmp_images/positive_for_love/episode_01/011_S02_C04_text.png","../tmp_images/positive_for_love/episode_01/012_S02_C05_text.png","../tmp_images/positive_for_love/episode_01/013_S02_C06_text.png","../tmp_images/positive_for_love/episode_01/014_S02_C07_text.png","../tmp_images/positive_for_love/episode_01/015_S02_C08_text.png","../tmp_images/positive_for_love/episode_01/016_S03_C01_text.png","../tmp_images/positive_for_love/episode_01/017_S03_C02_text.png","../tmp_images/positive_for_love/episode_01/018_S03_C03_text.png","../tmp_images/positive_for_love/episode_01/019_S03_C04_text.png","../tmp_images/positive_for_love/episode_01/020_S03_C05_text.png","../tmp_images/positive_for_love/episode_01/021_S03_C06_text.png","../tmp_images/positive_for_love/episode_01/022_S03_C07_text.png","../tmp_images/positive_for_love/episode_01/023_S03_C08_text.png","../tmp_images/positive_for_love/episode_01/024_S03_C09_text.png","../tmp_images/positive_for_love/episode_01/025_S03_C10_text.png","../tmp_images/positive_for_love/episode_01/026_S03_C11_text.png","../tmp_images/positive_for_love/episode_01/027_S03_C12_text.png","../tmp_images/positive_for_love/episode_01/028_S03_C13_text.png","../tmp_images/positive_for_love/episode_01/029_S03_C14_text.png","../tmp_images/positive_for_love/episode_01/030_S04_C01_text.png","../tmp_images/positive_for_love/episode_01/031_S04_C02_text.png","../tmp_images/positive_for_love/episode_01/032_S04_C03_text.png","../tmp_images/positive_for_love/episode_01/033_S04_C04_text.png","../tmp_images/positive_for_love/episode_01/034_S04_C05_text.png","../tmp_images/positive_for_love/episode_01/035_S04_C06_text.png","../tmp_images/positive_for_love/episode_01/036_S04_C07_text.png","../tmp_images/positive_for_love/episode_01/037_S04_C08_text.png","../tmp_images/positive_for_love/episode_01/038_S04_C09_text.png","../tmp_images/positive_for_love/episode_01/039_S05_C01_text.png","../tmp_images/positive_for_love/episode_01/040_S05_C02_text.png","../tmp_images/positive_for_love/episode_01/041_S05_C03_text.png","../tmp_images/positive_for_love/episode_01/042_S05_C04_text.png","../tmp_images/positive_for_love/episode_01/043_S05_C05_text.png","../tmp_images/positive_for_love/episode_01/044_S05_C06_text.png","../tmp_images/positive_for_love/episode_01/045_S05_C07_text.png","../tmp_images/positive_for_love/episode_01/046_S05_C08_text.png","../tmp_images/positive_for_love/episode_01/047_S05_C09_text.png","../tmp_images/positive_for_love/episode_01/048_S06_C01_text.png","../tmp_images/positive_for_love/episode_01/049_S06_C02_text.png","../tmp_images/positive_for_love/episode_01/050_S06_C03_text.png","../tmp_images/positive_for_love/episode_01/051_S06_C04_text.png","../tmp_images/positive_for_love/episode_01/052_S06_C05_text.png","../tmp_images/positive_for_love/episode_01/053_S06_C06_text.png","../tmp_images/positive_for_love/episode_01/054_S06_C07_text.png","../tmp_images/positive_for_love/episode_01/055_S06_C08_text.png","../tmp_images/positive_for_love/episode_01/056_S07_C01_text.png","../tmp_images/positive_for_love/episode_01/057_S07_C02_text.png","../tmp_images/positive_for_love/episode_01/058_S07_C03_text.png","../tmp_images/positive_for_love/episode_01/059_S07_C04_text.png","../tmp_images/positive_for_love/episode_01/060_S07_C05_text.png","../tmp_images/positive_for_love/episode_01/061_S07_C06_text.png","../tmp_images/positive_for_love/episode_01/062_S07_C07_text.png","../tmp_images/positive_for_love/episode_01/063_S07_C08_text.png","../tmp_images/positive_for_love/episode_01/064_S07_C09_text.png","../tmp_images/positive_for_love/episode_01/065_S07_C10_text.png","../tmp_images/positive_for_love/episode_01/066_S08_C01_text.png","../tmp_images/positive_for_love/episode_01/067_S08_C02_text.png","../tmp_images/positive_for_love/episode_01/068_S08_C03_text.png","../tmp_images/positive_for_love/episode_01/069_S08_C04_text.png","../tmp_images/positive_for_love/episode_01/070_S08_C05_text.png","../tmp_images/positive_for_love/episode_01/071_S08_C06_text.png","../tmp_images/positive_for_love/episode_01/072_S08_C07_text.png","../tmp_images/positive_for_love/episode_01/073_S08_C08_text.png","../tmp_images/positive_for_love/episode_01/074_S09_C01_text.png","../tmp_images/positive_for_love/episode_01/075_S09_C02_text.png","../tmp_images/positive_for_love/episode_01/076_S09_C03_text.png","../tmp_images/positive_for_love/episode_01/077_S09_C04_text.png","../tmp_images/positive_for_love/episode_01/078_S09_C05_text.png","../tmp_images/positive_for_love/episode_01/079_S09_C06_text.png","../tmp_images/positive_for_love/episode_01/080_S09_C07_text.png","../tmp_images/positive_for_love/episode_01/081_S09_C08_text.png","../tmp_images/positive_for_love/episode_01/082_S10_C01_text.png","../tmp_images/positive_for_love/episode_01/083_S10_C02_text.png","../tmp_images/positive_for_love/episode_01/084_S10_C03_text.png","../tmp_images/positive_for_love/episode_01/085_S10_C04_text.png","../tmp_images/positive_for_love/episode_01/086_S10_C05_text.png","../tmp_images/positive_for_love/episode_01/087_S10_C06_text.png","../tmp_images/positive_for_love/episode_01/088_S10_C07_text.png","../tmp_images/positive_for_love/episode_01/089_S11_C01_text.png","../tmp_images/positive_for_love/episode_01/090_S11_C02_text.png","../tmp_images/positive_for_love/episode_01/091_S11_C03_text.png","../tmp_images/positive_for_love/episode_01/092_S11_C04_text.png","../tmp_images/positive_for_love/episode_01/093_S11_C05_text.png","../tmp_images/positive_for_love/episode_01/094_S11_C06_text.png","../tmp_images/positive_for_love/episode_01/095_S11_C07_text.png","../tmp_images/positive_for_love/episode_01/096_S11_C08_text.png","../tmp_images/positive_for_love/episode_01/097_S11_C09_text.png","../tmp_images/positive_for_love/episode_01/098_S11_C10_text.png","../tmp_images/positive_for_love/episode_01/099_S11_C11_text.png","../tmp_images/positive_for_love/episode_01/100_S11_C12_text.png","../tmp_images/positive_for_love/episode_01/101_S11_C13_text.png","../tmp_images/positive_for_love/episode_01/102_S11_C14_text.png","../tmp_images/positive_for_love/episode_01/103_S11_C15_text.png"]},{"id":"episode_02_part_01","number":2,"title":"밀접접촉자입니다 - 1","cutCount":2,"images":["../tmp_images/positive_for_love/episode_02_part_01/001_S01_C01_text.png","../tmp_images/positive_for_love/episode_02_part_01/003_S01_C03_text.png"]}]}]};</script><!-- CATALOG_END -->
+  <script>
+    let currentSeries = null;
+
+    function showSeries() {
+      currentSeries = null;
+      document.getElementById('series-view').style.display = 'block';
+      document.getElementById('episode-view').style.display = 'none';
+      renderBreadcrumb();
+    }
+
+    function showEpisodes(series) {
+      currentSeries = series;
+      document.getElementById('series-view').style.display = 'none';
+      document.getElementById('episode-view').style.display = 'block';
+      renderBreadcrumb();
+      renderEpisodeView(series);
+    }
+
+    function renderBreadcrumb() {
+      const el = document.getElementById('breadcrumb');
+      if (!currentSeries) { el.innerHTML = ''; return; }
+      el.innerHTML = `
+        <button onclick="showSeries()">작품 목록</button>
+        <span class="sep">›</span>
+        <span>${currentSeries.title}</span>
+      `;
+    }
+
+    function renderSeriesGrid() {
+      const grid = document.getElementById('series-grid');
+      document.getElementById('series-count').textContent = CATALOG.series.length;
+
+      grid.innerHTML = CATALOG.series.map(s => `
+        <div class="series-card" onclick="showEpisodes(CATALOG.series.find(x => x.id === '${s.id}'))">
+          <div class="en-title">${s.englishTitle}</div>
+          <div class="kr-title">${s.title}</div>
+          <div class="desc">${s.description}</div>
+          <div class="meta">
+            <div class="genre-tags">
+              ${s.genre.map(g => `<span class="genre-tag">${g}</span>`).join('')}
+            </div>
+            <div class="ep-count">${s.episodes.length}화</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderEpisodeView(series) {
+      document.getElementById('series-header').innerHTML = `
+        <div class="info">
+          <div class="en">${series.englishTitle}</div>
+          <div class="title">${series.title}</div>
+          <div class="desc">${series.description}</div>
+        </div>
+      `;
+
+      document.getElementById('episode-list').innerHTML = series.episodes.map((ep, i) => `
+        <a class="episode-card" href="viewer.html?series=${series.id}&ep=${ep.id}">
+          <span class="ep-number">EP ${ep.number || i + 1}</span>
+          <span class="ep-title">${ep.title}</span>
+          <span class="ep-cuts">${ep.cutCount}컷</span>
+          <span class="ep-arrow">›</span>
+        </a>
+      `).join('');
+    }
+
+    renderSeriesGrid();
+  </script>
+</body>
+</html>

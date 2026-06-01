@@ -1,0 +1,7 @@
+openai
+python-dotenv
+google-api-python-client
+google-auth
+pillow
+google-auth-oauthlib
+google-genai

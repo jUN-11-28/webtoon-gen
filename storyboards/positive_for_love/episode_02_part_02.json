@@ -1,0 +1,760 @@
+{
+  "project_title": "너에게 확진",
+  "english_title": "Positive For Love",
+  "style_guide": {
+    "art_style": "Polished Korean romance webtoon style with expressive romantic comedy acting, attractive characters, soft cinematic framing, clean modern manhwa aesthetics",
+    "render_style": "Finished vertical webtoon panel, clean digital painting, soft shading, subtle texture, high detail faces, readable expressions",
+    "line_style": "Clean line art, elegant thin-to-medium outlines, expressive facial lines, subtle comedic exaggeration when needed",
+    "color_palette": "COVID-era urban cafe palette, soft beige, muted pink, clean white, gentle blue-gray shadows, warm skin tones",
+    "lighting_style": "Soft natural daylight for clinic and cafe, cozy indoor lighting for rooms, subtle dramatic shadow for Seowoo tension scenes",
+    "mood_keywords": [
+      "romantic comedy",
+      "COVID-era anxiety",
+      "awkward sweetness",
+      "emotional distance",
+      "masked romance",
+      "campus youth drama"
+    ],
+    "camera_keywords": [
+      "vertical webtoon",
+      "cinematic close-up",
+      "over-the-shoulder",
+      "split screen",
+      "phone screen insert",
+      "wide establishing shot"
+    ],
+    "quality_keywords": [
+      "high quality",
+      "finished Korean webtoon cut",
+      "consistent characters",
+      "readable speech bubble space",
+      "clean composition"
+    ],
+    "global_negative_prompt": "low quality, blurry, extra fingers, distorted face, inconsistent character design, unreadable text, messy speech bubbles, western comic style, overly realistic photo, horror, gore"
+  },
+  "episode": {
+    "number": 2,
+    "title": "밀접접촉자입니다 - 2: 비대면 썸",
+    "style": "remote romance through messages and video calls, soft jealousy, cozy room comedy"
+  },
+  "character_bible": [
+    {
+      "id": "yoon_ajin",
+      "name": "윤아진",
+      "role": "female lead, COVID-rule obsessed student preparing to study abroad",
+      "visual_core": "fresh rabbit-like beauty, bright clear eyes, soft cheeks, neat black or dark brown hair, youthful and intelligent aura, expressive blush",
+      "wardrobe": "neat casual campus clothes, KF94 mask, small crossbody bag, always carrying sanitizer, wipes, spare masks, study-abroad document folder",
+      "expression_notes": "easily flustered, anxious when COVID or study abroad is mentioned, tries to look rational, blushes when Jihwak flirts",
+      "personality_notes": "smart, rule-abiding, sincere, overthinks romance as symptoms, clumsy only with emotions",
+      "reference_image": "references/characters/yoon_ajin.png"
+    },
+    {
+      "id": "kang_jihwak",
+      "name": "강지확",
+      "role": "male lead, instinctively charming and direct",
+      "visual_core": "Arabian puppy-like handsome face, thick eyebrows, deep eyes, sharp facial structure, slightly exotic first impression, warm playful eyes when smiling",
+      "wardrobe": "clean casual clothes, hoodie or knit, black or white mask, simple bag, relaxed but stylish campus look",
+      "expression_notes": "playful eyes, relaxed smile, becomes quietly sincere when A-jin is anxious, flirts naturally without overacting",
+      "personality_notes": "unaware star quality, capable, warm, direct once he cares, jokes to ease tension",
+      "reference_image": "references/characters/kang_jihwak.png"
+    },
+    {
+      "id": "baek_seowoo",
+      "name": "백서우",
+      "role": "second male lead, soft controlling antagonist",
+      "visual_core": "tofu-fox type, pale clean face, gentle eyes, neat hair, elegant and controlled expression, beautiful but cold under the surface",
+      "wardrobe": "neat shirt or cardigan, perfectly worn mask, clean campus style, carries carefully prepared care kits",
+      "expression_notes": "soft smile with cold eyes, tiny cracks when jealous, calm voice, suppressed possessiveness",
+      "personality_notes": "perfectly helpful on the outside, controlling kindness, jealous of Jihwak, wants to be chosen by A-jin",
+      "reference_image": "references/characters/baek_seowoo.png"
+    },
+    {
+      "id": "minseo",
+      "name": "민서",
+      "role": "A-jin's friend, comic commentator",
+      "visual_core": "lively Korean college girl, playful eyes, casual ponytail or bob, friendly expressive face",
+      "wardrobe": "casual cafe staff outfit or comfy room-call look, mask when outside",
+      "expression_notes": "teasing smile, exaggerated reactions, laughs easily",
+      "personality_notes": "quick-witted, sees romantic signs before A-jin does, comic relief",
+      "reference_image": "references/characters/minseo.png"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "scene_title": "백서우의 방역 키트",
+      "scene_summary": "서우가 아진의 집 앞에 방역 키트를 두고, 다정함 속에 지확을 견제한다.",
+      "location": "A-jin's apartment door / A-jin's room",
+      "time": "evening",
+      "visual_continuity": "Warm apartment hallway, paper bag care kit, A-jin's room is tidy but anxious; Seowoo's phone call feels soft but slightly controlling.",
+      "cuts": [
+        {
+          "cut_id": "S01_C01",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Small paper bag placed in front of A-jin's apartment door, containing masks, antibacterial wipes, vitamins, thermometer batteries, throat candies; soft hallway light",
+          "camera": "close-up",
+          "composition": "Care kit centered with handwritten note visible",
+          "emotion": "relief but ominous kindness",
+          "dialogue": [],
+          "narration": [
+            "아진아, 검사 결과 나올 때까지 푹 쉬어. 필요한 거 있으면 바로 연락해. - 서우"
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S01_C02",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin opens her door slightly, reaches out carefully to pick up the care kit, mask on, cautious movement",
+          "camera": "medium shot",
+          "composition": "Door only slightly open, her hand and bag emphasized",
+          "emotion": "careful gratitude",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "서우 선배는 진짜… 항상 필요한 걸 아네.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C03",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin",
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Phone call split-screen: A-jin in her room holding care kit, Seowoo in neat dim room speaking gently",
+          "camera": "split screen",
+          "composition": "A-jin left, Seowoo right, both framed by phones",
+          "emotion": "soft control",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "선배, 고마워요. 저 방금 받았어요.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "놀랐지?",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C04",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Seowoo's calm face on phone, his smile gentle but eyes watchful as he mentions Jihwak",
+          "camera": "close-up phone screen",
+          "composition": "Seowoo's face fills phone screen, A-jin's hand tightens slightly",
+          "emotion": "subtle unease",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "그리고 강지확이랑 같이 있었다며.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "같이 있었다기보다는 같은 카페에…",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C05",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Close-up of Seowoo smiling softly but eyes cold, dim background, controlled expression",
+          "camera": "close-up",
+          "composition": "Face half-lit, phone near cheek",
+          "emotion": "masked jealousy",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "걔는 원래 그래. 별생각 없이 사람을 끌어들여. 그러고 나서 책임은 안 져.",
+              "bubble_position": "mixed"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C06",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin sits on bed after the call, staring at phone, troubled by Seowoo's words",
+          "camera": "medium close-up",
+          "composition": "Care kit on bed beside her, phone in hand",
+          "emotion": "conflicted",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "…그런가?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [
+            "별생각 없이 사람을 끌어들여."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    },
+    {
+      "scene_id": "S02",
+      "scene_title": "비대면 썸",
+      "scene_summary": "아진은 결국 지확과 메시지를 이어가고, 첫 영상통화에서 지확의 얼굴을 보고 크게 당황한다.",
+      "location": "A-jin's room / Jihwak's room via video call",
+      "time": "night",
+      "visual_continuity": "Cozy night rooms, phone glow, video call frames. Jihwak without mask for the first time; A-jin blushing, camera mishaps.",
+      "cuts": [
+        {
+          "cut_id": "S02_C01",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin staring at Jihwak's message asking if she ate dinner, Seowoo's warning visually lingering like shadow text",
+          "camera": "medium shot",
+          "composition": "Phone in hands, shadowed words behind her",
+          "emotion": "hesitation",
+          "dialogue": [],
+          "narration": [
+            "강지확: 저녁 먹었어요?"
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S02_C02",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin sends a short reply 'Not yet', immediately receives a call, panics and almost drops the phone",
+          "camera": "medium comedic shot",
+          "composition": "Phone ringing large in foreground, A-jin recoiling",
+          "emotion": "startled flutter",
+          "dialogue": [],
+          "narration": [
+            "윤아진: 아직요."
+          ],
+          "sfx": [
+            "따르릉"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C03",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Phone message after missed call: Jihwak explains he meant to nag her to eat, A-jin smiles despite herself",
+          "camera": "insert close-up",
+          "composition": "Message bubbles visible, her thumb hovering",
+          "emotion": "softened",
+          "dialogue": [],
+          "narration": [
+            "강지확: 실수 아니고요. 밥 먹으라고 잔소리하려고 했어요."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C04",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Video call begins: Jihwak in hoodie, leaning against bed, no mask, unexpectedly handsome; A-jin freezes like a paused screen",
+          "camera": "split screen",
+          "composition": "Jihwak right relaxed, A-jin left frozen wide-eyed",
+          "emotion": "first unmasked crush",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "왜요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "아니요.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C05",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "A-jin accidentally points camera at ceiling, Jihwak laughing on screen",
+          "camera": "phone POV / split screen",
+          "composition": "Ceiling view takes A-jin side, Jihwak amused",
+          "emotion": "embarrassed comedy",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "윤아진 씨, 지금 천장이랑 통화 중인데요.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C06",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "A-jin quickly corrects camera, blush visible, trying to sound rational; Jihwak smiles warmly",
+          "camera": "split screen close-up",
+          "composition": "Both faces large, phone UI frame, room backgrounds",
+          "emotion": "awkward sweetness",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "강지확 씨는 마스크 쓰는 게 나은 것 같아요.",
+              "bubble_position": "bottom_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "왜요. 별로예요?",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C07",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin mutters that he is too not-bad-looking, then panics because he might have heard",
+          "camera": "close-up",
+          "composition": "Her mouth partly hidden behind hand, blush emphasized",
+          "emotion": "accidental confession energy",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "아니… 너무 별로가 아니라서 문제지.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C08",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Jihwak notices her red face; A-jin abruptly ends call using Wi-Fi as excuse",
+          "camera": "split screen comedic",
+          "composition": "A-jin reaching for end-call button, Jihwak amused",
+          "emotion": "flustered escape",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "지금 얼굴 빨개요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "와이파이 불안정해서 끊을게요.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [
+            "뚝"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C09",
+          "importance": "medium",
+          "characters": [
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Jihwak looking at ended call screen, smiling quietly to himself in his room",
+          "camera": "medium close-up",
+          "composition": "Phone screen dark, his soft smile visible",
+          "emotion": "fondness",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "귀엽네.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    },
+    {
+      "scene_id": "S03",
+      "scene_title": "음성 결과와 서우의 불안",
+      "scene_summary": "아진과 지확은 모두 음성 판정을 받고 안도하지만, 서우는 둘이 가까워진 사실에 흔들린다.",
+      "location": "A-jin's room / school hallway",
+      "time": "next morning to afternoon",
+      "visual_continuity": "Morning light in A-jin's room, text-message comedy. Then school hallway with Seowoo's controlled smile cracking.",
+      "cuts": [
+        {
+          "cut_id": "S03_C01",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin wakes and checks phone first thing, morning sunlight, result message says negative in a clean official style",
+          "camera": "close-up",
+          "composition": "Phone result foreground, A-jin's relieved eyes behind",
+          "emotion": "huge relief",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "살았다…",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [
+            "[검사 결과 안내] 윤아진 님의 코로나19 검사 결과는 음성입니다."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S03_C02",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Message exchange with Jihwak; A-jin relaxes then gets confused at his 'too bad' joke",
+          "camera": "insert/medium",
+          "composition": "Phone bubbles large, A-jin frowning comically",
+          "emotion": "romcom banter",
+          "dialogue": [],
+          "narration": [
+            "강지확: 저 음성.",
+            "윤아진: 저도 음성이에요.",
+            "강지확: 아쉽네요."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C03",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin staring at phone in disbelief as Jihwak jokes about not becoming the confirmed couple",
+          "camera": "medium close-up",
+          "composition": "Her eyebrows raised, phone in foreground",
+          "emotion": "flustered outrage",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "진짜 신고할 거예요.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [
+            "강지확: 확진커플 못 됐잖아요."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C04",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin's expression softens when Jihwak sincerely says he's glad she is okay",
+          "camera": "close-up",
+          "composition": "Soft morning light, phone close to chest",
+          "emotion": "quiet warmth",
+          "dialogue": [],
+          "narration": [
+            "강지확: 농담이고. 다행이에요, 윤아진 씨."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C05",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin looking out the window, phone held close, gentle blush, narration panel",
+          "camera": "medium shot",
+          "composition": "Window light, clean room, study abroad documents in background",
+          "emotion": "unavoidable sincerity",
+          "dialogue": [],
+          "narration": [
+            "장난인 줄 알았는데,",
+            "가끔 그 사람의 진심은 너무 조용히 와서",
+            "피할 틈이 없었다."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C06",
+          "importance": "medium",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Seowoo in school hallway hears from a friend that Jihwak and A-jin video called all night, his smile freezing",
+          "camera": "medium shot",
+          "composition": "Crowded hallway blur, Seowoo centered perfectly neat",
+          "emotion": "hidden jealousy",
+          "dialogue": [
+            {
+              "speaker": "친구",
+              "text": "둘이 밀접접촉자라더니 진짜 친해졌나 봐.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "그래?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S03_C07",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Close-up of Seowoo's phone showing A-jin's grateful message, his thumb hovering over the screen",
+          "camera": "insert close-up",
+          "composition": "A-jin's message bright on screen, Seowoo's hand tense",
+          "emotion": "possessive unease",
+          "dialogue": [],
+          "narration": [
+            "윤아진: 네! 음성이에요. 선배 덕분에 덜 불안했어요. 감사해요."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C08",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Seowoo looking down the hallway at Jihwak laughing with friends, his eyes cold while mouth still smiles",
+          "camera": "telephoto hallway shot",
+          "composition": "Jihwak far background laughing, Seowoo foreground half-profile",
+          "emotion": "jealous crack",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "내 덕분에 괜찮아졌으면…",
+              "bubble_position": "bottom_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "왜 웃는 건 걔 앞에서 더 많이 하는데.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "project_title": "우리는 그렇게 인간이 된다",
+  "english_title": "How We Become Human",
+  "episode": {
+    "number": "1-1",
+    "title": "미적지근한 첫 커피",
+    "style": "조용한 오피스 휴먼 드라마, 피로한 아침 루틴, 절제된 감정선"
+  },
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "scene_title": "지하철 2호선",
+      "location": "출근길 지하철 내부",
+      "time": "아침 7시 40분",
+      "cuts": [
+        {
+          "cut_id": "S01_C01",
+          "importance": "high",
+          "visual_prompt": "Seoul subway line 2 interior in early morning, crowded commuters, muted gray-blue tone, realistic Korean webtoon style, tired atmosphere",
+          "camera": "wide shot",
+          "composition": "닫히려는 지하철 문과 사람들 사이의 좁은 틈",
+          "emotion": "답답함",
+          "dialogue": [],
+          "narration": ["지하철 2호선 문이 닫히기 직전,"],
+          "sfx": ["삐—", "덜컹"]
+        },
+        {
+          "cut_id": "S01_C02",
+          "importance": "high",
+          "visual_prompt": "A man rushing into subway at the last second, shoulder bump, commuters slightly pushed",
+          "camera": "dynamic medium shot",
+          "composition": "헐레벌떡 뛰어든 남자가 이준의 어깨를 치고 들어온다",
+          "emotion": "무심한 폭력",
+          "dialogue": [],
+          "narration": ["누군가 헐레벌떡 뛰어 들어왔다."],
+          "sfx": ["탁"]
+        },
+        {
+          "cut_id": "S01_C03",
+          "importance": "high",
+          "visual_prompt": "Seo Ijun stepping back instinctively, tired Korean office worker in early 30s, black coat, worn leather shoes",
+          "camera": "medium close-up",
+          "composition": "이준은 생각보다 먼저 몸이 뒤로 물러난다",
+          "emotion": "습관적 양보",
+          "dialogue": [],
+          "narration": ["서이준은 한 발 물러섰다.", "생각하기 전에 몸이 먼저 움직이는 일이었다."]
+        },
+        {
+          "cut_id": "S01_C04",
+          "importance": "medium",
+          "visual_prompt": "Rude commuter occupying space without apology, Seo Ijun nodding faintly though ignored",
+          "camera": "side shot",
+          "composition": "상대는 이준을 보지도 않고, 이준만 희미하게 고개를 끄덕인다",
+          "emotion": "보이지 않는 사과",
+          "dialogue": [],
+          "narration": ["미안하다는 말은 없었다.", "이준은 괜찮다는 듯 가볍게 고개를 끄덕였다."]
+        },
+        {
+          "cut_id": "S01_C05",
+          "importance": "high",
+          "visual_prompt": "Reflection of tired man on black subway window, tunnel outside, exhausted eyes, ambiguous half-smile",
+          "camera": "close-up reflection shot",
+          "composition": "검은 유리창에 이준의 얼굴만 떠 있다",
+          "emotion": "공허함",
+          "dialogue": [],
+          "narration": ["터널이라 보일 게 없었다.", "검은 유리에 자기 얼굴만 떠 있었다."]
+        },
+        {
+          "cut_id": "S01_C06",
+          "importance": "high",
+          "visual_prompt": "Close-up of tired Korean man, dark under-eyes, awkward half-raised mouth corner, not smiling but not expressionless",
+          "camera": "extreme close-up",
+          "composition": "눈 밑과 입꼬리만 강조",
+          "emotion": "익숙해진 피로",
+          "dialogue": [],
+          "narration": ["서른두 살.", "아침 일곱 시 사십 분.", "웃는 것도 아니고 안 웃는 것도 아닌 얼굴."]
+        },
+        {
+          "cut_id": "S01_C07",
+          "importance": "high",
+          "visual_prompt": "Close-up of worn leather shoe toe, slightly tight shoes, subway floor, muted light",
+          "camera": "low close-up",
+          "composition": "닳은 구두 끝이 흔들리는 지하철 바닥 위에 있다",
+          "emotion": "참고 사는 통증",
+          "dialogue": [],
+          "narration": ["신발 끝이 닳아 있었다.", "살 때부터 한 치수 작았는데, 그는 일 년째 그냥 신고 있었다."]
+        }
+      ]
+    },
+    {
+      "scene_id": "S02",
+      "scene_title": "라움소프트 건물 앞",
+      "location": "강남 언저리 오피스 빌딩",
+      "time": "아침 출근 시간",
+      "cuts": [
+        {
+          "cut_id": "S02_C01",
+          "importance": "medium",
+          "visual_prompt": "Office building near Gangnam but not glamorous, ordinary mid-sized IT company building, gray morning light",
+          "camera": "wide establishing shot",
+          "composition": "화려한 강남 빌딩들 사이 조금 애매한 위치의 라움소프트 건물",
+          "emotion": "어중간함",
+          "dialogue": [],
+          "narration": ["라움소프트는 강남이 아니라 그 언저리에 있었다.", "회사도 비슷했다."]
+        },
+        {
+          "cut_id": "S02_C02",
+          "importance": "high",
+          "visual_prompt": "Elevator lobby, Seo Ijun holding the open button, office workers rushing from behind",
+          "camera": "medium shot",
+          "composition": "이준의 손가락이 열림 버튼을 누르고 있고, 뒤에서 사람들이 뛰어온다",
+          "emotion": "자동 반응",
+          "dialogue": [],
+          "narration": ["엘리베이터 앞에서 이준은 또 버튼을 잡고 서 있었다."],
+          "sfx": ["타다닥"]
+        },
+        {
+          "cut_id": "S02_C03",
+          "importance": "medium",
+          "visual_prompt": "Office worker entering elevator, casually saying thanks without looking, Seo Ijun nodding",
+          "camera": "inside elevator shot",
+          "composition": "꽉 찬 엘리베이터 안, 이준은 버튼 앞 구석에 서 있다",
+          "emotion": "작게 잘린 감사",
+          "dialogue": [
+            {
+              "speaker": "영업팀 직원",
+              "text": "감사.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": ["마지막으로 탄 직원은 고맙습니다 대신 끝을 잘라먹었다.", "이준은 또 고개를 끄덕였다."]
+        }
+      ]
+    },
+    {
+      "scene_id": "S03",
+      "scene_title": "7층 서비스기획개발팀",
+      "location": "라움소프트 사무실",
+      "time": "아침, 아직 아무도 없는 시간",
+      "cuts": [
+        {
+          "cut_id": "S03_C01",
+          "importance": "high",
+          "visual_prompt": "Elevator doors opening to office floor, sign reads 7F Service Planning Development Team, cold fluorescent light",
+          "camera": "front shot",
+          "composition": "엘리베이터 문이 열리고 7층 표지판이 보인다",
+          "emotion": "익숙한 무게",
+          "dialogue": [],
+          "narration": ["7층.", "서비스기획개발팀."],
+          "sfx": ["딩"]
+        },
+        {
+          "cut_id": "S03_C02",
+          "importance": "high",
+          "visual_prompt": "Empty Korean IT office, computers left on overnight, dull fluorescent lights, instant rice container near trash bin",
+          "camera": "wide shot",
+          "composition": "텅 빈 사무실, 켜진 모니터 몇 대, 어제 데우다 만 즉석밥 흔적",
+          "emotion": "차갑고 오래된 공기",
+          "dialogue": [],
+          "narration": ["밤새 켜져 있던 컴퓨터들의 미지근한 열기.", "누군가 어제 데우다 만 즉석밥 냄새.", "그리고 형광등."]
+        },
+        {
+          "cut_id": "S03_C03",
+          "importance": "medium",
+          "visual_prompt": "Close-up of fluorescent office light, cold sterile glow, lonely mood",
+          "camera": "upward close-up",
+          "composition": "형광등 한 줄이 차갑게 깜빡인다",
+          "emotion": "무심함",
+          "dialogue": [],
+          "narration": ["형광등에 냄새가 있을 리 없는데,", "이준은 이 사무실의 형광등에서 늘 어떤 냄새가 난다고 느꼈다."]
+        },
+        {
+          "cut_id": "S03_C04",
+          "importance": "medium",
+          "visual_prompt": "Seo Ijun alone at office entrance, small silhouette in large empty office",
+          "camera": "wide shot from behind",
+          "composition": "넓은 사무실 안에 이준 혼자 서 있다",
+          "emotion": "외로움",
+          "dialogue": [],
+          "narration": ["차갑고, 오래되고, 무심한 냄새."]
+        }
+      ]
+    },
+    {
+      "scene_id": "S04",
+      "scene_title": "탕비실의 첫 커피",
+      "location": "회사 탕비실",
+      "time": "아침",
+      "cuts": [
+        {
+          "cut_id": "S04_C01",
+          "importance": "high",
+          "visual_prompt": "Small office pantry, coffee machine, paper cups stacked, muted morning light",
+          "camera": "medium shot",
+          "composition": "탕비실 커피머신 앞에 선 이준",
+          "emotion": "익숙한 의식",
+          "dialogue": [],
+          "narration": ["그가 가장 먼저 출근하는 건 누가 시켜서가 아니었다."]
+        },
+        {
+          "cut_id": "S04_C02",
+          "importance": "high",
+          "visual_prompt": "Coffee machine dispensing first weak lukewarm coffee into paper cup, steam almost invisible",
+          "camera": "close-up",
+          "composition": "종이컵 안으로 연한 커피가 떨어진다",
+          "emotion": "미적지근함",
+          "dialogue": [],
+          "narration": ["탕비실 커피머신은 첫 한 잔이 늘 미적지근하게 나왔다."],
+          "sfx": ["쪼르륵"]
+        },
+        {
+          "cut_id": "S04_C03",
+          "importance": "medium",
+          "visual_prompt": "Seo Ijun holding paper cup, not drinking it, looking down quietly",
+          "camera": "close-up on hand and cup",
+          "composition": "마시지 않는 커피를 든 손",
+          "emotion": "말 없는 배려",
+          "dialogue": [],
+          "narration": ["두 번째 잔부터 제대로 뜨거웠다."]
+        },
+        {
+          "cut_id": "S04_C04",
+          "importance": "high",
+          "visual_prompt": "Seo Ijun pouring lukewarm coffee into sink, quiet office pantry, no one watching",
+          "camera": "top-down close-up",
+          "composition": "미적지근한 첫 커피가 싱크대로 흘러간다",
+          "emotion": "아무도 모르는 희생",
+          "dialogue": [],
+          "narration": ["그래서 이준은 출근하면 일단 커피를 한 잔 뽑아 버린다."],
+          "sfx": ["촤르륵"]
+        },
+        {
+          "cut_id": "S04_C05",
+          "importance": "high",
+          "visual_prompt": "Second cup of hot coffee dispensing, visible steam rising, empty pantry",
+          "camera": "close-up",
+          "composition": "두 번째 잔에서만 희미한 김이 올라온다",
+          "emotion": "작은 대비",
+          "dialogue": [],
+          "narration": ["자기가 마시려는 게 아니라,", "다음 사람이 미적지근한 커피를 마시지 않게."]
+        },
+        {
+          "cut_id": "S04_C06",
+          "importance": "high",
+          "visual_prompt": "Seo Ijun placing hot coffee cup neatly near coffee machine for next person, his face expressionless",
+          "camera": "medium close-up",
+          "composition": "이준은 뜨거운 커피를 가지런히 두고 돌아선다",
+          "emotion": "습관이 된 선의",
+          "dialogue": [],
+          "narration": []
+        },
+        {
+          "cut_id": "S04_C07",
+          "importance": "high",
+          "visual_prompt": "Empty office pantry after Seo Ijun leaves, coffee machine and abandoned warmth, quiet cinematic frame",
+          "camera": "static wide shot",
+          "composition": "이준이 나간 뒤 탕비실에 커피머신만 남아 있다",
+          "emotion": "무명성",
+          "dialogue": [],
+          "narration": ["아무도 그걸 몰랐다.", "알 필요도 없는 일이었다."]
+        }
+      ]
+    }
+  ],
+  "ending_hook": {
+    "visual": "텅 빈 탕비실, 커피머신의 작은 불빛만 켜져 있다.",
+    "text": "아무도 그걸 몰랐다. 알 필요도 없는 일이었다."
+  }
+}

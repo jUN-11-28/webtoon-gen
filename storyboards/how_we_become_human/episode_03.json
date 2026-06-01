@@ -1,0 +1,1185 @@
+{
+"project_title": "우리는 그렇게 인간이 된다",
+"english_title": "How We Become Human",
+"style_guide": {
+"art_style": "realistic emotional Korean webtoon style, grounded office human drama, subtle facial acting, cinematic slice-of-life",
+"render_style": "soft semi-realistic rendering, restrained detail, muted realism",
+"line_style": "clean but slightly rough emotional line art, delicate facial lines, subtle hatching for fatigue",
+"color_palette": "muted gray, cold blue, dull beige, monitor glow cyan, subway black, late-night fluorescent white",
+"lighting_style": "lonely office monitor glow, cold fluorescent light, dark subway reflection, minimal night lighting",
+"mood_keywords": [
+"quiet burnout",
+"private competence",
+"lonely pride",
+"self-erasure",
+"emotional exhaustion",
+"unspoken pain",
+"false reassurance"
+],
+"camera_keywords": [
+"close-up",
+"reflection shot",
+"over-the-shoulder",
+"static wide shot",
+"low light composition",
+"empty space",
+"silent pause"
+],
+"quality_keywords": [
+"high quality webtoon panel",
+"consistent character design",
+"cinematic composition",
+"emotional realism",
+"natural Korean office atmosphere",
+"subtle acting"
+],
+"global_negative_prompt": "overly dramatic crying, exaggerated villain face, fantasy UI, glowing cyberpunk interface, comedic chibi style, glossy idol look, bright cheerful colors, action manga style, messy unreadable text"
+},
+"episode": {
+"number": "1-3",
+"title": "괜찮아",
+"style": "늦은 밤 사무실에서 이준의 진짜 능력과 숨겨둔 자존감이 드러나고, 지하철에서 스스로에게 거짓말처럼 괜찮다고 말하는 회차"
+},
+"character_bible": [
+{
+"id": "seo_ijun",
+"name": "서이준",
+"role": "주인공, 라움소프트 서비스기획개발팀 실무자",
+"visual_core": "Korean man in early 30s, tired but gentle face, dark under-eyes, slightly awkward half-smile, slim office worker build",
+"wardrobe": "plain office shirt, muted cardigan or jacket, dark slacks, worn leather shoes",
+"expression_notes": "사람 앞에서는 습관적으로 웃지만, 혼자 있을 때는 웃으려는 노력조차 하지 않는다. 코드를 볼 때만 아주 잠깐 표정이 풀린다.",
+"personality_notes": "자기 능력을 숨기고, 인정받고 싶어 하면서도 나서기를 두려워한다. 좋은 사람이 되려고 자기 감정을 계속 밀어낸다.",
+"reference_image": "references/characters/seo_ijun.png"
+},
+{
+"id": "baek_minjae",
+"name": "백민재",
+"role": "경력직 후배, 선택적으로 무례한 사람",
+"visual_core": "Korean man in late 20s, neat and polished office look, confident smile, smooth social expression",
+"wardrobe": "clean business casual, fitted shirt, neat jacket, expensive-looking watch",
+"expression_notes": "이번 회차에서는 직접 등장하지 않고 메신저 알림으로 존재감만 남긴다.",
+"personality_notes": "이준에게 업무와 심리적 압박을 계속 남기는 인물.",
+"reference_image": "references/characters/baek_minjae.png"
+},
+{
+"id": "yoon_seoha",
+"name": "윤서하",
+"role": "신규 합류 예정 PM",
+"visual_core": "Korean woman in early 30s, sharp calm eyes, minimal expression, neat silhouette, composed and restrained aura",
+"wardrobe": "not yet fully revealed, future reference: clean minimal office wear, dark neutral tones",
+"expression_notes": "이번 회차에서는 공지 메일 속 이름으로만 등장한다. 아직 얼굴은 보여주지 않거나 실루엣 처리 가능.",
+"personality_notes": "이준의 삶을 흔들 인물. 아직 이준은 그 사실을 모른다.",
+"reference_image": "references/characters/yoon_seoha.png"
+}
+],
+"scenes": [
+{
+"scene_id": "S01",
+"scene_title": "본업이 아닌 일",
+"scene_summary": "모두가 퇴근한 뒤 이준은 혼자 남아 아무도 시키지 않은 자동화 툴을 연다. 그 화면 앞에서만 그의 표정이 조금 풀린다.",
+"location": "라움소프트 서비스기획개발팀 사무실",
+"time": "밤 8시 이후",
+"visual_continuity": "1화-2 마지막의 어두운 사무실과 이준 자리 위 형광등 한 줄에서 이어진다. 사무실은 거의 꺼져 있고, 이준의 모니터만 켜져 있다.",
+"cuts": [
+{
+"cut_id": "S01_C01",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Late-night Korean IT office, only Seo Ijun's desk lit by one row of fluorescent light and monitor glow, empty desks around him, realistic emotional webtoon style",
+"camera": "static wide shot",
+"composition": "어두운 사무실 중앙에 이준의 자리만 작게 켜져 있다. 주변 책상들은 모두 비어 있다.",
+"emotion": "고립된 밤",
+"dialogue": [],
+"narration": [
+"그는 그제야 본업이 아닌 일을 열었다."
+],
+"sfx": [
+"웅—"
+],
+"bubble_position": "auto",
+"continuity_notes": "1화-2 엔딩 컷의 형광등 한 줄에서 바로 연결.",
+"outfit_continuity": "seo_ijun wears same office outfit, slightly rumpled after long day",
+"location_continuity": "same office, dark late-night atmosphere",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S01_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Close-up of computer screen showing file name loop_prototype_test_v3, simple development environment, subtle monitor glow, no flashy UI",
+"camera": "extreme close-up",
+"composition": "검은 개발 화면 위에 파일명 loop_prototype_test_v3가 선명하게 보인다.",
+"emotion": "숨겨둔 진짜 일",
+"dialogue": [],
+"narration": [
+"loop_prototype_test_v3",
+"아무도 시키지 않은 파일이었다."
+],
+"sfx": [
+"딸깍"
+],
+"bubble_position": "auto",
+"continuity_notes": "프로젝트 LOOP의 핵심 복선. 파일명은 정확히 유지.",
+"outfit_continuity": "only hands and monitor visible",
+"location_continuity": "Ijun's desk monitor",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S01_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun staring at code and automation dashboard, his tired face softening slightly for the first time, monitor light on his eyes",
+"camera": "close-up",
+"composition": "모니터 불빛에 이준의 얼굴이 비치고, 굳어 있던 입가가 아주 조금 풀린다.",
+"emotion": "아주 작은 생기",
+"dialogue": [],
+"narration": [
+"퇴근 후 혼자, 몇 달에 걸쳐 만들어온 것.",
+"이준은 그 화면 앞에서만 표정이 풀렸다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "일상 장면과 달리 이준의 표정이 처음으로 자연스럽게 풀리는 컷.",
+"outfit_continuity": "same rumpled office clothes",
+"location_continuity": "Ijun's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S01_C04",
+"importance": "medium",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Subtle montage panel of automation tool functions: Excel file dropping into system, report draft generated, CS inquiries categorized, inventory anomaly alert, sales drop notification, realistic UI panels",
+"camera": "montage composition",
+"composition": "엑셀 파일, 리포트 초안, CS 분류, 재고 이상치, 매출 급락 알림 UI가 조용히 이어진다.",
+"emotion": "정확한 능력",
+"dialogue": [],
+"narration": [
+"라움온이 하는 단순 반복 업무를 자동으로 줄여주는 도구였다."
+],
+"sfx": [
+"툭",
+"촤르륵",
+"딩"
+],
+"bubble_position": "auto",
+"continuity_notes": "기능은 화려한 미래형 UI가 아니라 실제 업무용 내부 도구처럼 보여야 함.",
+"outfit_continuity": "not applicable",
+"location_continuity": "software interface montage",
+"reference_previous_cut": false,
+"reference_character_sheet": false,
+"reference_scene_image": false
+},
+{
+"cut_id": "S01_C05",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun typing code in quiet office, no one asking him anything, no messenger bubbles, only calm code lines on screen",
+"camera": "over-the-shoulder shot",
+"composition": "메신저 알림은 꺼져 있고, 코드 화면만 차분히 열려 있다.",
+"emotion": "혼자 있을 때의 평온",
+"dialogue": [],
+"narration": [
+"여기선 아무도 그에게 부탁하지 않았다.",
+"아무도 그를 부려먹지 않았다."
+],
+"sfx": [
+"타닥",
+"타닥"
+],
+"bubble_position": "auto",
+"continuity_notes": "이전 회차의 메신저 압박과 대비.",
+"outfit_continuity": "same",
+"location_continuity": "Ijun's desk, dark office",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S01_C06",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Close-up of Seo Ijun's eyes focused on code, calm concentration, faint pride, cold monitor glow",
+"camera": "extreme close-up",
+"composition": "눈 밑은 피곤하지만 시선만은 또렷하다.",
+"emotion": "유일한 자존감",
+"dialogue": [],
+"narration": [
+"코드는 거짓말을 하지 않았고, 잘 돌아가면 잘 돌아가는 거였다.",
+"세상에서 유일하게, 자기가 똑똑하다고 느껴지는 시간."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "이준의 본래 능력과 자존감이 처음 드러나는 핵심 컷.",
+"outfit_continuity": "same",
+"location_continuity": "monitor-lit desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S02",
+"scene_title": "fail_logs",
+"scene_summary": "이준은 실패한 테스트 결과를 지우지 않고 모아둔다. 실패를 버리지 못하는 습관이 사람에게 받은 상처를 쌓아두는 습관과 겹친다.",
+"location": "이준의 자리, 개발 화면",
+"time": "밤",
+"visual_continuity": "모니터 화면 중심. 사무실 배경은 어둡게 흐리고, 폴더와 코드 화면만 선명하게 보인다.",
+"cuts": [
+{
+"cut_id": "S02_C01",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Computer screen showing a folder named fail_logs, many neatly organized failed test files, simple developer file explorer, realistic office monitor glow",
+"camera": "close-up on screen",
+"composition": "fail_logs 폴더와 날짜별로 정리된 실패 파일들이 보인다.",
+"emotion": "버리지 못하는 기록",
+"dialogue": [],
+"narration": [
+"그는 실패한 테스트 결과를 지우지 않았다.",
+"폴더 한쪽에 fail_logs를 따로 만들어 차곡차곡 모았다."
+],
+"sfx": [
+"딸깍"
+],
+"bubble_position": "auto",
+"continuity_notes": "4화에서 서하가 fail_logs를 발견하는 장면의 핵심 복선.",
+"outfit_continuity": "Ijun's hands visible, same sleeves",
+"location_continuity": "Ijun's desk monitor",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S02_C02",
+"importance": "medium",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun carefully renaming and organizing failed test files, calm methodical hand movements, quiet late-night office",
+"camera": "close-up on hand and mouse",
+"composition": "마우스 커서가 실패 로그 파일들을 가지런히 정리한다.",
+"emotion": "집요한 성실함",
+"dialogue": [],
+"narration": [
+"왜 안 됐는지를 알아야 다음에 안 틀린다는 게 그의 지론이었다."
+],
+"sfx": [
+"딸깍",
+"딸깍"
+],
+"bubble_position": "auto",
+"continuity_notes": "이준의 일하는 태도를 설명 없이 행동으로 보여줌.",
+"outfit_continuity": "same",
+"location_continuity": "desk monitor",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S02_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Conceptual emotional panel: folders of fail_logs blending into small dark boxes labeled with unspoken hurt, blurred memories of workplace messages, muted gray tones",
+"camera": "symbolic close-up montage",
+"composition": "실패 로그 폴더가 사람에게 받은 상처의 작은 상자들처럼 겹쳐 보인다.",
+"emotion": "상처의 보관",
+"dialogue": [],
+"narration": [
+"버리지 않고 남겨두는 습관.",
+"그건 코드에만 적용되는 게 아니었다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "상처를 쌓아두는 내면을 직접 설명 대신 상징으로 처리.",
+"outfit_continuity": "not applicable",
+"location_continuity": "symbolic mental space based on computer folders",
+"reference_previous_cut": true,
+"reference_character_sheet": false,
+"reference_scene_image": false
+},
+{
+"cut_id": "S02_C04",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun sitting alone in front of monitor, the fail_logs folder reflected faintly in his eyes, expression quiet and guarded",
+"camera": "front close-up",
+"composition": "이준의 눈동자 안에 폴더 아이콘들이 작게 비친다.",
+"emotion": "스스로를 속이는 습관",
+"dialogue": [],
+"narration": [
+"사람에게 받은 상처도 그는 잘 못 버렸다.",
+"언젠가 쓸모가 있을 거라고, 스스로를 속이면서."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "내면 독백의 감정선을 낮고 조용하게 유지.",
+"outfit_continuity": "same",
+"location_continuity": "dark office desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S03",
+"scene_title": "삼 초 만에 뜬 리포트",
+"scene_summary": "밤 아홉 시 반, 이준의 자동화 툴이 깔끔하게 작동한다. 그러나 그는 자기 능력을 드러낼 생각을 접고 다시 숨긴다.",
+"location": "라움소프트 사무실, 이준의 자리",
+"time": "밤 9시 30분",
+"visual_continuity": "사무실은 더 어두워지고, 이준의 모니터와 형광등 한 줄만 남는다.",
+"cuts": [
+{
+"cut_id": "S03_C01",
+"importance": "medium",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Digital clock on office monitor showing 9:30 PM, dark empty office reflected on screen",
+"camera": "close-up",
+"composition": "모니터 구석의 시계가 21:30을 가리킨다.",
+"emotion": "늦은 시간",
+"dialogue": [],
+"narration": [
+"밤 아홉 시 반."
+],
+"sfx": [
+"틱"
+],
+"bubble_position": "auto",
+"continuity_notes": "시간을 명확히 보여주는 전환 컷.",
+"outfit_continuity": "not applicable",
+"location_continuity": "Ijun's monitor",
+"reference_previous_cut": true,
+"reference_character_sheet": false,
+"reference_scene_image": false
+},
+{
+"cut_id": "S03_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Clean generated report draft appearing on monitor, automation complete notification, simple internal business dashboard, subtle satisfaction",
+"camera": "over-the-shoulder close-up",
+"composition": "리포트 초안이 깔끔하게 화면에 뜬다. 작은 완료 표시가 보인다.",
+"emotion": "작은 성취",
+"dialogue": [],
+"narration": [
+"화면에 리포트 초안이 깔끔하게 떴다.",
+"한 달 전엔 십오 분 걸리던 작업이, 이제 삼 초 만에 끝났다."
+],
+"sfx": [
+"딩"
+],
+"bubble_position": "auto",
+"continuity_notes": "프로토타입의 성능을 시각적으로 명확하게 보여줌.",
+"outfit_continuity": "Ijun visible from behind",
+"location_continuity": "desk monitor",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S03_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun leaning back in office chair, quietly looking at the completed report, faint relieved smile, dark office around him",
+"camera": "medium close-up",
+"composition": "이준이 의자에 등을 기대고, 화면을 오래 바라본다.",
+"emotion": "외로운 자부심",
+"dialogue": [],
+"narration": [
+"이준은 의자에 등을 기대고, 그 결과를 가만히 봤다."
+],
+"sfx": [
+"끼익"
+],
+"bubble_position": "auto",
+"continuity_notes": "이준의 표정은 크게 웃지 않고 아주 미세하게 풀린다.",
+"outfit_continuity": "same rumpled office outfit",
+"location_continuity": "Ijun's desk, dark office",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S03_C04",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun imagining a meeting room where people look impressed at one line of automation result, faint ghostly overlay, then fading",
+"camera": "dreamlike overlay shot",
+"composition": "화면 위로 회의실의 상상 장면이 흐릿하게 겹친다.",
+"emotion": "잠깐의 기대",
+"dialogue": [],
+"narration": [
+"이거 한 줄만 보여줘도, 회의 분위기가 달라질 텐데."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "상상은 흐릿하고 짧게. 바로 다음 컷에서 접힌다.",
+"outfit_continuity": "same",
+"location_continuity": "imagined meeting room overlay on monitor",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S03_C05",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun shaking his head slightly, the imagined meeting room dissolves, his expression closes again",
+"camera": "close-up",
+"composition": "이준이 고개를 작게 젓고, 얼굴이 다시 닫힌다.",
+"emotion": "스스로 접는 마음",
+"dialogue": [],
+"narration": [
+"그런 생각이 잠깐 들었다가, 그는 고개를 저었다.",
+"괜히 나섰다가 분위기 이상해지면 안 되니까."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "나서고 싶은 마음이 자기검열로 꺼지는 순간.",
+"outfit_continuity": "same",
+"location_continuity": "Ijun's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S03_C06",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Close-up of Seo Ijun minimizing the prototype window and hiding it behind other ordinary work documents, dim monitor light",
+"camera": "over-the-shoulder close-up",
+"composition": "프로토타입 창이 작아지고, 평범한 업무 문서 뒤로 숨겨진다.",
+"emotion": "자기 재능의 은닉",
+"dialogue": [],
+"narration": [
+"그는 늘 그렇게, 자기가 가진 가장 좋은 것을 가장 안쪽에 숨겼다."
+],
+"sfx": [
+"딸깍"
+],
+"bubble_position": "auto",
+"continuity_notes": "가장 좋은 카드를 숨기는 반복 행동.",
+"outfit_continuity": "same",
+"location_continuity": "desk monitor",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S04",
+"scene_title": "윤서하라는 이름",
+"scene_summary": "회사 공지 메일로 신규 PM 윤서하의 이름이 처음 등장한다. 이준은 별생각 없이 닫지만, 그 이름은 그의 인생을 흔들 복선이 된다.",
+"location": "라움소프트 사무실, 이준의 자리",
+"time": "밤",
+"visual_continuity": "프로토타입 창을 닫은 직후 메일 알림이 뜬다.",
+"cuts": [
+{
+"cut_id": "S04_C01",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Office email notification popping up on monitor after prototype window closes, Korean corporate email interface, dark office background",
+"camera": "close-up on monitor",
+"composition": "프로토타입 창이 닫힌 자리에 회사 공지 메일 알림이 뜬다.",
+"emotion": "운명의 작은 알림",
+"dialogue": [],
+"narration": [
+"화면을 닫는데, 회사 공지 메일이 하나 떴다."
+],
+"sfx": [
+"띠링"
+],
+"bubble_position": "auto",
+"continuity_notes": "프로토타입을 숨긴 직후 서하의 이름이 등장.",
+"outfit_continuity": "Ijun's hand visible",
+"location_continuity": "desk monitor",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S04_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Close-up of corporate announcement email in Korean, subject about product manager onboarding, name Yoon Seoha highlighted subtly",
+"camera": "extreme close-up",
+"composition": "메일 본문 중 '윤서하 PM' 이름만 아주 미세하게 강조되어 보인다.",
+"emotion": "아직 모르는 변화",
+"dialogue": [],
+"narration": [],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "메일 문구는 정확히 읽히게 구성.",
+"outfit_continuity": "not applicable",
+"location_continuity": "email screen",
+"reference_previous_cut": true,
+"reference_character_sheet": false,
+"reference_scene_image": false
+},
+{
+"cut_id": "S04_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Email screen readable: [인사] 프로덕트 매니저 입사 안내 6월 3일자로 윤서하 PM이 신규 합류합니다. 신규 프로젝트 TF에 배정될 예정이니 많은 협조 부탁드립니다.",
+"camera": "screen insert shot",
+"composition": "공지 메일 전체가 패널 안에 들어오고, 윤서하 이름이 시선 중심에 놓인다.",
+"emotion": "복선",
+"dialogue": [
+{
+"speaker": "회사 공지",
+"text": "[인사] 프로덕트 매니저 입사 안내\n6월 3일자로 윤서하 PM이 신규 합류합니다.\n신규 프로젝트 TF에 배정될 예정이니 많은 협조 부탁드립니다.",
+"bubble_position": "center"
+}
+],
+"narration": [],
+"sfx": [],
+"bubble_position": "center",
+"continuity_notes": "윤서하의 첫 등장. 아직 얼굴은 등장하지 않음.",
+"outfit_continuity": "not applicable",
+"location_continuity": "email screen",
+"reference_previous_cut": true,
+"reference_character_sheet": false,
+"reference_scene_image": false
+},
+{
+"cut_id": "S04_C04",
+"importance": "medium",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun reading the name Yoon Seoha once, expression neutral and tired, then moving mouse to close the email",
+"camera": "close-up side shot",
+"composition": "이준의 눈이 이름을 한 번 훑고, 손은 닫기 버튼으로 간다.",
+"emotion": "아무것도 모르는 지나침",
+"dialogue": [],
+"narration": [
+"이준은 그 이름을 한 번 읽고, 별생각 없이 메일을 닫았다."
+],
+"sfx": [
+"딸깍"
+],
+"bubble_position": "auto",
+"continuity_notes": "이준은 아직 이 이름의 의미를 모른다.",
+"outfit_continuity": "same",
+"location_continuity": "Ijun's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S04_C05",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Symbolic panel: closed email window reflected faintly on dark monitor, a vague silhouette of a woman in the reflection, not fully revealed",
+"camera": "symbolic reflection shot",
+"composition": "닫힌 메일 화면 위로 아직 알 수 없는 여성의 희미한 실루엣이 겹친다.",
+"emotion": "다가오는 균열",
+"dialogue": [],
+"narration": [
+"그게 자기 인생을 통째로 흔들 사람일 거라고는,",
+"그날의 그는 전혀 몰랐다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "윤서하의 실루엣은 명확히 보여주지 않고 예고만.",
+"outfit_continuity": "yoon_seoha silhouette only",
+"location_continuity": "monitor reflection",
+"reference_previous_cut": true,
+"reference_character_sheet": false,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S05",
+"scene_title": "텅 빈 밤 지하철",
+"scene_summary": "퇴근길 지하철은 아침과 달리 텅 비어 있다. 이준은 누군가에게 양보할 사람이 없을 만큼 늦어서야 비로소 앉는다.",
+"location": "서울 지하철 2호선 내부",
+"time": "늦은 밤",
+"visual_continuity": "1화-1의 아침 지하철과 같은 공간이지만 완전히 비어 있다. 창밖은 다시 검은 터널.",
+"cuts": [
+{
+"cut_id": "S05_C01",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Empty late-night Seoul subway line 2 interior, Seo Ijun sitting alone, fluorescent subway light, dark tunnel outside windows",
+"camera": "wide shot",
+"composition": "텅 빈 지하철 좌석 한쪽에 이준이 작게 앉아 있다.",
+"emotion": "늦어서 얻은 자리",
+"dialogue": [],
+"narration": [
+"집에 가는 지하철은 텅 비어 있었다.",
+"이준은 자리에 앉았다."
+],
+"sfx": [
+"덜컹",
+"덜컹"
+],
+"bubble_position": "auto",
+"continuity_notes": "1화-1 아침 지하철과 대비. 같은 노선, 다른 시간.",
+"outfit_continuity": "same office outfit, more tired and loosened",
+"location_continuity": "subway line 2 interior",
+"reference_previous_cut": false,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S05_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun sitting with worn shoes planted on subway floor, empty seats around him, quiet late-night mood",
+"camera": "low angle close-up",
+"composition": "닳은 구두와 빈 좌석들이 함께 보인다.",
+"emotion": "하루의 반복",
+"dialogue": [],
+"narration": [
+"아침엔 자리를 양보하고, 밤엔 빈자리에 앉는다.",
+"그게 그의 하루였다."
+],
+"sfx": [
+"덜컹"
+],
+"bubble_position": "auto",
+"continuity_notes": "구두 복선 유지. 1화-1에서 닳은 구두와 연결.",
+"outfit_continuity": "worn leather shoes from episode 1-1",
+"location_continuity": "subway floor",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S05_C03",
+"importance": "medium",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun looking at phone in empty subway, work messenger app showing red unread badge from Baek Minjae",
+"camera": "over-the-shoulder close-up",
+"composition": "업무 메신저 앱 위에 빨간 숫자가 떠 있다. 발신자는 민재.",
+"emotion": "끝나지 않는 일",
+"dialogue": [],
+"narration": [
+"업무 메신저에 빨간 숫자가 또 쌓여 있었다.",
+"민재였다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "민재는 직접 등장하지 않고 알림으로 압박.",
+"outfit_continuity": "same hands and sleeve",
+"location_continuity": "subway seat",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S05_C04",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun's thumb hovering over unread work message, then not opening it, phone screen dimming slightly",
+"camera": "extreme close-up",
+"composition": "손가락이 알림 위에서 멈췄다가 내려간다.",
+"emotion": "아주 사소한 미룸",
+"dialogue": [],
+"narration": [
+"열어보지 않았다.",
+"처음으로, 아주 사소하게, 그는 그걸 미뤘다."
+],
+"sfx": [
+"툭"
+],
+"bubble_position": "auto",
+"continuity_notes": "아직 거절은 아니지만 첫 미세한 균열.",
+"outfit_continuity": "same",
+"location_continuity": "subway seat, phone screen",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S06",
+"scene_title": "검은 유리의 얼굴",
+"scene_summary": "터널 속 검은 유리에 이준의 얼굴이 다시 비친다. 아침과 같은 얼굴이지만, 이제는 웃으려는 노력조차 없다.",
+"location": "지하철 내부, 터널 구간",
+"time": "늦은 밤",
+"visual_continuity": "1화-1의 검은 창문 반사 컷과 구도 반복. 아침보다 더 비어 있고 어둡다.",
+"cuts": [
+{
+"cut_id": "S06_C01",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Black subway window reflection of Seo Ijun's tired face, dark tunnel outside, empty train interior reflected faintly",
+"camera": "reflection close-up",
+"composition": "검은 유리창에 이준의 얼굴이 떠오른다. 창밖은 터널뿐이다.",
+"emotion": "반복되는 자기 얼굴",
+"dialogue": [],
+"narration": [
+"창밖은 다시 터널이었다.",
+"검은 유리에 그의 얼굴이 떠올랐다."
+],
+"sfx": [
+"덜컹",
+"덜컹"
+],
+"bubble_position": "auto",
+"continuity_notes": "1화-1 아침 반사 컷과 같은 구도로 반복.",
+"outfit_continuity": "same tired appearance",
+"location_continuity": "subway line 2 window",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S06_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Close-up of Seo Ijun's reflected face, dark under-eyes, awkward mouth no longer trying to smile, dim subway light",
+"camera": "extreme close-up reflection",
+"composition": "눈 밑과 입꼬리만 크게 보인다. 입꼬리는 더 이상 올라가지 않는다.",
+"emotion": "웃음 없는 피로",
+"dialogue": [],
+"narration": [
+"아침에 봤던 얼굴이랑 같았다.",
+"다른 게 있다면, 지금은 웃으려는 노력조차 하지 않고 있다는 거였다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "웃음이 사라진 얼굴을 조용히 강조.",
+"outfit_continuity": "same",
+"location_continuity": "subway window reflection",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S06_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun sitting alone in empty subway, looking at his own reflection, small body in long horizontal frame",
+"camera": "wide side shot",
+"composition": "이준은 자기 반사를 보고 있고, 빈 좌석들이 길게 이어진다.",
+"emotion": "자기 질문",
+"dialogue": [],
+"narration": [
+"이준은 문득 이상한 생각을 했다.",
+"나는 하루에 몇 번이나 웃었지."
+],
+"sfx": [
+"덜컹"
+],
+"bubble_position": "auto",
+"continuity_notes": "내면 질문의 시작. 여백을 크게 둔다.",
+"outfit_continuity": "same",
+"location_continuity": "empty subway car",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S06_C04",
+"importance": "medium",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Montage of Seo Ijun's polite smiles from the day: smiling to Oh team lead, Baek Minjae, Jung Haram, sales team email, all slightly ghostly and artificial",
+"camera": "memory montage",
+"composition": "하루 동안 빌려 쓴 웃음들이 작은 컷들로 겹쳐 지나간다.",
+"emotion": "빌려 쓴 표정",
+"dialogue": [],
+"narration": [
+"웃긴 했다. 아주 많이.",
+"그런데 그 웃음들이 어쩐지 다 자기 것이 아닌 것처럼 느껴졌다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "1화-2 인물들에게 보여준 웃음을 회상처럼 삽입.",
+"outfit_continuity": "same day outfit",
+"location_continuity": "memory montage of office and lunch scenes",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S06_C05",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun's reflection overlaid with faint polite smile masks fading away, dark subway window, emotional realism",
+"camera": "symbolic reflection close-up",
+"composition": "검은 유리에 이준의 얼굴과 여러 개의 희미한 웃는 얼굴이 겹쳤다가 사라진다.",
+"emotion": "자기 것이 아닌 얼굴",
+"dialogue": [],
+"narration": [
+"누군가를 편하게 해주려고 빌려 쓴 표정 같았다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "과장하지 않고 은유적으로 처리.",
+"outfit_continuity": "same",
+"location_continuity": "subway window reflection",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S07",
+"scene_title": "좋은 사람이고 싶었다",
+"scene_summary": "이준은 좋은 사람이 되고 싶어서 다 받았고 다 참았다. 하지만 그 방식이 자신을 갉아먹고 있다는 걸 아직 인정하지 못한다.",
+"location": "지하철 내부와 이준의 내면 이미지",
+"time": "늦은 밤",
+"visual_continuity": "지하철 창 반사를 중심으로 내면 독백이 이어진다. 바깥은 계속 터널.",
+"cuts": [
+{
+"cut_id": "S07_C01",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun's reflected face in subway window, faint images of rude people and selfish office workers behind the reflection, muted dark tones",
+"camera": "reflection montage",
+"composition": "이준의 얼굴 뒤로 무례한 사람들의 흐릿한 잔상이 지나간다.",
+"emotion": "경멸과 자기검열",
+"dialogue": [],
+"narration": [
+"그는 좋은 사람이고 싶었다.",
+"이기적인 인간들을 경멸했고, 무례한 인간들처럼 되지 않으려고 평생을 조심했다."
+],
+"sfx": [
+"덜컹"
+],
+"bubble_position": "auto",
+"continuity_notes": "무례한 사람들을 직접 악역처럼 그리지 말고 흐릿한 인상으로만.",
+"outfit_continuity": "same",
+"location_continuity": "subway reflection and mental overlay",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S07_C02",
+"importance": "medium",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Symbolic panel of Seo Ijun silently receiving many small burdens: papers, messages, apology emails, requests, all piling into his arms",
+"camera": "symbolic medium shot",
+"composition": "이준의 팔 안으로 서류와 말풍선들이 조용히 쌓인다.",
+"emotion": "쌓이는 참음",
+"dialogue": [],
+"narration": [
+"화내는 사람이 되고 싶지 않았다.",
+"누군가를 곤란하게 만들고 싶지 않았다."
+],
+"sfx": [
+"툭",
+"툭",
+"툭"
+],
+"bubble_position": "auto",
+"continuity_notes": "이준이 다 받아온 하루와 삶을 은유.",
+"outfit_continuity": "same",
+"location_continuity": "symbolic dark space based on subway interior",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S07_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun in subway reflection, shoulders slightly slumped, eyes fixed on himself, no tears, only exhaustion",
+"camera": "close-up reflection",
+"composition": "창에 비친 얼굴을 조금 더 오래 본다.",
+"emotion": "잘못된 믿음",
+"dialogue": [],
+"narration": [
+"그래서 다 받았다.",
+"다 참았다.",
+"다 괜찮다고 했다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "짧은 문장 세 개를 나레이션 박스로 나눠 리듬감 있게 배치.",
+"outfit_continuity": "same",
+"location_continuity": "subway window reflection",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S07_C04",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Empty subway platform briefly visible through opening doors, no one enters, cold fluorescent station light, Seo Ijun remains seated",
+"camera": "wide shot from inside train",
+"composition": "문이 열렸지만 플랫폼엔 아무도 없다. 이준은 움직이지 않는다.",
+"emotion": "비어 있는 정거장",
+"dialogue": [],
+"narration": [
+"지하철이 다음 역에 섰다.",
+"문이 열렸고, 아무도 타지 않았고, 다시 닫혔다."
+],
+"sfx": [
+"딩동",
+"스르륵",
+"쿵"
+],
+"bubble_position": "auto",
+"continuity_notes": "현실 소리로 내면 독백을 잠깐 끊는다.",
+"outfit_continuity": "same",
+"location_continuity": "subway car and platform",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+},
+{
+"scene_id": "S08",
+"scene_title": "괜찮아",
+"scene_summary": "이준은 아무도 듣지 못할 만큼 작게 괜찮다고 말한다. 그 말이 오늘 한 말 중 제일 거짓말 같다는 걸 알면서도 다시 반복한다.",
+"location": "지하철 내부, 터널",
+"time": "늦은 밤",
+"visual_continuity": "지하철은 다시 어두운 터널을 달린다. 검은 창 반사와 텅 빈 객차가 반복된다.",
+"cuts": [
+{
+"cut_id": "S08_C01",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun looking at his reflection in the black subway window, lips barely moving, empty train, dark tunnel outside",
+"camera": "tight reflection close-up",
+"composition": "입술만 아주 작게 움직인다. 말풍선은 작고 희미하다.",
+"emotion": "거짓말 같은 위로",
+"dialogue": [
+{
+"speaker": "서이준",
+"text": "괜찮아.",
+"bubble_position": "bottom_right"
+}
+],
+"narration": [
+"그러다 작게, 아무에게도 들리지 않게 중얼거렸다."
+],
+"sfx": [
+"덜컹"
+],
+"bubble_position": "bottom_right",
+"continuity_notes": "대사는 아주 작게, 말풍선도 작고 낮게 배치.",
+"outfit_continuity": "same",
+"location_continuity": "subway window reflection",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S08_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Close-up of Seo Ijun's reflected eyes after saying 괜찮아, eyes tired and unconvinced, no tears",
+"camera": "extreme close-up reflection",
+"composition": "눈만 보인다. 아무도 믿지 않는 눈이다.",
+"emotion": "스스로도 믿지 못하는 말",
+"dialogue": [],
+"narration": [
+"그 말이, 오늘 그가 한 말 중에 제일 거짓말 같았다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "감정은 과하게 터뜨리지 않고 눌러 표현.",
+"outfit_continuity": "same",
+"location_continuity": "subway reflection",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S08_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun sitting alone in empty subway, repeating to himself quietly, small speech bubbles fading into dark car",
+"camera": "wide shot",
+"composition": "넓은 빈 객차 안에 작은 말풍선 두 개가 희미하게 떠 있다.",
+"emotion": "반복되는 자기기만",
+"dialogue": [
+{
+"speaker": "서이준",
+"text": "괜찮아.",
+"bubble_position": "bottom_right"
+},
+{
+"speaker": "서이준",
+"text": "이 정도는 괜찮아.",
+"bubble_position": "bottom_right"
+}
+],
+"narration": [
+"그는 그걸 알면서도, 또 한 번 그렇게 말했다."
+],
+"sfx": [
+"덜컹",
+"덜컹"
+],
+"bubble_position": "bottom_right",
+"continuity_notes": "말풍선은 점점 작아지는 느낌.",
+"outfit_continuity": "same",
+"location_continuity": "empty subway car",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S08_C04",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Symbolic dark panel of something slowly rotting inside a clean glass jar, subtle metaphor, not grotesque, muted colors",
+"camera": "symbolic close-up",
+"composition": "깨끗한 유리병 안쪽에서 아주 조금씩 어두운 얼룩이 번진다.",
+"emotion": "속에서 썩어감",
+"dialogue": [],
+"narration": [
+"속이 조금씩 썩어가고 있다는 걸, 그는 아직 인정하지 않았다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "직접적인 신체 묘사 대신 상징적 이미지로 처리.",
+"outfit_continuity": "not applicable",
+"location_continuity": "symbolic internal image",
+"reference_previous_cut": false,
+"reference_character_sheet": false,
+"reference_scene_image": false
+},
+{
+"cut_id": "S08_C05",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun's reflection in subway window becoming faint as tunnel darkness passes, his face almost swallowed by black glass",
+"camera": "reflection close-up",
+"composition": "검은 터널이 지나가며 이준의 얼굴을 거의 삼킨다.",
+"emotion": "무너지지 않기 위한 척",
+"dialogue": [],
+"narration": [
+"인정하는 순간 무너질 것 같아서.",
+"그래서 그는 오늘도, 무너지지 않기 위해 괜찮은 척을 했다."
+],
+"sfx": [
+"고오오"
+],
+"bubble_position": "auto",
+"continuity_notes": "이준의 얼굴이 어둠 속에 사라질 듯 말 듯.",
+"outfit_continuity": "same",
+"location_continuity": "subway window reflection",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S08_C06",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Final vertical webtoon panel, subway train moving through completely dark tunnel, small lit windows, Seo Ijun barely visible inside, melancholic cinematic mood",
+"camera": "exterior long shot",
+"composition": "캄캄한 터널 속을 지하철이 길게 지나간다. 창 하나에 이준이 아주 작게 보인다.",
+"emotion": "끝나지 않는 밤",
+"dialogue": [],
+"narration": [
+"지하철은 캄캄한 터널을 계속 달렸다."
+],
+"sfx": [
+"덜컹",
+"덜컹"
+],
+"bubble_position": "auto",
+"continuity_notes": "1화 전체 엔딩. 다음 2화 윤서하 입사로 연결.",
+"outfit_continuity": "same",
+"location_continuity": "subway tunnel",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+}
+],
+"ending_hook": {
+"visual": "캄캄한 터널을 달리는 지하철. 창문 안에 이준이 아주 작게 앉아 있고, 검은 유리에 그의 얼굴이 희미하게 겹쳐 있다.",
+"text": "지하철은 캄캄한 터널을 계속 달렸다."
+}
+}

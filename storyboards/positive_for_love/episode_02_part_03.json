@@ -1,0 +1,757 @@
+{
+  "project_title": "너에게 확진",
+  "english_title": "Positive For Love",
+  "style_guide": {
+    "art_style": "Polished Korean romance webtoon style with expressive romantic comedy acting, attractive characters, soft cinematic framing, clean modern manhwa aesthetics",
+    "render_style": "Finished vertical webtoon panel, clean digital painting, soft shading, subtle texture, high detail faces, readable expressions",
+    "line_style": "Clean line art, elegant thin-to-medium outlines, expressive facial lines, subtle comedic exaggeration when needed",
+    "color_palette": "COVID-era urban cafe palette, soft beige, muted pink, clean white, gentle blue-gray shadows, warm skin tones",
+    "lighting_style": "Soft natural daylight for clinic and cafe, cozy indoor lighting for rooms, subtle dramatic shadow for Seowoo tension scenes",
+    "mood_keywords": [
+      "romantic comedy",
+      "COVID-era anxiety",
+      "awkward sweetness",
+      "emotional distance",
+      "masked romance",
+      "campus youth drama"
+    ],
+    "camera_keywords": [
+      "vertical webtoon",
+      "cinematic close-up",
+      "over-the-shoulder",
+      "split screen",
+      "phone screen insert",
+      "wide establishing shot"
+    ],
+    "quality_keywords": [
+      "high quality",
+      "finished Korean webtoon cut",
+      "consistent characters",
+      "readable speech bubble space",
+      "clean composition"
+    ],
+    "global_negative_prompt": "low quality, blurry, extra fingers, distorted face, inconsistent character design, unreadable text, messy speech bubbles, western comic style, overly realistic photo, horror, gore"
+  },
+  "episode": {
+    "number": 2,
+    "title": "밀접접촉자입니다 - 3: 사람 마음도 2m 지키면 안전해요?",
+    "style": "cafe reunion, triangular tension, Seowoo's jealousy cliffhanger"
+  },
+  "character_bible": [
+    {
+      "id": "yoon_ajin",
+      "name": "윤아진",
+      "role": "female lead, COVID-rule obsessed student preparing to study abroad",
+      "visual_core": "fresh rabbit-like beauty, bright clear eyes, soft cheeks, neat black or dark brown hair, youthful and intelligent aura, expressive blush",
+      "wardrobe": "neat casual campus clothes, KF94 mask, small crossbody bag, always carrying sanitizer, wipes, spare masks, study-abroad document folder",
+      "expression_notes": "easily flustered, anxious when COVID or study abroad is mentioned, tries to look rational, blushes when Jihwak flirts",
+      "personality_notes": "smart, rule-abiding, sincere, overthinks romance as symptoms, clumsy only with emotions",
+      "reference_image": "references/characters/yoon_ajin.png"
+    },
+    {
+      "id": "kang_jihwak",
+      "name": "강지확",
+      "role": "male lead, instinctively charming and direct",
+      "visual_core": "Arabian puppy-like handsome face, thick eyebrows, deep eyes, sharp facial structure, slightly exotic first impression, warm playful eyes when smiling",
+      "wardrobe": "clean casual clothes, hoodie or knit, black or white mask, simple bag, relaxed but stylish campus look",
+      "expression_notes": "playful eyes, relaxed smile, becomes quietly sincere when A-jin is anxious, flirts naturally without overacting",
+      "personality_notes": "unaware star quality, capable, warm, direct once he cares, jokes to ease tension",
+      "reference_image": "references/characters/kang_jihwak.png"
+    },
+    {
+      "id": "baek_seowoo",
+      "name": "백서우",
+      "role": "second male lead, soft controlling antagonist",
+      "visual_core": "tofu-fox type, pale clean face, gentle eyes, neat hair, elegant and controlled expression, beautiful but cold under the surface",
+      "wardrobe": "neat shirt or cardigan, perfectly worn mask, clean campus style, carries carefully prepared care kits",
+      "expression_notes": "soft smile with cold eyes, tiny cracks when jealous, calm voice, suppressed possessiveness",
+      "personality_notes": "perfectly helpful on the outside, controlling kindness, jealous of Jihwak, wants to be chosen by A-jin",
+      "reference_image": "references/characters/baek_seowoo.png"
+    },
+    {
+      "id": "minseo",
+      "name": "민서",
+      "role": "A-jin's friend, comic commentator",
+      "visual_core": "lively Korean college girl, playful eyes, casual ponytail or bob, friendly expressive face",
+      "wardrobe": "casual cafe staff outfit or comfy room-call look, mask when outside",
+      "expression_notes": "teasing smile, exaggerated reactions, laughs easily",
+      "personality_notes": "quick-witted, sees romantic signs before A-jin does, comic relief",
+      "reference_image": "references/characters/minseo.png"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "scene_title": "첫 외출 허가",
+      "scene_summary": "음성 결과 후 아진은 카페에 놓고 온 유학 서류를 찾으러 가고, 지확과 다시 만난다.",
+      "location": "the cafe from episode 1",
+      "time": "afternoon",
+      "visual_continuity": "Same cafe as episode 1, quieter, distancing stickers on floor, study abroad folder, warm daylight through glass.",
+      "cuts": [
+        {
+          "cut_id": "S01_C01",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin enters the quiet cafe after negative result, wearing mask, carrying bag, looking for her study abroad folder",
+          "camera": "wide vertical",
+          "composition": "Cafe entrance signs and sanitizer visible, A-jin small in frame",
+          "emotion": "cautious relief",
+          "dialogue": [],
+          "narration": [
+            "검사 결과가 음성으로 나온 뒤, 아진은 카페에 놓고 온 유학 서류를 찾으러 갔다."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S01_C02",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin quietly collecting her study abroad documents from a table, checking if all pages are there",
+          "camera": "medium shot",
+          "composition": "Folder open, her careful hands emphasized",
+          "emotion": "focused",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C03",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Jihwak appears behind her and calls her name, playful eyes over mask; A-jin startled",
+          "camera": "over-the-shoulder",
+          "composition": "Jihwak behind, A-jin turning sharply",
+          "emotion": "surprise reunion",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "윤아진 씨.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "강지확 씨? 여기 왜…",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C04",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Jihwak claims he came back for his 'infection prevention score', A-jin looks unimpressed but amused",
+          "camera": "medium two-shot",
+          "composition": "Distance between them maintained, empty cafe seats",
+          "emotion": "playful comfort",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "저도 두고 간 거 있어서요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "뭘요?",
+              "bubble_position": "bottom_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "방역 점수.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C05",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "A-jin raises her palm to stop Jihwak as he steps closer, floor distancing sticker between them",
+          "camera": "full-body two-shot",
+          "composition": "Distancing sticker centered like a barrier",
+          "emotion": "comic boundary",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "거리두기.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "음성 나왔는데도요?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C06",
+          "importance": "high",
+          "characters": [
+            "kang_jihwak",
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Jihwak looking down at the distancing sticker, then up at A-jin with a teasing but sincere gaze",
+          "camera": "low angle / close-up",
+          "composition": "Sticker foreground, Jihwak and A-jin separated above it",
+          "emotion": "romantic tension",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "이거 되게 얄밉네요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "뭐가요?",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C07",
+          "importance": "high",
+          "characters": [
+            "kang_jihwak",
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Romantic close two-shot over the distancing sticker as Jihwak asks if hearts can stay safe at 2 meters",
+          "camera": "cinematic close-up",
+          "composition": "Their eyes meet across empty space, sticker in center bottom",
+          "emotion": "heart-stopping flirt",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "사람 마음도 2m 지키면 안전해요?",
+              "bubble_position": "center"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    },
+    {
+      "scene_id": "S02",
+      "scene_title": "서우의 등장",
+      "scene_summary": "서우가 카페에 들어오고, 아진과 지확 사이의 공기를 눈치챈다.",
+      "location": "cafe interior",
+      "time": "afternoon",
+      "visual_continuity": "Cafe doorway bell, triangular tension between A-jin, Jihwak, Seowoo; Seowoo's smile is soft but eyes don't smile.",
+      "cuts": [
+        {
+          "cut_id": "S02_C01",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak",
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Cafe door opens with bell, Seowoo enters wearing perfectly fitted mask and neat clothes; A-jin and Jihwak turn at the same time",
+          "camera": "wide vertical",
+          "composition": "Seowoo at door, A-jin and Jihwak separated inside, triangle composition",
+          "emotion": "interruption",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "아진아.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [
+            "딸랑"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S02_C02",
+          "importance": "medium",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Seowoo's eyes move first to Jihwak before A-jin, soft smile with cold gaze",
+          "camera": "close-up",
+          "composition": "His eyes emphasized above mask",
+          "emotion": "quiet rivalry",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "둘이 같이 있었네.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C03",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak",
+            "baek_seowoo"
+          ],
+          "visual_prompt": "A-jin waves hands flustered while Jihwak answers calmly, Seowoo observing both reactions",
+          "camera": "three-shot",
+          "composition": "A-jin center flustered, Jihwak calm side, Seowoo at doorway",
+          "emotion": "awkward triangle",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "아, 우연히…",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "네. 우연히요.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C04",
+          "importance": "medium",
+          "characters": [
+            "baek_seowoo",
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Seowoo approaches A-jin and naturally checks her study abroad folder, acting helpful",
+          "camera": "medium shot",
+          "composition": "Seowoo beside A-jin, folder between them",
+          "emotion": "familiar care",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "유학 서류 찾으러 온 거야? 내가 봐줄게.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "감사해요. 선배가 봐주면 든든하죠.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C05",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo",
+            "kang_jihwak",
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Seowoo intentionally speaks while looking at Jihwak, A-jin unaware of the subtext",
+          "camera": "medium three-shot",
+          "composition": "Seowoo foreground, Jihwak in background, A-jin between them",
+          "emotion": "subtle provocation",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "아진이는 중요한 일 앞두고 있어서, 괜히 흔들리면 안 되거든.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C06",
+          "importance": "high",
+          "characters": [
+            "kang_jihwak",
+            "yoon_ajin",
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Jihwak responds softly but firmly, A-jin looks at him again, Seowoo's expression tightens",
+          "camera": "close three-shot",
+          "composition": "Jihwak's calm face, A-jin's stirred expression, Seowoo in partial shadow",
+          "emotion": "emotional counterpoint",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "조심하는 건 좋은데.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "너무 혼자 겁먹진 마요.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C07",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin touched by Jihwak's words, eyes softening over mask while holding her documents",
+          "camera": "close-up",
+          "composition": "A-jin isolated, background slightly blurred",
+          "emotion": "heart shaken",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C08",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Seowoo watches A-jin look at Jihwak, his polite smile fading for the first time",
+          "camera": "close-up",
+          "composition": "Half of his face in soft cafe shadow",
+          "emotion": "jealous tension",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    },
+    {
+      "scene_id": "S03",
+      "scene_title": "서우의 첫 균열",
+      "scene_summary": "카페를 나온 서우는 위험 동선 정보를 듣고도 아진과 지확을 바라보며 흔들린다.",
+      "location": "street outside the cafe",
+      "time": "late afternoon",
+      "visual_continuity": "Street outside cafe, glass window showing A-jin and Jihwak inside, Seowoo alone outside, phone call with Minjae.",
+      "cuts": [
+        {
+          "cut_id": "S03_C01",
+          "importance": "medium",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Seowoo walking alone outside the cafe, phone ringing, late afternoon shadows, his expression controlled",
+          "camera": "medium shot",
+          "composition": "Cafe window behind him, phone vibrating in hand",
+          "emotion": "uneasy transition",
+          "dialogue": [],
+          "narration": [
+            "카페를 나온 뒤, 서우는 혼자 걸으며 누군가에게 전화를 받았다."
+          ],
+          "sfx": [
+            "지잉"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S03_C02",
+          "importance": "medium",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Close-up of phone caller ID '민재', Seowoo glances around before answering",
+          "camera": "insert close-up",
+          "composition": "Caller ID prominent, Seowoo's hand tense",
+          "emotion": "warning",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C03",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Seowoo on phone, face stiffening as he hears about a possible infected route near a gathering he attended",
+          "camera": "close-up",
+          "composition": "His eyes narrow, background slightly darkened",
+          "emotion": "dangerous knowledge",
+          "dialogue": [
+            {
+              "speaker": "민재",
+              "text": "너 그날 확진자 나온 모임 근처에 있었다며. 혹시 연락 온 거 없어?",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "없어.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C04",
+          "importance": "medium",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Minjae's voice continues through the phone, Seowoo's gaze shifting toward cafe window",
+          "camera": "medium close-up",
+          "composition": "Phone to ear, cafe glass reflection across his face",
+          "emotion": "moral hesitation",
+          "dialogue": [
+            {
+              "speaker": "민재",
+              "text": "그래도 조심해. 너 그날 아진이 만났다며? 혹시 모르니까 말은 해.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C05",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo",
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Through cafe glass, A-jin and Jihwak are visible inside smiling at each other; Seowoo outside watches from shadow",
+          "camera": "wide through-window shot",
+          "composition": "Seowoo foreground dark, A-jin and Jihwak warm inside",
+          "emotion": "jealous isolation",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C06",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Seowoo grips phone tightly, knuckles tense, his soft expression gone",
+          "camera": "extreme close-up",
+          "composition": "Hand gripping phone, slight crack of pressure lines",
+          "emotion": "possessive crack",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [
+            "꽉"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C07",
+          "importance": "high",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Close-up of Seowoo's face, gentle smile erased, only cold eyes remain, dramatic shadow",
+          "camera": "close-up",
+          "composition": "Face centered, one eye in shadow",
+          "emotion": "first antagonist turn",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "내가 먼저였는데.",
+              "bubble_position": "center"
+            }
+          ],
+          "narration": [
+            "서우 내레이션"
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C08",
+          "importance": "medium",
+          "characters": [
+            "baek_seowoo"
+          ],
+          "visual_prompt": "Black fade panel with next episode preview text, ominous but clean webtoon ending",
+          "camera": "graphic panel",
+          "composition": "Black background, centered text space",
+          "emotion": "cliffhanger",
+          "dialogue": [],
+          "narration": [
+            "다음 화 예고",
+            "3화. 방역수칙보다 어려운 마음"
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    }
+  ]
+}

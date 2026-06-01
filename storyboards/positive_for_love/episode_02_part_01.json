@@ -1,0 +1,796 @@
+{
+  "project_title": "너에게 확진",
+  "english_title": "Positive For Love",
+  "style_guide": {
+    "art_style": "Polished Korean romance webtoon style with expressive romantic comedy acting, attractive characters, soft cinematic framing, clean modern manhwa aesthetics",
+    "render_style": "Finished vertical webtoon panel, clean digital painting, soft shading, subtle texture, high detail faces, readable expressions",
+    "line_style": "Clean line art, elegant thin-to-medium outlines, expressive facial lines, subtle comedic exaggeration when needed",
+    "color_palette": "COVID-era urban cafe palette, soft beige, muted pink, clean white, gentle blue-gray shadows, warm skin tones",
+    "lighting_style": "Soft natural daylight for clinic and cafe, cozy indoor lighting for rooms, subtle dramatic shadow for Seowoo tension scenes",
+    "mood_keywords": [
+      "romantic comedy",
+      "COVID-era anxiety",
+      "awkward sweetness",
+      "emotional distance",
+      "masked romance",
+      "campus youth drama"
+    ],
+    "camera_keywords": [
+      "vertical webtoon",
+      "cinematic close-up",
+      "over-the-shoulder",
+      "split screen",
+      "phone screen insert",
+      "wide establishing shot"
+    ],
+    "quality_keywords": [
+      "high quality",
+      "finished Korean webtoon cut",
+      "consistent characters",
+      "readable speech bubble space",
+      "clean composition"
+    ],
+    "global_negative_prompt": "low quality, blurry, extra fingers, distorted face, inconsistent character design, unreadable text, messy speech bubbles, western comic style, overly realistic photo, horror, gore"
+  },
+  "episode": {
+    "number": 2,
+    "title": "밀접접촉자입니다 - 1",
+    "style": "COVID testing clinic anxiety, romantic comedy first comfort, masked distance tension"
+  },
+  "character_bible": [
+    {
+      "id": "yoon_ajin",
+      "name": "윤아진",
+      "role": "female lead, COVID-rule obsessed student preparing to study abroad",
+      "visual_core": "fresh rabbit-like beauty, bright clear eyes, soft cheeks, neat black or dark brown hair, youthful and intelligent aura, expressive blush",
+      "wardrobe": "neat casual campus clothes, KF94 mask, small crossbody bag, always carrying sanitizer, wipes, spare masks, study-abroad document folder",
+      "expression_notes": "easily flustered, anxious when COVID or study abroad is mentioned, tries to look rational, blushes when Jihwak flirts",
+      "personality_notes": "smart, rule-abiding, sincere, overthinks romance as symptoms, clumsy only with emotions",
+      "reference_image": "references/characters/yoon_ajin.png"
+    },
+    {
+      "id": "kang_jihwak",
+      "name": "강지확",
+      "role": "male lead, instinctively charming and direct",
+      "visual_core": "Arabian puppy-like handsome face, thick eyebrows, deep eyes, sharp facial structure, slightly exotic first impression, warm playful eyes when smiling",
+      "wardrobe": "clean casual clothes, hoodie or knit, black or white mask, simple bag, relaxed but stylish campus look",
+      "expression_notes": "playful eyes, relaxed smile, becomes quietly sincere when A-jin is anxious, flirts naturally without overacting",
+      "personality_notes": "unaware star quality, capable, warm, direct once he cares, jokes to ease tension",
+      "reference_image": "references/characters/kang_jihwak.png"
+    },
+    {
+      "id": "baek_seowoo",
+      "name": "백서우",
+      "role": "second male lead, soft controlling antagonist",
+      "visual_core": "tofu-fox type, pale clean face, gentle eyes, neat hair, elegant and controlled expression, beautiful but cold under the surface",
+      "wardrobe": "neat shirt or cardigan, perfectly worn mask, clean campus style, carries carefully prepared care kits",
+      "expression_notes": "soft smile with cold eyes, tiny cracks when jealous, calm voice, suppressed possessiveness",
+      "personality_notes": "perfectly helpful on the outside, controlling kindness, jealous of Jihwak, wants to be chosen by A-jin",
+      "reference_image": "references/characters/baek_seowoo.png"
+    },
+    {
+      "id": "minseo",
+      "name": "민서",
+      "role": "A-jin's friend, comic commentator",
+      "visual_core": "lively Korean college girl, playful eyes, casual ponytail or bob, friendly expressive face",
+      "wardrobe": "casual cafe staff outfit or comfy room-call look, mask when outside",
+      "expression_notes": "teasing smile, exaggerated reactions, laughs easily",
+      "personality_notes": "quick-witted, sees romantic signs before A-jin does, comic relief",
+      "reference_image": "references/characters/minseo.png"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "scene_title": "질병관리청 알림",
+      "scene_summary": "아진과 지확이 확진자 동선 알림을 받고 밀접접촉자로 엮이기 시작한다.",
+      "location": "night street outside the cafe / phone screen space",
+      "time": "night",
+      "visual_continuity": "Dark quiet COVID-era street, phone notification glow, both wearing masks, anxious atmosphere with comedic text-message rhythm.",
+      "cuts": [
+        {
+          "cut_id": "S01_C01",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Black vertical panel with a large Korean public health notification displayed like a phone alert, dramatic minimal composition, COVID-era warning mood",
+          "camera": "extreme close-up",
+          "composition": "Phone notification fills most of the vertical panel, black empty space around it for tension",
+          "emotion": "shock",
+          "dialogue": [],
+          "narration": [
+            "[안내] 귀하는 확진자와 동선이 겹친 것으로 확인되었습니다. 가까운 선별진료소에서 검사를 받으시기 바랍니다."
+          ],
+          "sfx": [
+            "띵"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S01_C02",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Yoon A-jin standing outside the cafe at night, wearing a KF94 mask, holding phone with trembling hands, study-abroad document folder visible in her bag",
+          "camera": "medium close-up",
+          "composition": "A-jin centered, phone glow reflected in her eyes, quiet street behind her",
+          "emotion": "anxiety",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "나… 유학 못 가는 거야?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": true,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C03",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Close-up of A-jin's phone receiving a message from Kang Jihwak, clean webtoon phone UI without overly detailed small text",
+          "camera": "insert close-up",
+          "composition": "Phone screen angled in her hand, message bubble emphasized",
+          "emotion": "nervous surprise",
+          "dialogue": [],
+          "narration": [
+            "강지확: 혹시 알림 받았어요?"
+          ],
+          "sfx": [
+            "톡"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C04",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin frozen, finger hovering above reply keyboard, conflicted and embarrassed even during a crisis",
+          "camera": "close-up",
+          "composition": "Her flushed eyes above mask, phone in foreground",
+          "emotion": "confused fluster",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "왜 하필 지금…",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C05",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Phone screen with Jihwak's playful message, A-jin's face reflected faintly on the glass",
+          "camera": "insert close-up",
+          "composition": "Message bubble large, A-jin's eyes reflected",
+          "emotion": "romantic comedy tension",
+          "dialogue": [],
+          "narration": [
+            "강지확: 우리, 밀접접촉자인가 봐요."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C06",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin suddenly blushing hard, flipping her phone face down in panic, night street background",
+          "camera": "medium shot",
+          "composition": "Comedic motion lines as phone is flipped, A-jin leaning forward",
+          "emotion": "flustered comedy",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "이 상황에서 단어가 왜 이렇게 이상하게 들리냐고…",
+              "bubble_position": "mixed"
+            }
+          ],
+          "narration": [],
+          "sfx": [
+            "탁"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S01_C07",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin peeking at the phone again despite herself, tiny smile forming under her mask",
+          "camera": "close-up",
+          "composition": "Phone lower foreground, her softened eyes above mask",
+          "emotion": "anxious but warmed",
+          "dialogue": [],
+          "narration": [
+            "코로나는 사람 사이의 거리를 벌려놨다.",
+            "그런데 이상하게, 강지확은 알림 하나로 내 일상에 들어왔다."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    },
+    {
+      "scene_id": "S02",
+      "scene_title": "선별진료소에서 다시 만나다",
+      "scene_summary": "아진은 완전무장으로 선별진료소에 가고, 줄 뒤에서 지확과 재회한다.",
+      "location": "COVID testing clinic queue",
+      "time": "next morning",
+      "visual_continuity": "Long outdoor testing queue, white tents, distancing marks, all people masked. A-jin is heavily prepared with sanitizer, gloves, spare masks.",
+      "cuts": [
+        {
+          "cut_id": "S02_C01",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Wide vertical shot of a COVID testing clinic in the morning, long socially distanced queue, white tents, masked people, cold clean light",
+          "camera": "wide establishing",
+          "composition": "A-jin small in the line, fully prepared, vertical depth showing the queue",
+          "emotion": "public anxiety",
+          "dialogue": [],
+          "narration": [
+            "다음 날 아침. 선별진료소 앞은 길게 줄이 늘어서 있었다."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S02_C02",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin",
+            "minseo"
+          ],
+          "visual_prompt": "A-jin in full protective preparation: KF94 mask, sanitizer, disposable gloves, antibacterial wipes, spare mask pouch; Minseo appears on video call screen teasing her",
+          "camera": "medium shot with phone inset",
+          "composition": "A-jin in line, phone screen showing Minseo in corner",
+          "emotion": "comic preparedness",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "야, 너 전쟁 나가?",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "바이러스랑 전쟁 중이잖아.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C03",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin",
+            "minseo"
+          ],
+          "visual_prompt": "A-jin gripping study abroad folder while speaking through video call, worried eyes above mask",
+          "camera": "close-up",
+          "composition": "Folder labeled D-13 or study abroad documents visible, Minseo on phone screen",
+          "emotion": "fear of losing future",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "출국 전 검사에서 양성 나오면 일정 다 꼬여. 비자, 항공권, 기숙사까지…",
+              "bubble_position": "mixed"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C04",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Kang Jihwak appears behind A-jin in the testing queue, mask on, eyes smiling mischievously",
+          "camera": "over-the-shoulder",
+          "composition": "A-jin foreground startled, Jihwak behind at safe distance",
+          "emotion": "surprise spark",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "조심한 사람치고는 체온이 37.5도까지 올라가던데요.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": true,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C05",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "A-jin stepping back dramatically and holding out her palm, Jihwak calmly pointing at the distance marks",
+          "camera": "medium two-shot",
+          "composition": "Wide empty space between them emphasized with distance markers",
+          "emotion": "awkward comedy",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "2m요.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "지금 3m인데요.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C06",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Jihwak's eyes soften as he asks about her study abroad worries, A-jin caught off guard",
+          "camera": "close two-shot",
+          "composition": "A-jin side profile, Jihwak background, distance preserved",
+          "emotion": "unexpected sincerity",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "괜찮아요? 유학. 걱정되는 거 아니에요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "걱정돼요. 엄청.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C07",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Soft close-up of Jihwak's masked face, warm eyes, morning light, clinic tents blurred",
+          "camera": "close-up",
+          "composition": "Jihwak centered, gentle expression",
+          "emotion": "quiet comfort",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "음성 나올 거예요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "윤아진 씨는 그렇게 쉽게 무너질 사람처럼 안 보여서.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S02_C08",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin looking at Jihwak, surprised that his words comfort her, clinic noise fading visually",
+          "camera": "close-up",
+          "composition": "Background washed out, focus on her eyes above mask",
+          "emotion": "softened heart",
+          "dialogue": [],
+          "narration": [
+            "이상했다.",
+            "처음 만난 사람의 말인데, 왜 잠깐 믿고 싶어졌을까."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    },
+    {
+      "scene_id": "S03",
+      "scene_title": "검사와 각자의 격리 시작",
+      "scene_summary": "검사 장면에서 로코 티키타카가 이어지고, 이후 각자 집에서 메시지를 주고받는다.",
+      "location": "testing booth / A-jin's room",
+      "time": "morning to afternoon",
+      "visual_continuity": "Clinic booth sterile white, then A-jin's room with study abroad documents, laptop checklist, anxious but cozy atmosphere.",
+      "cuts": [
+        {
+          "cut_id": "S03_C01",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin sitting at the COVID testing booth, eyes wide with fear as medical worker holds swab, sterile white tent",
+          "camera": "medium close-up",
+          "composition": "Swab in foreground, A-jin leaning back slightly",
+          "emotion": "comic dread",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "혹시… 많이 아픈가요?",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S03_C02",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin",
+            "kang_jihwak"
+          ],
+          "visual_prompt": "Jihwak teasing from behind the line, A-jin instantly fired up before the swab test",
+          "camera": "two-shot",
+          "composition": "Jihwak in background, A-jin foreground turning sharply",
+          "emotion": "teasing tension",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "울면 놀려도 돼요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "절대 안 울거든요?",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C03",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin after the swab test with watery eyes, insisting she did not cry, comedic sparkle tears",
+          "camera": "close-up",
+          "composition": "Her eyes watery, brows determined",
+          "emotion": "embarrassed pride",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "생리적 눈물이에요.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "마음은 아주 건조합니다.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [
+            "훌쩍"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C04",
+          "importance": "high",
+          "characters": [
+            "kang_jihwak",
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Jihwak walking toward his test booth, looking back with playful eyes; A-jin freezes at his flirty line",
+          "camera": "medium shot",
+          "composition": "Jihwak moving right, A-jin in background frozen",
+          "emotion": "flirt shock",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "그럼 제가 좀 촉촉하게 해볼게요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "진짜 말투 방역 안 되나…",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C05",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin back in her room, sitting at desk with laptop checklist for study abroad, hands clasped in prayer",
+          "camera": "medium shot",
+          "composition": "Checklist visible on laptop, masks and sanitizer neatly arranged",
+          "emotion": "anxious waiting",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "제발 음성. 제발 음성…",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": true
+        },
+        {
+          "cut_id": "S03_C06",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "Phone message from Jihwak appears while A-jin sits in her room, soft comedic tone",
+          "camera": "insert/medium",
+          "composition": "Phone in foreground, A-jin's tired face behind",
+          "emotion": "relieved distraction",
+          "dialogue": [],
+          "narration": [
+            "강지확: 살아있어요?",
+            "윤아진: 네. 검사 때문에 코만 죽었습니다."
+          ],
+          "sfx": [
+            "톡"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C07",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin throws phone onto bed after Jihwak calls her cute, then immediately reaches for it again",
+          "camera": "medium comedic shot",
+          "composition": "Phone bouncing on bed, A-jin blushing and frustrated",
+          "emotion": "flustered denial",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "아니 진짜 왜 저래!",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [
+            "퍽"
+          ],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C08",
+          "importance": "high",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin hesitates, types 'Are you okay?' and sends it, then regrets being too kind",
+          "camera": "close-up",
+          "composition": "Her finger pressing send, her eyes panicked",
+          "emotion": "self-conscious tenderness",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "아 너무 다정했나?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [
+            "윤아진: 강지확 씨는 괜찮아요?"
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        },
+        {
+          "cut_id": "S03_C09",
+          "importance": "medium",
+          "characters": [
+            "yoon_ajin"
+          ],
+          "visual_prompt": "A-jin burying face into pillow as Jihwak's reply appears on phone beside her",
+          "camera": "medium shot",
+          "composition": "Phone screen glowing next to pillow, A-jin curled up",
+          "emotion": "romantic embarrassment",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "이 사람 진짜 위험해. 방역 대상 맞아.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [
+            "강지확: 저도 괜찮아요. 근데 윤아진 씨가 걱정해주니까 좀 아픈 척하고 싶네요."
+          ],
+          "sfx": [],
+          "bubble_position": "auto",
+          "continuity_notes": "",
+          "outfit_continuity": "",
+          "location_continuity": "",
+          "reference_previous_cut": false,
+          "reference_character_sheet": true,
+          "reference_scene_image": false
+        }
+      ]
+    }
+  ]
+}

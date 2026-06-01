@@ -1,0 +1,2646 @@
+{
+  "project_title": "너에게 확진",
+  "english_title": "Positive For Love",
+  "episode": {
+    "number": 1,
+    "title": "QR 찍고 들어온 너",
+    "format": "vertical_webtoon",
+    "target_cut_count": 95,
+    "tone": "covid-era romantic comedy with emotional undertones",
+    "style": "clean Korean webtoon style, soft cinematic lighting, expressive facial acting, pastel-romcom mood mixed with realistic covid-era details"
+  },
+  "style_guide": {
+    "canvas": "vertical scroll",
+    "rendering": "high-detail webtoon illustration",
+    "color_palette": "soft pastel pink, cream, mint, muted city grays, warm cafe tones",
+    "line_style": "clean and polished",
+    "mood_keywords": [
+      "romantic comedy",
+      "covid-era nostalgia",
+      "light banter",
+      "subtle emotional tension",
+      "youth drama"
+    ],
+    "global_negative_prompt": "low detail, deformed anatomy, extra fingers, bad hands, blurry face, inconsistent character design, messy background, text artifacts, duplicate characters, incorrect mask placement, low-quality comic layout"
+  },
+  "character_bible": [
+    {
+      "id": "yoon_ajin",
+      "name": "윤아진",
+      "role": "female_lead",
+      "age_range": "early 20s",
+      "visual_core": "bright Korean college woman with rabbit-like charm, slim build, clear fair skin, large expressive eyes, straight dark brown hair with soft bangs, neat and tidy appearance",
+      "wardrobe": "light cardigan or clean blouse, casual campus outfit, white or pastel face mask, practical tote or shoulder bag, always carries hand sanitizer and file folder",
+      "personality_tags": [
+        "smart",
+        "rule-abiding",
+        "emotionally oblivious",
+        "earnest",
+        "cute when flustered"
+      ],
+      "expression_notes": "often composed, but blushes easily around Kang Jihwak; eyes become wide and flustered when caught off guard"
+    },
+    {
+      "id": "kang_jihwak",
+      "name": "강지확",
+      "role": "male_lead",
+      "age_range": "early 20s",
+      "visual_core": "tall Korean college man with subtle Middle Eastern vibe and puppy-like warmth, broad shoulders, thick eyebrows, deep-set eyes, sharp nose, defined face line, black slightly wavy hair",
+      "wardrobe": "dark casual jacket or hoodie, black or dark mask, simple campus-casual look",
+      "personality_tags": [
+        "playful",
+        "naturally charming",
+        "direct",
+        "warm-hearted",
+        "gently teasing"
+      ],
+      "expression_notes": "first impression looks cool and intense, but when he smiles his eyes soften with mischievous warmth"
+    },
+    {
+      "id": "baek_seowoo",
+      "name": "백서우",
+      "role": "second_male_lead_antagonist",
+      "age_range": "early 20s",
+      "visual_core": "pale and refined Korean man with tofu-plus-fox charm, clean features, soft eyes, neat side-parted hair, polished and composed aura",
+      "wardrobe": "crisp shirt, neat outerwear, perfectly worn mask, clean and elegant look",
+      "personality_tags": [
+        "polite",
+        "controlling",
+        "jealous",
+        "calculating",
+        "gently possessive"
+      ],
+      "expression_notes": "usually smiles softly, but his eyes turn cold or shadowed when jealous"
+    },
+    {
+      "id": "minseo",
+      "name": "민서",
+      "role": "friend_support",
+      "age_range": "early 20s",
+      "visual_core": "cheerful Korean college woman, lively expressions, practical casual outfit, friend-next-door energy",
+      "wardrobe": "cafe part-time casual outfit, ponytail or tied hair",
+      "personality_tags": [
+        "funny",
+        "observant",
+        "supportive",
+        "teasing"
+      ],
+      "expression_notes": "used for comedic timing and reaction shots"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "scene_title": "오프닝 - 코로나 시대의 거리",
+      "scene_summary": "코로나 시대의 공기와 작품의 기본 정서를 보여주는 도입부.",
+      "cuts": [
+        {
+          "cut_id": "S01_C01",
+          "panel_type": "long_vertical_establishing",
+          "location": "city street",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "Empty Korean downtown street during the COVID era, quiet and slightly melancholic, few pedestrians wearing masks, muted city atmosphere, cinematic vertical webtoon establishing shot.",
+          "camera": "high wide shot",
+          "dialogue": [],
+          "narration": ["그 시절, 사랑은 금지된 건 아니었다."],
+          "sfx": [],
+          "emotion": "quiet, reflective",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S01_C02",
+          "panel_type": "insert",
+          "location": "street signs",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "Close-up of COVID-era signs in Korean: mask required, QR check-in required, 2m distancing stickers, realistic public health signage.",
+          "camera": "close-up",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "sterile, informative",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S01_C03",
+          "panel_type": "medium",
+          "location": "street",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "Masked pedestrians carefully avoiding one another on a quiet street, subtle tension and caution in body language.",
+          "camera": "eye-level medium wide",
+          "dialogue": [],
+          "narration": ["다만 가까워지는 일이, 조금 어려웠을 뿐."],
+          "sfx": [],
+          "emotion": "distant, restrained",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S01_C04",
+          "panel_type": "symbolic_romance",
+          "location": "street corner",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "A masked young couple almost holding hands but hesitating, emotional visual metaphor for restricted intimacy during the pandemic.",
+          "camera": "close-up on hands",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "tender, bittersweet",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S01_C05",
+          "panel_type": "insert",
+          "location": "news broadcast overlay",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "TV news screen about rising COVID cases and required PCR tests before overseas departure, Korean broadcast style.",
+          "camera": "screen close-up",
+          "dialogue": [
+            {
+              "speaker": "뉴스 앵커",
+              "text": "신규 확진자 수가 다시 증가하며…",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "뉴스 앵커",
+              "text": "방역당국은 개인 방역수칙 준수를 당부했습니다…",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "뉴스 앵커",
+              "text": "해외 출국 전 PCR 검사 결과가 필수로 요구되며…",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "public tension",
+          "bubble_position": ["top_left", "mid_left", "bottom_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S01_C06",
+          "panel_type": "establishing",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "Entrance of a warm Korean cafe during COVID era, sanitizer station and QR guide at the door, Yoon A-jin standing neatly at the entrance preparing the space.",
+          "camera": "full shot",
+          "dialogue": [],
+          "narration": ["특히 나처럼, 반드시 아무 일 없어야 하는 사람에게는."],
+          "sfx": [],
+          "emotion": "determined",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S01_C07",
+          "panel_type": "close_up",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "Close-up of Yoon A-jin's focused eyes above her mask as she prepares for the day with seriousness.",
+          "camera": "close-up",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "focused",
+          "bubble_position": [],
+          "importance": "medium"
+        }
+      ]
+    },
+    {
+      "scene_id": "S02",
+      "scene_title": "윤아진의 방역 철학",
+      "scene_summary": "아진의 성격, 유학이라는 목표, 그리고 방역 강박에 가까운 철저함을 보여준다.",
+      "cuts": [
+        {
+          "cut_id": "S02_C01",
+          "panel_type": "medium",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "Yoon A-jin lining up sanitizer bottles, checking a no-contact thermometer, and straightening QR signage with meticulous care.",
+          "camera": "medium shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": ["슥", "탁"],
+          "emotion": "meticulous",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S02_C02",
+          "panel_type": "two_shot",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["yoon_ajin", "minseo"],
+          "visual_prompt": "Minseo watching A-jin in amused disbelief behind the cafe counter while A-jin aligns distancing stickers perfectly.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "윤아진, 너 진짜 방역청에서 파견 나온 사람 같아.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "comedic",
+          "bubble_position": ["top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S02_C03",
+          "panel_type": "close_up",
+          "location": "cafe floor",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "Close-up of A-jin carefully adjusting a social distancing floor sticker with exaggerated seriousness.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "스티커가 삐뚤면 사람 마음도 삐뚤어져.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "deadpan funny",
+          "bubble_position": ["top_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S02_C04",
+          "panel_type": "reaction",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["minseo"],
+          "visual_prompt": "Minseo making a dry, unimpressed face in a comedic reaction panel.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "아니, 사람 마음은 원래 삐뚤어져 있어.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "teasing",
+          "bubble_position": ["top_right"],
+          "importance": "low"
+        },
+        {
+          "cut_id": "S02_C05",
+          "panel_type": "insert",
+          "location": "ajin bag",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "Inside A-jin's bag: extra masks, hand sanitizer, tissues, small thermometer, and a study abroad file labeled D-14 departure.",
+          "camera": "top-down insert shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "prepared, tense",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S02_C06",
+          "panel_type": "close_up",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin holding her file with 'D-14 departure' visible, taking a determined breath behind her mask.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "좋아. 오늘도 무사히.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": ["후"],
+          "emotion": "determined",
+          "bubble_position": ["top_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S02_C07",
+          "panel_type": "medium",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "minseo"],
+          "visual_prompt": "A customer enters with mask under the nose; A-jin immediately reacts with strict posture while Minseo watches.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "마스크 코 위까지 올려주세요.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "손님",
+              "text": "아, 잠깐만요. 답답해서.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "firm",
+          "bubble_position": ["top_left", "top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S02_C08",
+          "panel_type": "close_up",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin delivering a sharp but controlled line, eyes intense above her mask.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "바이러스는 답답하다고 쉬어주지 않아서요.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "민서",
+              "text": "윤아진, K-방역의 딸.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": ["내 인생은 드디어 출국장 앞까지 와 있었다."],
+          "sfx": [],
+          "emotion": "strict but funny",
+          "bubble_position": ["top_left", "bottom_right"],
+          "importance": "high"
+        }
+      ]
+    },
+    {
+      "scene_id": "S03",
+      "scene_title": "강지확 등장과 QR 체크인",
+      "scene_summary": "지확의 첫 등장과 아진의 첫 흔들림.",
+      "cuts": [
+        {
+          "cut_id": "S03_C01",
+          "panel_type": "beat_panel",
+          "location": "cafe door",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "Close-up of the cafe door bell ringing as the door opens.",
+          "camera": "insert close-up",
+          "dialogue": [],
+          "narration": [],
+          "sfx": ["딸랑"],
+          "emotion": "anticipatory",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S03_C02",
+          "panel_type": "hero_entrance",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Kang Jihwak enters the cafe, tall and striking, dark hair, thick brows, deep eyes above a black mask, cool first impression with subtle playful aura.",
+          "camera": "slightly low full shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "magnetic",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S03_C03",
+          "panel_type": "reaction_close_up",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin freezes in surprise, eyes widening as she looks at the new customer.",
+          "camera": "close-up on eyes",
+          "dialogue": [],
+          "narration": ["뭐야.", "마스크 위쪽만 봤는데 왜 얼굴 전체가 시끄럽지?"],
+          "sfx": [],
+          "emotion": "startled attraction",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S03_C04",
+          "panel_type": "two_shot",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin regains composure and addresses Jihwak formally at the entrance while he stands relaxed.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "QR 체크인 부탁드립니다.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "formal",
+          "bubble_position": ["top_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S03_C05",
+          "panel_type": "medium",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak checking his phone, then giving a sheepish yet confident look.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "폰 배터리가 없는데요.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "casual, teasing",
+          "bubble_position": ["top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S03_C06",
+          "panel_type": "insert",
+          "location": "cafe entrance desk",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin quickly slides over a handwritten visitor logbook and pen.",
+          "camera": "hand-level close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "그럼 수기명부 작성해주세요.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": ["슥"],
+          "emotion": "efficient",
+          "bubble_position": ["top_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S03_C07",
+          "panel_type": "insert_reaction",
+          "location": "cafe entrance desk",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak glancing down at the pen with playful caution.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "펜 만져도 돼요?",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "mischievous",
+          "bubble_position": ["top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S03_C08",
+          "panel_type": "close_up",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin answering with rehearsed confidence, one hand near sanitizer and the other at the logbook.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "소독했습니다.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "prepared",
+          "bubble_position": ["top_left"],
+          "importance": "low"
+        },
+        {
+          "cut_id": "S03_C09",
+          "panel_type": "medium",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak glances at the sanitizer and extends his hand toward A-jin in a way that momentarily feels like hand-holding.",
+          "camera": "medium shot with focus on hands",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "손도 해야 해요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "당연하죠.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "그럼 손.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "flirty misunderstanding",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S03_C10",
+          "panel_type": "comedic_insert",
+          "location": "hands",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "Close-up of A-jin squeezing way too much sanitizer into Jihwak's palm, sanitizer overflowing dramatically.",
+          "camera": "extreme close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "손소독이요.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": ["촵"],
+          "emotion": "awkward comedy",
+          "bubble_position": ["top_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S03_C11",
+          "panel_type": "reaction_two_shot",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin", "minseo"],
+          "visual_prompt": "Jihwak staring at his sanitizer-soaked hand while A-jin tries to stay dignified and Minseo laughs in the background.",
+          "camera": "medium three-shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "이 정도면 손이 아니라 전생까지 소독되겠는데요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "전생에도 방역수칙 지키셨어야죠.",
+              "bubble_position": "mid_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "playful banter",
+          "bubble_position": ["top_right", "mid_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S03_C12",
+          "panel_type": "insert_name",
+          "location": "visitor log",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Close-up of the handwritten visitor log showing the name '강지확', with A-jin's eyes lingering on it.",
+          "camera": "insert close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "지확…",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "제 이름 외우는 중이에요?",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "caught off guard",
+          "bubble_position": ["top_left", "top_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S03_C13",
+          "panel_type": "two_shot",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin flustered and defensive, Jihwak amused and leaning slightly in with playful eyes.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "아니거든요. 명부 확인 중이거든요.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "확인 치고는 되게 오래 보던데.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "teasing tension",
+          "bubble_position": ["top_left", "top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S03_C14",
+          "panel_type": "name_exchange",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin points to her name tag while Jihwak reads it, eyes softening slightly.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "그쪽 이름은요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "윤아진.",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "체온 확인하겠습니다.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "electric, restrained",
+          "bubble_position": ["top_right", "mid_right", "bottom_left"],
+          "importance": "high"
+        }
+      ]
+    },
+    {
+      "scene_id": "S04",
+      "scene_title": "셀프 발열",
+      "scene_summary": "아진이 처음으로 감정적으로 크게 흔들리는 코믹 하이라이트.",
+      "cuts": [
+        {
+          "cut_id": "S04_C01",
+          "panel_type": "close_up",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin raises a no-contact thermometer toward Jihwak, but her hand trembles slightly while he stands still.",
+          "camera": "close-up on thermometer and faces",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "nervous attraction",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S04_C02",
+          "panel_type": "insert",
+          "location": "thermometer display",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "Thermometer display showing 37.5 in a dramatic close-up.",
+          "camera": "extreme close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "37.5도입니다.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": ["삑"],
+          "emotion": "shock",
+          "bubble_position": ["top_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S04_C03",
+          "panel_type": "reaction_two_shot",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak looks mildly surprised while A-jin freezes in embarrassment.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "저요?",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "awkward suspense",
+          "bubble_position": ["top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S04_C04",
+          "panel_type": "comedic_reveal",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "minseo"],
+          "visual_prompt": "Reveal that A-jin accidentally measured herself; Minseo in the background starting to crack up.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "아니요.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "그럼요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "저요.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "mortified comedy",
+          "bubble_position": ["top_left", "top_right", "bottom_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S04_C05",
+          "panel_type": "reaction",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["minseo"],
+          "visual_prompt": "Minseo laughing hard with a hand over her mouth.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "윤아진, 너 지금 셀프 발열이야?",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": ["푸흡"],
+          "emotion": "bursting laughter",
+          "bubble_position": ["top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S04_C06",
+          "panel_type": "two_shot",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin trying to regain professionalism while Jihwak's eyes smile above his mask.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "기계 오류입니다.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "기계가 되게 솔직하네요.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "teased but controlled",
+          "bubble_position": ["top_left", "top_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S04_C07",
+          "panel_type": "insert",
+          "location": "thermometer display",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "Second thermometer reading, accurately showing 36.4 this time.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "정상입니다.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": ["삑"],
+          "emotion": "restored order",
+          "bubble_position": ["top_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S04_C08",
+          "panel_type": "banter_three_beat",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin trying to end the interaction while Jihwak sneaks in one more teasing line before entering the cafe.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "다행이네요. 저는 음성이네요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "체온은 음성 양성으로 말하는 거 아니거든요.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "그럼 윤아진 씨는요?",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "저도 정상입니다.",
+              "bubble_position": "bottom_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "아까 37.5도였는데. 저 때문은 아니고?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "escalating flirt comedy",
+          "bubble_position": ["top_right", "mid_left", "mid_right", "bottom_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S04_C09",
+          "panel_type": "exit_beat",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "Jihwak walking into the cafe, looking back with a teasing smile in his eyes while A-jin stiffly maintains authority.",
+          "camera": "medium full shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "입장하세요.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "쫓겨나는 건 아니죠?",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "마스크 제대로 쓰고, 자리 간격 지키고, 불필요한 대화 자제하시면요.",
+              "bubble_position": "bottom_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "불필요한 대화인지 아닌지는 누가 정해요?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "controlled chaos",
+          "bubble_position": ["top_left", "mid_right", "bottom_left", "bottom_right"],
+          "importance": "high"
+        }
+      ]
+    },
+    {
+      "scene_id": "S05",
+      "scene_title": "위험 인물 강지확",
+      "scene_summary": "지확이 단순한 플러팅 상대가 아니라 다정한 사람이라는 실마리를 준다.",
+      "cuts": [
+        {
+          "cut_id": "S05_C01",
+          "panel_type": "reaction",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["yoon_ajin", "minseo"],
+          "visual_prompt": "A-jin steals a glance at Jihwak seated in the cafe while Minseo notices it immediately.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "어라.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "뭐.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "민서",
+              "text": "너 방금 봤다?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "caught looking",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S05_C02",
+          "panel_type": "character_observation",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak sitting quietly by the window, mask still on, calmly looking at his laptop before coffee arrives; more composed than expected.",
+          "camera": "medium shot from A-jin's POV",
+          "dialogue": [],
+          "narration": ["생각보다 얌전하다."],
+          "sfx": [],
+          "emotion": "curious reassessment",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S05_C03",
+          "panel_type": "comedic_list",
+          "location": "ajin imagination space",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "Comic-style checklist in A-jin's imagination titled '강지확 위험도 체크', with funny bullet points and A-jin's serious face beside it.",
+          "camera": "graphic insert",
+          "dialogue": [],
+          "narration": [
+            "강지확 위험도 체크",
+            "● QR 미준비",
+            "● 말 많음",
+            "● 손소독제 장난침",
+            "● 체온계 오류 유발",
+            "● 마스크 위로도 잘생김",
+            "● 웃으면 심장 방역 실패 가능성 있음"
+          ],
+          "sfx": [],
+          "emotion": "internal chaos, comedy",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S05_C04",
+          "panel_type": "reaction_close_up",
+          "location": "ajin imagination space",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin shocked by her own last thought, scribbling it out mentally in embarrassment.",
+          "camera": "close-up",
+          "dialogue": [],
+          "narration": ["아니. 이건 왜 들어가."],
+          "sfx": ["쓱쓱"],
+          "emotion": "self-denial",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S05_C05",
+          "panel_type": "event_setup",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "A small child crying because their mask strap snapped inside the cafe while the mother rummages frantically in her bag.",
+          "camera": "medium shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": ["훌쩍", "흑"],
+          "emotion": "small tension",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S05_C06",
+          "panel_type": "action_medium",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak stands first, taking a fresh mask out of his bag and offering it to the mother without touching the child, considerate and calm.",
+          "camera": "medium full shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "새 거예요. 안 쓴 거.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "quiet kindness",
+          "bubble_position": ["top_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S05_C07",
+          "panel_type": "heartwarming",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak kneeling to the child's eye level, speaking gently with playful warmth while the child calms down.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "이거 쓰면 슈퍼히어로 같겠다.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "엄마가 씌워주시면 돼요.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "warm, charming",
+          "bubble_position": ["top_right", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S05_C08",
+          "panel_type": "reaction_close_up",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin watching Jihwak with softened eyes, re-evaluating him.",
+          "camera": "close-up",
+          "dialogue": [],
+          "narration": ["뭐야.", "위험 인물 아니었어?"],
+          "sfx": [],
+          "emotion": "softened interest",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S05_C09",
+          "panel_type": "silent_exchange",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin", "minseo"],
+          "visual_prompt": "Jihwak catches A-jin looking and makes a tiny circle gesture with his fingers as if asking about his score; A-jin looks away while Minseo smirks beside her.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "점수 올랐네.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "안 올랐거든.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "민서",
+              "text": "너 지금 속으로 채점했잖아.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "cute denial",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "medium"
+        }
+      ]
+    },
+    {
+      "scene_id": "S06",
+      "scene_title": "백서우 등장",
+      "scene_summary": "안정적이고 완벽한 대안처럼 보이는 서우의 존재를 심는다.",
+      "cuts": [
+        {
+          "cut_id": "S06_C01",
+          "panel_type": "entrance",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["baek_seowoo"],
+          "visual_prompt": "Baek Seowoo enters the cafe, neat, pale, and elegant, with a perfectly worn mask and soft polished aura.",
+          "camera": "full shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": ["딸랑"],
+          "emotion": "calm, polished",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S06_C02",
+          "panel_type": "reaction_two_shot",
+          "location": "cafe entrance",
+          "time": "day",
+          "characters": ["yoon_ajin", "baek_seowoo"],
+          "visual_prompt": "A-jin visibly relaxes and smiles when she sees Seowoo, contrasting her flustered reactions with Jihwak.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "서우 선배!",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "오늘 여기 도와준다더니 진짜네.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "comfortable familiarity",
+          "bubble_position": ["top_left", "top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S06_C03",
+          "panel_type": "insert",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["baek_seowoo", "yoon_ajin"],
+          "visual_prompt": "Seowoo hands A-jin a neat paper bag containing KF94 masks, sanitizer, tissues, and vitamins.",
+          "camera": "hand-level close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "이게 뭐예요?",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "출국 전까지 조심해야 하잖아. 필요한 거 넣어뒀어.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "caring, controlled",
+          "bubble_position": ["top_left", "top_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S06_C04",
+          "panel_type": "reaction",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin touched and appreciative, holding the bag close.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "선배 진짜… 항상 필요한 걸 어떻게 알아요?",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "너는 중요한 일 앞두면 이상하게 하나씩 빼먹으니까.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "warm familiarity",
+          "bubble_position": ["top_left", "top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S06_C05",
+          "panel_type": "small_detail",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["yoon_ajin", "baek_seowoo"],
+          "visual_prompt": "Seowoo noticing A-jin's mask strap slightly twisted and gently indicating how to fix it without touching her.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "마스크 끈 꼬였다.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "백서우",
+              "text": "오른쪽. 조금만 빼.",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "아, 진짜요?",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "감사합니다.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "gentle, orderly",
+          "bubble_position": ["top_right", "mid_right", "mid_left", "bottom_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S06_C06",
+          "panel_type": "observation",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak glancing toward A-jin and Seowoo from his table, expression casual but observant.",
+          "camera": "medium shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "subtle awareness",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S06_C07",
+          "panel_type": "triangle_setup",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["yoon_ajin", "baek_seowoo"],
+          "visual_prompt": "A-jin asks Seowoo about Jihwak while Seowoo's polite face hides a flicker of tension.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "선배, 강지확 씨 알아요?",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "응. 알아.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "어떤 사람이에요?",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "유명하지.",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "좋은 쪽으로요?",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "subtle tension",
+          "bubble_position": ["top_left", "top_right", "mid_left", "mid_right", "bottom_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S06_C08",
+          "panel_type": "close_up",
+          "location": "cafe counter",
+          "time": "day",
+          "characters": ["baek_seowoo"],
+          "visual_prompt": "Close-up of Seowoo's polite face as his eyes cool slightly for one moment.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "사람 헷갈리게 하는 쪽으로.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "warning hidden in gentleness",
+          "bubble_position": ["top_right"],
+          "importance": "high"
+        }
+      ]
+    },
+    {
+      "scene_id": "S07",
+      "scene_title": "2m 티키타카",
+      "scene_summary": "거리두기 너머로 두 주인공의 감정 거리가 좁혀진다.",
+      "cuts": [
+        {
+          "cut_id": "S07_C01",
+          "panel_type": "setup",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": ["minseo", "yoon_ajin"],
+          "visual_prompt": "Minseo points A-jin to the only available seat, which happens to be across from Jihwak with an empty table between them for distancing.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "아진아, 너 잠깐 쉬어. 저기 자리 하나 비었어.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "저 자리밖에 없어?",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "민서",
+              "text": "응. 왜? 위험 인물이라서?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "mild reluctance",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S07_C02",
+          "panel_type": "wide_two_shot",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin sits at a table exactly 2 meters away from Jihwak, with a distance sticker clearly visible between them.",
+          "camera": "wide two-shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "되게 멀리 앉네요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "거리두기입니다.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "마음도요?",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "flirty tension",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S07_C03",
+          "panel_type": "reaction_close_up",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin stiffening at the question, trying to stay cool while opening her laptop.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "초면한테 마음까지 가까울 이유 없죠.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "guarded",
+          "bubble_position": ["top_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S07_C04",
+          "panel_type": "light_tease",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak lightly leaning back with amused eyes while A-jin looks ready to shut him down.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "아까 체온은 가까워졌던 것 같은데.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "그 얘기 한 번만 더 하면 퇴장입니다.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "제가요?",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "제 기억에서요.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "playful battle",
+          "bubble_position": ["top_right", "mid_left", "mid_right", "bottom_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S07_C05",
+          "panel_type": "insert",
+          "location": "ajin laptop and file",
+          "time": "day",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin's laptop and documents showing study abroad materials and departure preparations.",
+          "camera": "top-down insert",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "goal-oriented",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S07_C06",
+          "panel_type": "conversation",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak notices the study abroad documents; the tone shifts from teasing to genuine interest.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "유학 가요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "네.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "언제요?",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "2주 뒤요.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "곧이네.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "curious sincerity",
+          "bubble_position": ["top_right", "top_left", "mid_right", "mid_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S07_C07",
+          "panel_type": "closer_emotion",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin admits how much depends on not getting infected; Jihwak listens more seriously now.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "그래서 더 조심해야 돼요. 확진되면 출국 일정 다 꼬여서.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "몇 년 준비한 거예요?",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "네. 오래 준비했어요.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "vulnerability",
+          "bubble_position": ["top_left", "mid_right", "bottom_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S07_C08",
+          "panel_type": "emotional_close_up",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Close-up of Jihwak giving a sincere, grounded look, no teasing this time.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "그럼 진짜 조심해야겠네.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "그래서 제가 좀 예민해요.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "예민한 게 아니라 간절한 거죠.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": ["가끔 사람은, 마스크를 써도 마음이 보인다."],
+          "sfx": [],
+          "emotion": "genuine understanding",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S07_C09",
+          "panel_type": "observation",
+          "location": "cafe interior",
+          "time": "day",
+          "characters": ["baek_seowoo"],
+          "visual_prompt": "Seowoo watching from afar as A-jin looks at Jihwak with softened attention, his expression still polite but eyes darkening slightly.",
+          "camera": "over-the-shoulder from Seowoo POV",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "jealous unease",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S07_C10",
+          "panel_type": "distance_gag",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak stands with a cup and tries to step closer, but A-jin raises her hand immediately to stop him; 2m sticker emphasized below.",
+          "camera": "full shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "정지.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "왜요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "2m.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "이거 되게 얄밉네요.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "cute frustration",
+          "bubble_position": ["top_left", "top_right", "mid_left", "bottom_right"],
+          "importance": "medium"
+        }
+      ]
+    },
+    {
+      "scene_id": "S08",
+      "scene_title": "이름 조합 - 확진",
+      "scene_summary": "작품의 핵심 밈인 '확진커플'이 처음 탄생하는 장면.",
+      "cuts": [
+        {
+          "cut_id": "S08_C01",
+          "panel_type": "setup",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["minseo", "yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "Minseo passing by with the visitor log, suddenly realizing the name combination, while A-jin senses trouble.",
+          "camera": "medium three-shot",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "근데 아진아.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "왜?",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "민서",
+              "text": "이름 조합 웃긴다.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "setup comedy",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S08_C02",
+          "panel_type": "comic_insert",
+          "location": "visitor log",
+          "time": "day",
+          "characters": [],
+          "visual_prompt": "Graphic insert highlighting the names 강지확 and 윤아진 side by side in a playful comic layout.",
+          "camera": "insert",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "강지확. 윤아진.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "anticipation",
+          "bubble_position": ["top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S08_C03",
+          "panel_type": "punchline",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["minseo", "yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "Minseo grinning as she delivers the punchline; A-jin flustered instantly, Jihwak interested and amused.",
+          "camera": "medium three-shot",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "지확이랑 아진이면… 확진?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "야!",
+              "bubble_position": "mid_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "explosive comedy",
+          "bubble_position": ["top_right", "mid_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S08_C04",
+          "panel_type": "reaction_close_up",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak smiling with real amusement, eyes folding slightly above the mask.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "이름 조합이 좀 위험하네요.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "amused, intrigued",
+          "bubble_position": ["top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S08_C05",
+          "panel_type": "banter",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin denying everything while Jihwak continues to push the joke just enough to feel like flirting.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "전혀 안 위험합니다.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "그건 두고 봐야죠.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "뭘 두고 봐요?",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "확진될지.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "direct flirt masked as joke",
+          "bubble_position": ["top_left", "top_right", "mid_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S08_C06",
+          "panel_type": "reaction",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["minseo", "yoon_ajin"],
+          "visual_prompt": "Minseo collapsing into laughter while A-jin turns bright red.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "민서",
+              "text": "확진커플 미쳤다.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "커플 아니거든.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": ["ㅋㅋ"],
+          "emotion": "teasing chaos",
+          "bubble_position": ["top_right", "bottom_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S08_C07",
+          "panel_type": "romcom_beat",
+          "location": "cafe seating",
+          "time": "day",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak casually delivers a killer line while A-jin freezes completely.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "아직은요.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "heart-flip moment",
+          "bubble_position": ["top_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S08_C08",
+          "panel_type": "silent_jealousy",
+          "location": "cafe side area",
+          "time": "day",
+          "characters": ["baek_seowoo"],
+          "visual_prompt": "Close-up of Seowoo's hand subtly crushing a paper cup while he watches the scene from afar.",
+          "camera": "close-up on hand and partial face",
+          "dialogue": [],
+          "narration": [],
+          "sfx": ["찌긋"],
+          "emotion": "contained jealousy",
+          "bubble_position": [],
+          "importance": "high"
+        }
+      ]
+    },
+    {
+      "scene_id": "S09",
+      "scene_title": "작은 소동과 방역 점수",
+      "scene_summary": "지확의 센스가 아진의 마음에 조금 더 깊게 들어온다.",
+      "cuts": [
+        {
+          "cut_id": "S09_C01",
+          "panel_type": "tension_setup",
+          "location": "cafe interior",
+          "time": "evening",
+          "characters": [],
+          "visual_prompt": "A customer coughs loudly in the cafe; nearby patrons visibly tense up and look over.",
+          "camera": "wide reaction shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": ["콜록", "콜록"],
+          "emotion": "social tension",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S09_C02",
+          "panel_type": "approach",
+          "location": "cafe interior",
+          "time": "evening",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin approaches carefully, trying to de-escalate with polite professionalism.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "혹시 몸이 불편하시면 물 드릴까요? 필요하시면 잠시 바깥에서…",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "careful, responsible",
+          "bubble_position": ["top_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S09_C03",
+          "panel_type": "conflict",
+          "location": "cafe interior",
+          "time": "evening",
+          "characters": [],
+          "visual_prompt": "The coughing customer reacts defensively, annoyed by the implied suspicion.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "기침 손님",
+              "text": "아니라니까요. 요즘은 기침도 마음대로 못 해?",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "defensive irritation",
+          "bubble_position": ["top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S09_C04",
+          "panel_type": "save_the_moment",
+          "location": "cafe interior",
+          "time": "evening",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak steps in naturally without escalating, placing a bottle of water at an appropriate distance from the customer.",
+          "camera": "medium full shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "사레면 물 드시면 좀 나을 거예요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "요즘 다 예민하잖아요. 서로 조심하면 좋죠.",
+              "bubble_position": "mid_right"
+            }
+          ],
+          "narration": [],
+          "sfx": ["툭"],
+          "emotion": "calm leadership",
+          "bubble_position": ["top_right", "mid_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S09_C05",
+          "panel_type": "resolution",
+          "location": "cafe interior",
+          "time": "evening",
+          "characters": [],
+          "visual_prompt": "The customer awkwardly softens, tension in the cafe dissolving.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "기침 손님",
+              "text": "…고마워요.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "defused",
+          "bubble_position": ["top_right"],
+          "importance": "low"
+        },
+        {
+          "cut_id": "S09_C06",
+          "panel_type": "soft_banter",
+          "location": "cafe seating",
+          "time": "evening",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Back at his table, Jihwak asks with his eyes for a score update while A-jin fights a smile.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "방역 점수 올랐어요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "조금.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "조금이면 몇 점?",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "1000점 만점에… 5점.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "lightly affectionate",
+          "bubble_position": ["top_right", "mid_left", "mid_right", "bottom_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S09_C07",
+          "panel_type": "reaction_close_up",
+          "location": "cafe seating",
+          "time": "evening",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak looks overly pleased at the score increase.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "아까 3점 아니었어요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "2점 올랐잖아요.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "엄청난 상승세네요.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "warm teasing",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S09_C08",
+          "panel_type": "contrast_observation",
+          "location": "cafe side area",
+          "time": "evening",
+          "characters": ["baek_seowoo"],
+          "visual_prompt": "Seowoo watches A-jin's fresh, embarrassed smile toward Jihwak and realizes it is different from the comfortable smile she gives him.",
+          "camera": "medium close-up from distance",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "cold realization",
+          "bubble_position": [],
+          "importance": "high"
+        }
+      ]
+    },
+    {
+      "scene_id": "S10",
+      "scene_title": "서우의 첫 경고",
+      "scene_summary": "서우가 본격적으로 삼각 구도를 형성하며 긴장을 만든다.",
+      "cuts": [
+        {
+          "cut_id": "S10_C01",
+          "panel_type": "transition",
+          "location": "cafe back area",
+          "time": "evening",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "Near the back door of the cafe, A-jin carries trash out during closing time, evening light turning cooler.",
+          "camera": "medium shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "routine",
+          "bubble_position": [],
+          "importance": "low"
+        },
+        {
+          "cut_id": "S10_C02",
+          "panel_type": "encounter",
+          "location": "cafe back area",
+          "time": "evening",
+          "characters": ["yoon_ajin", "baek_seowoo"],
+          "visual_prompt": "Seowoo is waiting there quietly; A-jin looks surprised but not alarmed.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "선배, 아직 안 갔어요?",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "너 기다렸어.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "subtle tension",
+          "bubble_position": ["top_left", "top_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S10_C03",
+          "panel_type": "medium",
+          "location": "cafe back area",
+          "time": "evening",
+          "characters": ["baek_seowoo", "yoon_ajin"],
+          "visual_prompt": "Seowoo asks about Jihwak while keeping an outwardly gentle expression.",
+          "camera": "medium shot",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "강지확이랑 꽤 친해진 것 같아서.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "아니에요. 오늘 처음 봤는데요.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "처음 본 사람 치고는 많이 웃던데.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "possessive concern",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S10_C04",
+          "panel_type": "reaction",
+          "location": "cafe back area",
+          "time": "evening",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin genuinely surprised by that observation, not fully understanding why it unsettles her.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "제가요?",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "confused",
+          "bubble_position": ["top_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S10_C05",
+          "panel_type": "warning",
+          "location": "cafe back area",
+          "time": "evening",
+          "characters": ["baek_seowoo", "yoon_ajin"],
+          "visual_prompt": "Seowoo speaking gently but with weighted subtext; A-jin listens attentively.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "아진아. 너 지금 중요한 시기야.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "알아요.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "백서우",
+              "text": "출국 전까지 괜히 흔들릴 일 만들지 마.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "controlling concern",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S10_C06",
+          "panel_type": "close_up",
+          "location": "cafe back area",
+          "time": "evening",
+          "characters": ["baek_seowoo"],
+          "visual_prompt": "Close-up of Seowoo after a brief pause, voice still soft but eyes slightly shadowed.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "백서우",
+              "text": "강지확은 원래 사람을 헷갈리게 해.",
+              "bubble_position": "top_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "seed of mistrust",
+          "bubble_position": ["top_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S10_C07",
+          "panel_type": "transition_message",
+          "location": "outside cafe",
+          "time": "evening",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "After Seowoo leaves, A-jin looks down at her phone as Jihwak's text appears, softening her face slightly.",
+          "camera": "over-the-shoulder phone shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "방역 책임자님.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "왜요?",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "오늘 수고했어요.",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "그리고 제 방역 점수 5점으로 오른 거 축하합니다.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": ["그날부터였다.", "나는 강지확이 위험한 사람인지, 내 마음이 위험해진 건지 구분하지 못하게 됐다."],
+          "sfx": [],
+          "emotion": "soft confusion",
+          "bubble_position": ["top_right", "mid_left", "mid_right", "bottom_right"],
+          "importance": "high"
+        }
+      ]
+    },
+    {
+      "scene_id": "S11",
+      "scene_title": "마스크 선물과 확진자 동선 알림",
+      "scene_summary": "달콤한 기류 위로 사건이 떨어지며 2화를 향한 훅을 만든다.",
+      "cuts": [
+        {
+          "cut_id": "S11_C01",
+          "panel_type": "closing_time",
+          "location": "cafe entrance",
+          "time": "night",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "Near closing time, warm lights dim in the cafe entrance as Jihwak pauses before leaving and calls out to A-jin.",
+          "camera": "medium two-shot",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "윤아진 씨.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "네?",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "anticipation",
+          "bubble_position": ["top_right", "top_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S11_C02",
+          "panel_type": "gift_insert",
+          "location": "cafe entrance",
+          "time": "night",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak offers a packaged fresh mask to A-jin in a simple but meaningful gesture.",
+          "camera": "close-up on hands",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "이거.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "저 마스크 많아요.",
+              "bubble_position": "mid_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "soft surprise",
+          "bubble_position": ["top_right", "mid_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C03",
+          "panel_type": "gentle_reveal",
+          "location": "cafe entrance",
+          "time": "night",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak explains that he saw her give away her last extra mask earlier; A-jin is touched and caught off guard.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "많은 사람은 아까 자기 마지막 여분까지 남한테 안 주던데.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "출국해야 한다면서요. 조심해요.",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "감사합니다.",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "quietly intimate",
+          "bubble_position": ["top_right", "mid_right", "bottom_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C04",
+          "panel_type": "killer_line_setup",
+          "location": "cafe entrance",
+          "time": "night",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak pauses and looks at A-jin meaningfully while she clutches the mask package.",
+          "camera": "medium close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "근데 윤아진 씨.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "네.",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "sudden tension",
+          "bubble_position": ["top_right", "top_left"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S11_C05",
+          "panel_type": "romcom_killer_line",
+          "location": "cafe entrance",
+          "time": "night",
+          "characters": ["kang_jihwak", "yoon_ajin"],
+          "visual_prompt": "Jihwak delivers a soft, teasing line with smiling eyes; A-jin is completely defenseless against it.",
+          "camera": "close-up alternating",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "제 이름 너무 오래 보진 마세요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "누가 오래 봤다고…",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "확진됩니다.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "heart-stopping flirt",
+          "bubble_position": ["top_right", "mid_left", "bottom_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C06",
+          "panel_type": "reaction_comedy",
+          "location": "cafe entrance",
+          "time": "night",
+          "characters": ["yoon_ajin", "minseo"],
+          "visual_prompt": "A-jin turning red and stiff, clutching the mask package, while Minseo later pops in to tease her expression.",
+          "camera": "medium reaction shot",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "진짜 말투 방역 안 돼요?",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "안 되나 봐요.",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "민서",
+              "text": "너 지금 37.5도 표정이야.",
+              "bubble_position": "bottom_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "flustered comedy",
+          "bubble_position": ["top_left", "mid_right", "bottom_right"],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S11_C07",
+          "panel_type": "night_transition",
+          "location": "outside cafe",
+          "time": "night",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "Night outside the cafe, the street quiet again; A-jin steps out after closing, holding her bag and mask gift.",
+          "camera": "wide shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": [],
+          "emotion": "afterglow",
+          "bubble_position": [],
+          "importance": "medium"
+        },
+        {
+          "cut_id": "S11_C08",
+          "panel_type": "alert_insert",
+          "location": "outside cafe",
+          "time": "night",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin's phone lights up with an official Korea Disease Control alert message, the mood changing instantly.",
+          "camera": "phone close-up",
+          "dialogue": [],
+          "narration": [],
+          "sfx": ["띵"],
+          "emotion": "sudden dread",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C09",
+          "panel_type": "text_reveal",
+          "location": "phone screen",
+          "time": "night",
+          "characters": [],
+          "visual_prompt": "Close-up of the alert text saying her movement overlapped with a confirmed case at the cafe and that she should get tested.",
+          "camera": "extreme close-up",
+          "dialogue": [],
+          "narration": [
+            "[안내]",
+            "귀하는 금일 14:20~15:10 ○○카페 방문 확진자와 동선이 겹친 것으로 확인되었습니다.",
+            "가까운 선별진료소에서 검사를 받으시기 바랍니다."
+          ],
+          "sfx": [],
+          "emotion": "shock",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C10",
+          "panel_type": "reaction_close_up",
+          "location": "outside cafe",
+          "time": "night",
+          "characters": ["yoon_ajin"],
+          "visual_prompt": "A-jin's face drains of color, hand trembling, with the file in her bag slightly open revealing D-14 departure.",
+          "camera": "close-up",
+          "dialogue": [
+            {
+              "speaker": "윤아진",
+              "text": "아니야…",
+              "bubble_position": "top_left"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "panic",
+          "bubble_position": ["top_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C11",
+          "panel_type": "parallel_reveal",
+          "location": "street near cafe",
+          "time": "night",
+          "characters": ["kang_jihwak"],
+          "visual_prompt": "Jihwak on a nearby street also receiving the same official alert on his phone, his playful expression disappearing.",
+          "camera": "medium shot",
+          "dialogue": [],
+          "narration": [],
+          "sfx": ["띵"],
+          "emotion": "serious concern",
+          "bubble_position": [],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C12",
+          "panel_type": "phone_chat",
+          "location": "split_screen",
+          "time": "night",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "Split-screen vertical panel showing A-jin and Jihwak on their respective streets texting each other after receiving the alert.",
+          "camera": "split-screen",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "혹시 알림 받았어요?",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "네.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "카페 동선이요. 괜찮아요?",
+              "bubble_position": "mid_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "shared anxiety",
+          "bubble_position": ["top_right", "top_left", "mid_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C13",
+          "panel_type": "text_emotional",
+          "location": "split_screen",
+          "time": "night",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "A-jin staring at the phone unable to answer right away while Jihwak waits, concern growing.",
+          "camera": "split-screen close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "같이 검사받으러 가요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "아니, 같이 가면 안 되나. 각자 가요. 대신 연락하면서.",
+              "bubble_position": "mid_right"
+            }
+          ],
+          "narration": [],
+          "sfx": [],
+          "emotion": "careful concern",
+          "bubble_position": ["top_right", "mid_right"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C14",
+          "panel_type": "romcom_relief",
+          "location": "split_screen",
+          "time": "night",
+          "characters": ["yoon_ajin", "kang_jihwak"],
+          "visual_prompt": "Even in the middle of fear, Jihwak sends a line that makes A-jin involuntarily smile through panic.",
+          "camera": "split-screen medium close-up",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "우리, 밀접접촉자인가 봐요.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "강지확",
+              "text": "오해하지 마세요. 제가 원한 밀접접촉은 이게 아니었어요.",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "진짜 미친 사람 아니야?!",
+              "bubble_position": "bottom_left"
+            }
+          ],
+          "narration": ["그날 밤, 나는 확진자 동선에 걸렸고,", "강지확이라는 사람에게도 걸렸다."],
+          "sfx": [],
+          "emotion": "fear mixed with flutter",
+          "bubble_position": ["top_right", "mid_right", "bottom_left"],
+          "importance": "high"
+        },
+        {
+          "cut_id": "S11_C15",
+          "panel_type": "ending_split",
+          "location": "night street",
+          "time": "night",
+          "characters": ["yoon_ajin", "kang_jihwak", "baek_seowoo"],
+          "visual_prompt": "Final vertical composition: A-jin on one side with her phone, Jihwak on the other side texting back, and Seowoo in the distance watching. Korean romcom cliffhanger composition.",
+          "camera": "stylized split composition",
+          "dialogue": [
+            {
+              "speaker": "강지확",
+              "text": "윤아진 씨.",
+              "bubble_position": "top_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "네.",
+              "bubble_position": "top_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "무서우면 말해요.",
+              "bubble_position": "mid_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "조금요.",
+              "bubble_position": "mid_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "그럼 내일부터 제가 5점짜리 방역 요원 해드릴게요.",
+              "bubble_position": "bottom_right"
+            },
+            {
+              "speaker": "윤아진",
+              "text": "5점짜리는 별로 믿음이 안 가는데요.",
+              "bubble_position": "bottom_left"
+            },
+            {
+              "speaker": "강지확",
+              "text": "그럼 올려줘요. 1000점까지.",
+              "bubble_position": "lower_right"
+            }
+          ],
+          "narration": ["왜 하필, 강지확이야."],
+          "sfx": [],
+          "emotion": "cliffhanger, romantic tension",
+          "bubble_position": ["top_right", "top_left", "mid_right", "mid_left", "bottom_right", "bottom_left", "lower_right"],
+          "importance": "high"
+        }
+      ]
+    }
+  ]
+}
