@@ -1,0 +1,695 @@
+{
+"project_title": "우리는 그렇게 인간이 된다",
+"english_title": "How We Become Human",
+"style_guide": {
+"art_style": "realistic emotional Korean webtoon style, grounded office human drama, subtle facial acting, cinematic slice-of-life",
+"render_style": "soft semi-realistic rendering, restrained detail, muted realism",
+"line_style": "clean but slightly rough emotional line art, delicate facial lines, subtle hatching for fatigue",
+"color_palette": "rainy gray, muted blue, cold fluorescent white, dull beige, soft office brown, low-saturation tones",
+"lighting_style": "rainy morning daylight through office windows, cold office fluorescent lighting, soft reflections on wet surfaces",
+"mood_keywords": [
+"rainy morning",
+"quiet arrival",
+"precise boundaries",
+"awkward self-awareness",
+"subtle contrast",
+"office loneliness",
+"emotional restraint"
+],
+"camera_keywords": [
+"wide establishing shot",
+"close-up",
+"over-the-shoulder",
+"static composition",
+"reflection shot",
+"small gesture focus",
+"silent pause"
+],
+"quality_keywords": [
+"high quality webtoon panel",
+"consistent character design",
+"cinematic composition",
+"emotional realism",
+"natural Korean office atmosphere",
+"subtle acting"
+],
+"global_negative_prompt": "overly dramatic expression, fantasy lighting, exaggerated villain face, comedic chibi style, glossy idol look, bright cheerful colors, action manga style, messy unreadable text, overly romantic framing"
+},
+"episode": {
+"number": "2-1",
+"title": "괜찮습니다",
+"style": "비 오는 아침, 윤서하의 첫 등장과 이준이 같은 단어의 전혀 다른 무게를 처음 감지하는 회차"
+},
+"character_bible": [
+{
+"id": "seo_ijun",
+"name": "서이준",
+"role": "주인공, 라움소프트 서비스기획개발팀 실무자",
+"visual_core": "Korean man in early 30s, tired but gentle face, dark under-eyes, slightly awkward half-smile, slim office worker build",
+"wardrobe": "plain office shirt, muted cardigan or jacket, dark slacks, worn leather shoes",
+"expression_notes": "습관적으로 웃고 고개를 끄덕인다. 혼자 있을 때는 피로가 얼굴에 그대로 남는다. 서하를 볼 때는 호기심과 부끄러움이 섞인다.",
+"personality_notes": "자신의 욕구를 뒤로 미루고, 남의 불편을 먼저 감지한다. 자기 공간에 남의 흔적이 쌓이는 것도 자연스럽게 받아들인다.",
+"reference_image": "references/characters/seo_ijun.png"
+},
+{
+"id": "yoon_seoha",
+"name": "윤서하",
+"role": "신규 합류한 PM",
+"visual_core": "Korean woman in early 30s, sharp calm eyes, minimal expression, composed posture, neat and restrained aura",
+"wardrobe": "minimal dark neutral office wear, clean coat damp from rain, simple bag, no flashy accessories",
+"expression_notes": "감정 표현이 크지 않고, 말이 짧다. 거절할 때 미안한 표정을 얹지 않는다. 시선이 정확하고 동작이 망설임 없다.",
+"personality_notes": "도울 수 있는 만큼만 돕고, 책임질 수 있는 만큼만 책임지는 사람. 차가운 것이 아니라 정확한 사람.",
+"reference_image": "references/characters/yoon_seoha.png"
+},
+{
+"id": "oh_teamlead",
+"name": "오승재",
+"role": "서비스기획개발팀 팀장",
+"visual_core": "Korean man in early 40s, soft middle-manager face, practiced smile, slightly exaggerated friendliness",
+"wardrobe": "business shirt, loosened tie, office cardigan or blazer",
+"expression_notes": "사람 좋게 웃고 과장되게 반긴다. 상대의 경계보다 분위기와 친절 제스처를 먼저 앞세운다.",
+"personality_notes": "악의는 적지만 상대의 선을 읽는 데 둔하다. 좋은 말과 친절한 제안으로 관계를 매끄럽게 만들려 한다.",
+"reference_image": "references/characters/oh_teamlead.png"
+}
+],
+"scenes": [
+{
+"scene_id": "S01",
+"scene_title": "비 오는 6월 3일",
+"scene_summary": "장마가 일찍 시작된 화요일 아침. 이준은 여느 때처럼 첫 커피를 버리고 두 번째 잔을 자기 자리에 둔다.",
+"location": "라움소프트 사무실, 탕비실, 창밖 거리",
+"time": "6월 3일 화요일 아침",
+"visual_continuity": "1화의 첫 커피 루틴을 반복한다. 이번에는 창밖에 비가 내리고, 사무실 바닥과 창문에 눅눅한 회색빛이 감돈다.",
+"cuts": [
+{
+"cut_id": "S01_C01",
+"importance": "high",
+"characters": [],
+"visual_prompt": "Rainy Seoul office district morning, wet pavement, gray sky, people with umbrellas, realistic emotional Korean webtoon style, muted colors",
+"camera": "wide establishing shot",
+"composition": "비 내리는 오피스 거리와 라움소프트 건물이 흐린 회색 하늘 아래 보인다.",
+"emotion": "눅눅한 시작",
+"dialogue": [],
+"narration": [
+"윤서하는 비가 오는 날 입사했다.",
+"6월 3일. 장마가 일찍 시작된 화요일이었다."
+],
+"sfx": [
+"쏴아아"
+],
+"bubble_position": "auto",
+"continuity_notes": "2화의 시작. 비와 날짜를 명확히 각인.",
+"outfit_continuity": "not applicable",
+"location_continuity": "exterior of Raumsoft building",
+"reference_previous_cut": false,
+"reference_character_sheet": false,
+"reference_scene_image": true
+},
+{
+"cut_id": "S01_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun in office pantry on a rainy morning, pouring away the first lukewarm coffee into sink, cold fluorescent light, quiet office",
+"camera": "close-up",
+"composition": "미적지근한 첫 커피가 싱크대에 흘러간다. 창밖 빗소리가 희미하게 깔린다.",
+"emotion": "반복되는 무명 배려",
+"dialogue": [],
+"narration": [
+"이준은 그날도 첫 커피를 뽑아 버리고,"
+],
+"sfx": [
+"쪼르륵",
+"쏴아"
+],
+"bubble_position": "auto",
+"continuity_notes": "1화-1의 첫 커피 루틴 반복. 이준의 습관이 계속됨.",
+"outfit_continuity": "seo_ijun wears same muted office outfit and worn shoes",
+"location_continuity": "office pantry",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S01_C03",
+"importance": "medium",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun placing the second hot coffee on his desk, steam rising faintly, empty office, rainy window in background",
+"camera": "medium close-up",
+"composition": "두 번째 잔에서만 희미한 김이 올라오고, 이준의 책상 위에 조용히 놓인다.",
+"emotion": "익숙한 아침",
+"dialogue": [],
+"narration": [
+"두 번째 잔을 자기 자리에 가져다 놓고,"
+],
+"sfx": [
+"톡"
+],
+"bubble_position": "auto",
+"continuity_notes": "자기 것처럼 보이지만 사실 다음 사람을 위한 루틴의 연장.",
+"outfit_continuity": "same outfit",
+"location_continuity": "Ijun's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S01_C04",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun sitting at his desk before coworkers arrive, organizing many messenger notifications, rainy window behind, monitor glow on tired face",
+"camera": "over-the-shoulder shot",
+"composition": "모니터에는 메신저 알림들이 쌓여 있고, 창밖엔 비가 내린다.",
+"emotion": "반복되는 부담",
+"dialogue": [],
+"narration": [
+"사람들이 출근하기 전에 메신저 열일곱 개를 정리하고 있었다."
+],
+"sfx": [
+"타닥",
+"띠링"
+],
+"bubble_position": "auto",
+"continuity_notes": "1화-2의 메신저 알림 루틴과 반복.",
+"outfit_continuity": "same",
+"location_continuity": "Ijun's desk, rainy office",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+},
+{
+"scene_id": "S02",
+"scene_title": "처음 보는 사람",
+"scene_summary": "엘리베이터 쪽에서 윤서하가 내린다. 우산을 접는 짧은 동작에서 그녀의 정확하고 망설임 없는 성격이 드러난다.",
+"location": "라움소프트 7층 엘리베이터 앞, 사무실 입구",
+"time": "아침 출근 전후",
+"visual_continuity": "사무실 입구는 비에 젖은 우산과 흐린 창빛으로 차갑고 눅눅하다. 서하의 동작은 주변보다 선명하고 군더더기 없다.",
+"cuts": [
+{
+"cut_id": "S02_C01",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Elevator doors opening on office floor, Yoon Seoha stepping out with a wet umbrella, composed Korean woman in early 30s, rainy morning office atmosphere",
+"camera": "medium wide shot",
+"composition": "엘리베이터 문이 열리고, 서하가 젖은 우산을 든 채 내린다. 멀리 이준이 그쪽을 본다.",
+"emotion": "낯선 등장",
+"dialogue": [],
+"narration": [
+"그러다 엘리베이터 쪽에서 처음 보는 사람이 내리는 걸 봤다."
+],
+"sfx": [
+"딩",
+"스르륵"
+],
+"bubble_position": "auto",
+"continuity_notes": "윤서하의 첫 실제 등장. 얼굴은 차분하고 과장 없이.",
+"outfit_continuity": "yoon_seoha wears dark neutral office wear, damp coat, simple bag",
+"location_continuity": "office elevator lobby",
+"reference_previous_cut": false,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S02_C02",
+"importance": "high",
+"characters": [
+"yoon_seoha",
+"seo_ijun"
+],
+"visual_prompt": "Close-up of Yoon Seoha shaking rain off umbrella once, precise controlled motion, droplets scattering, no wasted movement",
+"camera": "close-up on hands and umbrella",
+"composition": "우산 끝에서 물방울이 한 번에 떨어진다. 서하의 손동작은 망설임이 없다.",
+"emotion": "정확함",
+"dialogue": [],
+"narration": [
+"우산을 접는 데 군더더기가 없었다.",
+"탈탈 털고,"
+],
+"sfx": [
+"툭툭"
+],
+"bubble_position": "auto",
+"continuity_notes": "서하의 성격을 대사 없이 동작으로 보여주는 핵심 컷.",
+"outfit_continuity": "same",
+"location_continuity": "office entrance near umbrella stand",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S02_C03",
+"importance": "high",
+"characters": [
+"yoon_seoha"
+],
+"visual_prompt": "Yoon Seoha folding umbrella in one clean motion, placing it exactly into umbrella stand, minimal expression, realistic office entrance",
+"camera": "medium close-up",
+"composition": "우산이 우산꽂이에 정확히 꽂힌다. 주변의 흐트러진 우산들과 대비된다.",
+"emotion": "망설임 없는 선",
+"dialogue": [],
+"narration": [
+"한 번에 접고,",
+"입구 우산꽂이에 정확히 꽂았다."
+],
+"sfx": [
+"착"
+],
+"bubble_position": "auto",
+"continuity_notes": "흐트러진 주변 우산과 서하의 정확한 우산 배치 대비.",
+"outfit_continuity": "same dark neutral office wear",
+"location_continuity": "umbrella stand at office entrance",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S02_C04",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Seo Ijun watching Yoon Seoha from his desk, slightly surprised by her decisive movement, rainy office background",
+"camera": "over-the-shoulder from Ijun's side",
+"composition": "이준의 어깨 너머로 서하의 정돈된 동작이 보인다.",
+"emotion": "낯선 선명함",
+"dialogue": [],
+"narration": [
+"그게 다였는데, 이준은 그 동작을 한참 봤다.",
+"회사에서 무언가를 그렇게 망설임 없이 하는 사람을 오랜만에 봤기 때문이었다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "이준이 서하에게 처음 끌리는 지점은 외모가 아니라 망설임 없는 태도.",
+"outfit_continuity": "seo_ijun same outfit, yoon_seoha same",
+"location_continuity": "office entrance and Ijun's desk line of sight",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+},
+{
+"scene_id": "S03",
+"scene_title": "짐이 거의 없는 자리",
+"scene_summary": "서하는 누구에게도 인사를 강요하지 않는 얼굴로 사무실을 둘러보고 자기 자리에 앉는다. 짐이 거의 없는 서하의 책상과 남의 흔적이 가득한 이준의 책상이 대비된다.",
+"location": "라움소프트 사무실",
+"time": "아침",
+"visual_continuity": "사무실에 사람들이 하나둘 들어오기 전. 서하의 자리는 비어 있고 단정하며, 이준의 자리는 이미 남의 물건들이 쌓여 있다.",
+"cuts": [
+{
+"cut_id": "S03_C01",
+"importance": "medium",
+"characters": [
+"yoon_seoha"
+],
+"visual_prompt": "Yoon Seoha slowly scanning the office once, calm face that does not demand greetings, Korean IT office rainy morning",
+"camera": "medium shot",
+"composition": "서하는 사무실을 한 바퀴 둘러보지만 누구에게도 먼저 웃음을 강요하지 않는다.",
+"emotion": "거리감 있는 관찰",
+"dialogue": [],
+"narration": [
+"그 사람은 사무실을 한 바퀴 둘러보더니,"
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "서하의 첫인상은 차갑다기보다 담백하고 정확하게.",
+"outfit_continuity": "same dark neutral office wear, simple bag",
+"location_continuity": "office aisle",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S03_C02",
+"importance": "high",
+"characters": [
+"yoon_seoha"
+],
+"visual_prompt": "Yoon Seoha sitting at her assigned desk, placing only a tumbler and laptop on the desk, clean minimal workspace, rainy window light",
+"camera": "medium close-up",
+"composition": "텀블러 하나, 노트북 하나만 책상 위에 놓인다. 빈 공간이 많다.",
+"emotion": "자기만큼의 자리",
+"dialogue": [],
+"narration": [
+"누구에게도 인사를 강요하지 않는 얼굴로 자기 자리를 찾아 앉았다.",
+"책상에 둘 짐이 거의 없었다."
+],
+"sfx": [
+"톡",
+"탁"
+],
+"bubble_position": "auto",
+"continuity_notes": "서하의 물건은 최소한. 자기 경계가 명확한 인물임을 시각화.",
+"outfit_continuity": "same",
+"location_continuity": "Seoha's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S03_C03",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Seo Ijun's messy office desk with three mugs left by others, unopened vitamin drink, unknown USB, scattered papers, contrast with Seoha's minimal desk",
+"camera": "close-up on desk",
+"composition": "누가 두고 간 머그컵 세 개, 받아만 둔 비타민 음료, 출처 모를 USB가 보인다.",
+"emotion": "남의 흔적들",
+"dialogue": [],
+"narration": [
+"이준의 책상에는 누가 두고 간 머그컵 세 개와,",
+"받아만 두고 안 먹은 비타민 음료,",
+"출처를 알 수 없는 USB가 굴러다녔다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "9화에서 책상 정리 장면으로 회수될 복선. 물건 구성 유지.",
+"outfit_continuity": "not applicable",
+"location_continuity": "Ijun's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": false,
+"reference_scene_image": false
+},
+{
+"cut_id": "S03_C04",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Seo Ijun glancing from Seoha's clean desk to his own cluttered desk, feeling embarrassed, subtle downward gaze",
+"camera": "medium close-up",
+"composition": "이준의 시선이 서하의 단정한 책상에서 자기 책상으로 내려온다.",
+"emotion": "부끄러움",
+"dialogue": [],
+"narration": [
+"그는 무심코 자기 책상을 봤다가,",
+"어쩐지 부끄러워서 시선을 돌렸다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "서하의 경계와 이준의 무경계가 책상으로 대비됨.",
+"outfit_continuity": "seo_ijun same, yoon_seoha same in background",
+"location_continuity": "office desks",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+},
+{
+"scene_id": "S04",
+"scene_title": "커피 한잔 드려요?",
+"scene_summary": "오팀장이 호들갑스럽게 서하에게 다가가 커피를 권한다. 서하는 짧고 정확하게 거절한다.",
+"location": "라움소프트 사무실, 윤서하 자리 근처",
+"time": "아침",
+"visual_continuity": "오팀장의 과장된 친절과 서하의 절제된 거절이 대비된다. 이준은 그 장면을 근처에서 듣는다.",
+"cuts": [
+{
+"cut_id": "S04_C01",
+"importance": "medium",
+"characters": [
+"oh_teamlead",
+"yoon_seoha",
+"seo_ijun"
+],
+"visual_prompt": "Oh team lead approaching Yoon Seoha with exaggerated friendly smile, Seoha seated calmly at her desk, Seo Ijun watching from nearby",
+"camera": "medium wide shot",
+"composition": "오팀장이 몸을 살짝 숙이며 다가가고, 서하는 앉은 채 차분히 올려다본다.",
+"emotion": "과장된 환대",
+"dialogue": [],
+"narration": [
+"오팀장이 호들갑스럽게 그쪽으로 갔다."
+],
+"sfx": [
+"성큼"
+],
+"bubble_position": "auto",
+"continuity_notes": "오팀장의 친절은 조금 과하고, 서하는 흔들리지 않는다.",
+"outfit_continuity": "oh_teamlead business casual, yoon_seoha same, seo_ijun same",
+"location_continuity": "Seoha's desk area",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S04_C02",
+"importance": "high",
+"characters": [
+"oh_teamlead",
+"yoon_seoha"
+],
+"visual_prompt": "Oh team lead smiling and offering coffee to Yoon Seoha, trying to be warm, Seoha calm and unreadable",
+"camera": "two-shot medium close-up",
+"composition": "오팀장의 말풍선은 크고 부드럽고, 서하의 표정은 작고 단단하다.",
+"emotion": "친절과 경계",
+"dialogue": [
+{
+"speaker": "오팀장",
+"text": "윤PM님 오셨어요? 오시느라 비 많이 맞으셨죠.",
+"bubble_position": "top_left"
+},
+{
+"speaker": "오팀장",
+"text": "커피 한잔 드려요?",
+"bubble_position": "top_left"
+}
+],
+"narration": [],
+"sfx": [],
+"bubble_position": "top_left",
+"continuity_notes": "오팀장의 말은 길고 다정하지만 약간 부담스럽다.",
+"outfit_continuity": "same",
+"location_continuity": "Seoha's desk",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S04_C03",
+"importance": "high",
+"characters": [
+"yoon_seoha",
+"oh_teamlead",
+"seo_ijun"
+],
+"visual_prompt": "Yoon Seoha calmly declining coffee with minimal expression, short speech bubble, Oh team lead slightly frozen, Seo Ijun subtly reacting in background",
+"camera": "close-up on Seoha",
+"composition": "서하의 짧은 말풍선이 컷 한가운데 작고 선명하게 놓인다.",
+"emotion": "정확한 거절",
+"dialogue": [
+{
+"speaker": "윤서하",
+"text": "아뇨, 괜찮습니다.",
+"bubble_position": "center"
+}
+],
+"narration": [
+"짧았다."
+],
+"sfx": [],
+"bubble_position": "center",
+"continuity_notes": "회차 제목의 핵심 대사. 미안한 표정 없이 담백하게.",
+"outfit_continuity": "same",
+"location_continuity": "Seoha's desk area",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S04_C04",
+"importance": "high",
+"characters": [
+"yoon_seoha"
+],
+"visual_prompt": "Close-up of Yoon Seoha's calm mouth and eyes after saying 괜찮습니다, no apology, no forced smile, composed boundary",
+"camera": "extreme close-up",
+"composition": "눈과 입만 보인다. 웃지도 미안해하지도 않는다.",
+"emotion": "미안하지 않은 거절",
+"dialogue": [],
+"narration": [
+"거절에 미안함이 묻어 있지 않았다.",
+"미안하지 않으니까 미안한 척도 안 하는, 그런 종류의 거절이었다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "서하의 거절은 차갑기보다 정확해야 함.",
+"outfit_continuity": "same",
+"location_continuity": "Seoha close-up",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+}
+]
+},
+{
+"scene_id": "S05",
+"scene_title": "같은 단어, 다른 모양",
+"scene_summary": "이준은 서하의 '괜찮습니다'를 들으며 자기의 '괜찮아요'와 전혀 다르다는 걸 어렴풋이 느낀다.",
+"location": "라움소프트 사무실",
+"time": "아침",
+"visual_continuity": "사무실은 여전히 비 오는 아침의 차가운 빛. 이준은 자기 자리에서 서하의 말을 곱씹는다.",
+"cuts": [
+{
+"cut_id": "S05_C01",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Seo Ijun sitting at his desk, quietly looking toward Yoon Seoha after hearing her refusal, rainy office mood, subtle surprise",
+"camera": "medium close-up from Ijun's side",
+"composition": "이준은 모니터 앞에 앉아 있지만 시선은 서하 쪽에 머문다.",
+"emotion": "묘한 감지",
+"dialogue": [],
+"narration": [
+"이준은 그 '괜찮습니다'를 들으며 묘한 기분이 들었다.",
+"자기도 하루에 수십 번 하는 말인데,"
+],
+"sfx": [
+"쏴아"
+],
+"bubble_position": "auto",
+"continuity_notes": "이준의 시선은 오래 머물지만 노골적이지 않게.",
+"outfit_continuity": "seo_ijun same, yoon_seoha in background",
+"location_continuity": "office desks",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+},
+{
+"cut_id": "S05_C02",
+"importance": "high",
+"characters": [
+"seo_ijun"
+],
+"visual_prompt": "Memory montage of Seo Ijun saying 괜찮아요 to coworkers, customers, team lead, with forced small smiles, muted ghost-like panels",
+"camera": "memory montage",
+"composition": "이준이 여러 사람에게 '괜찮아요'라고 말하던 장면들이 흐릿하게 겹친다.",
+"emotion": "자기를 미는 말",
+"dialogue": [
+{
+"speaker": "서이준",
+"text": "괜찮아요.",
+"bubble_position": "mixed"
+},
+{
+"speaker": "서이준",
+"text": "네, 괜찮습니다.",
+"bubble_position": "mixed"
+}
+],
+"narration": [
+"이준의 '괜찮아요'는 상대를 편하게 하려고 자기를 미는 말이었고,"
+],
+"sfx": [],
+"bubble_position": "mixed",
+"continuity_notes": "이준의 괜찮다는 말은 습관적 웃음과 함께 보여줌.",
+"outfit_continuity": "same day outfit across memory fragments",
+"location_continuity": "memory montage of office scenes",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S05_C03",
+"importance": "high",
+"characters": [
+"yoon_seoha"
+],
+"visual_prompt": "Yoon Seoha's calm refusal repeated as a clean visual metaphor, small transparent shield around her, minimal office background, not fantasy, subtle",
+"camera": "symbolic medium close-up",
+"composition": "서하의 짧은 '괜찮습니다' 말풍선이 단단한 선처럼 그녀 앞에 놓인다.",
+"emotion": "방패 같은 말",
+"dialogue": [
+{
+"speaker": "윤서하",
+"text": "괜찮습니다.",
+"bubble_position": "center"
+}
+],
+"narration": [
+"저 사람의 '괜찮습니다'는 그냥 자기 사정을 정확히 말하는 말이었다."
+],
+"sfx": [],
+"bubble_position": "center",
+"continuity_notes": "방패 표현은 과한 판타지 이펙트 없이 미세한 선과 여백으로.",
+"outfit_continuity": "same",
+"location_continuity": "office symbolic overlay",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S05_C04",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Split panel: Seo Ijun's 괜찮아요 as a self-inflicted small crack, Yoon Seoha's 괜찮습니다 as a clear boundary line, muted realistic symbolic style",
+"camera": "split symbolic panel",
+"composition": "왼쪽은 이준의 말풍선이 자기 쪽으로 파고들고, 오른쪽은 서하의 말풍선이 선처럼 앞에 놓인다.",
+"emotion": "방패와 자해",
+"dialogue": [],
+"narration": [
+"같은 단어가,",
+"어떤 사람 입에선 방패가 되고,",
+"어떤 사람 입에선 자해가 된다."
+],
+"sfx": [],
+"bubble_position": "auto",
+"continuity_notes": "회차의 핵심 주제 컷. 나레이션 박스를 세 줄로 나눠 배치.",
+"outfit_continuity": "symbolic, same character outfits",
+"location_continuity": "abstract office background",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": false
+},
+{
+"cut_id": "S05_C05",
+"importance": "high",
+"characters": [
+"seo_ijun",
+"yoon_seoha"
+],
+"visual_prompt": "Seo Ijun quietly looking back at his monitor, Yoon Seoha working calmly in the background, rainy office window, emotional distance",
+"camera": "wide office shot",
+"composition": "앞쪽엔 이준의 흐린 얼굴, 뒤쪽엔 서하의 단정한 실루엣이 보인다.",
+"emotion": "말로 정리하지 못한 감지",
+"dialogue": [],
+"narration": [
+"그날 이준은 그 사실을 처음 어렴풋이 느꼈다.",
+"말로 정리하진 못했지만."
+],
+"sfx": [
+"쏴아"
+],
+"bubble_position": "auto",
+"continuity_notes": "서하와 이준은 아직 직접 관계를 맺지 않는다. 거리 유지.",
+"outfit_continuity": "seo_ijun same, yoon_seoha same",
+"location_continuity": "rainy office",
+"reference_previous_cut": true,
+"reference_character_sheet": true,
+"reference_scene_image": true
+}
+]
+}
+],
+"ending_hook": {
+"visual": "비 오는 사무실. 이준은 모니터를 보는 척하지만 시선은 잠깐 서하 쪽으로 향해 있다. 서하는 자기 자리에서 조용히 노트북을 열고 있다.",
+"text": "같은 단어가, 어떤 사람 입에선 방패가 되고, 어떤 사람 입에선 자해가 된다."
+}
+}
